@@ -1,0 +1,2 @@
+PASS TFT settings61 equivalence: 2151691 clocks, 153716 writes, init + two full pages, identical pins/data/ready
+tb_tft61_equivalence67.v:18: $finish called at 21516950000 (1ps)

@@ -1,0 +1,42 @@
+{
+  "clk": {
+    "setup_errors": 0,
+    "hold_errors": 0,
+    "minimum_ns": 16.142
+  },
+  "sd_card_clk": {
+    "setup_errors": 0,
+    "hold_errors": 0,
+    "minimum_ns": 9.747
+  },
+  "ext_mem_clk": {
+    "setup_errors": 0,
+    "hold_errors": 0,
+    "minimum_ns": 7.742
+  },
+  "ext_mem_clk_sft": {
+    "setup_errors": 0,
+    "hold_errors": 0,
+    "minimum_ns": 0.0
+  },
+  "video_clk": {
+    "setup_errors": 0,
+    "hold_errors": 0,
+    "minimum_ns": 39.098
+  },
+  "hdmi_5x_clk": {
+    "setup_errors": 0,
+    "hold_errors": 0,
+    "minimum_ns": 7.948
+  },
+  "audio_mclk": {
+    "setup_errors": 3,
+    "hold_errors": 0,
+    "minimum_ns": 85.7
+  },
+  "emergency_rx_clk": {
+    "setup_errors": 0,
+    "hold_errors": 0,
+    "minimum_ns": 7.891
+  }
+}

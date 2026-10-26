@@ -1,0 +1,2 @@
+PASS router67 1555347 cycles: RGB/DE/VS, 87552 panel pixels, independent subtitle on/off/static/scroll/pause, alpha/text/border, debounce, frame commit, settings snapshot, TFT isolation
+tb_router67.v:93: $finish called at 15553580000 (1ps)

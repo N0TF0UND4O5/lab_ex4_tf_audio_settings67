@@ -1,0 +1,324 @@
+module tft_settings_renderer_reference(input clk,input[7:0]x,input[8:0]y,
+ input[25:0]packet,output reg[15:0]rgb565);
+function[6:0]label;input[3:0]which;input[3:0]col;begin case(which)
+0:case(col)
+0:label=7'd1;
+1:label=7'd2;
+2:label=7'd3;
+3:label=7'd4;
+default:label=0;endcase
+1:case(col)
+0:label=7'd5;
+1:label=7'd6;
+2:label=7'd7;
+3:label=7'd8;
+default:label=0;endcase
+2:case(col)
+0:label=7'd9;
+1:label=7'd10;
+default:label=0;endcase
+3:case(col)
+0:label=7'd11;
+1:label=7'd12;
+2:label=7'd10;
+default:label=0;endcase
+4:case(col)
+0:label=7'd13;
+1:label=7'd14;
+default:label=0;endcase
+5:case(col)
+0:label=7'd15;
+1:label=7'd13;
+default:label=0;endcase
+6:case(col)
+0:label=7'd13;
+1:label=7'd16;
+2:label=7'd17;
+3:label=7'd18;
+4:label=7'd19;
+default:label=0;endcase
+7:case(col)
+0:label=7'd13;
+1:label=7'd20;
+2:label=7'd21;
+3:label=7'd22;
+default:label=0;endcase
+8:case(col)
+0:label=7'd5;
+1:label=7'd23;
+2:label=7'd13;
+3:label=7'd8;
+default:label=0;endcase
+9:case(col)
+0:label=7'd24;
+1:label=7'd25;
+2:label=7'd26;
+3:label=7'd27;
+default:label=0;endcase
+10:case(col)
+0:label=7'd24;
+1:label=7'd25;
+2:label=7'd28;
+3:label=7'd29;
+default:label=0;endcase
+default:label=0;endcase end endfunction
+function[6:0]words;input[3:0]which;input[3:0]col;begin case(which)
+0:case(col)
+0:words=7'd40;
+1:words=7'd29;
+default:words=0;endcase
+1:case(col)
+0:words=7'd41;
+1:words=7'd29;
+default:words=0;endcase
+2:case(col)
+0:words=7'd42;
+default:words=0;endcase
+3:case(col)
+0:words=7'd28;
+1:words=7'd29;
+default:words=0;endcase
+4:case(col)
+0:words=7'd43;
+1:words=7'd44;
+default:words=0;endcase
+5:case(col)
+0:words=7'd45;
+1:words=7'd46;
+default:words=0;endcase
+6:case(col)
+0:words=7'd47;
+1:words=7'd48;
+default:words=0;endcase
+7:case(col)
+0:words=7'd49;
+1:words=7'd50;
+2:words=7'd50;
+default:words=0;endcase
+8:case(col)
+0:words=7'd51;
+1:words=7'd20;
+2:words=7'd52;
+default:words=0;endcase
+9:case(col)
+0:words=7'd53;
+1:words=7'd54;
+2:words=7'd55;
+3:words=7'd56;
+default:words=0;endcase
+10:case(col)
+0:words=7'd1;
+1:words=7'd2;
+2:words=7'd30;
+3:words=7'd31;
+default:words=0;endcase
+11:case(col)
+0:words=7'd32;
+1:words=7'd33;
+2:words=7'd21;
+3:words=7'd22;
+default:words=0;endcase
+12:case(col)
+0:words=7'd34;
+1:words=7'd35;
+2:words=7'd36;
+3:words=7'd37;
+default:words=0;endcase
+13:case(col)
+0:words=7'd38;
+1:words=7'd39;
+2:words=7'd5;
+3:words=7'd6;
+default:words=0;endcase
+14:case(col)
+0:words=7'd57;
+1:words=7'd58;
+2:words=7'd59;
+default:words=0;endcase
+15:case(col)
+0:words=7'd57;
+1:words=7'd60;
+2:words=7'd59;
+default:words=0;endcase
+default:words=0;endcase end endfunction
+
+function[6:0]digit_glyph;input[3:0]d;begin case(d)
+0:digit_glyph=7'd61;
+1:digit_glyph=7'd62;
+2:digit_glyph=7'd63;
+3:digit_glyph=7'd64;
+4:digit_glyph=7'd65;
+5:digit_glyph=7'd66;
+6:digit_glyph=7'd67;
+7:digit_glyph=7'd68;
+8:digit_glyph=7'd69;
+9:digit_glyph=7'd70;
+default:digit_glyph=0;endcase end endfunction
+function[6:0]numbers;input[4:0]which;input[3:0]col;begin case(which)
+0:case(col)
+0:numbers=7'd73;
+1:numbers=7'd62;
+2:numbers=7'd61;
+3:numbers=7'd61;
+default:numbers=0;endcase
+1:case(col)
+0:numbers=7'd73;
+1:numbers=7'd68;
+2:numbers=7'd66;
+default:numbers=0;endcase
+2:case(col)
+0:numbers=7'd73;
+1:numbers=7'd66;
+2:numbers=7'd61;
+default:numbers=0;endcase
+3:case(col)
+0:numbers=7'd73;
+1:numbers=7'd63;
+2:numbers=7'd66;
+default:numbers=0;endcase
+4:case(col)
+0:numbers=7'd61;
+default:numbers=0;endcase
+5:case(col)
+0:numbers=7'd63;
+1:numbers=7'd66;
+default:numbers=0;endcase
+6:case(col)
+0:numbers=7'd66;
+1:numbers=7'd61;
+default:numbers=0;endcase
+7:case(col)
+0:numbers=7'd68;
+1:numbers=7'd66;
+default:numbers=0;endcase
+8:case(col)
+0:numbers=7'd62;
+1:numbers=7'd61;
+2:numbers=7'd61;
+default:numbers=0;endcase
+9:case(col)
+0:numbers=7'd66;
+1:numbers=7'd61;
+2:numbers=7'd71;
+default:numbers=0;endcase
+10:case(col)
+0:numbers=7'd68;
+1:numbers=7'd66;
+2:numbers=7'd71;
+default:numbers=0;endcase
+11:case(col)
+0:numbers=7'd62;
+1:numbers=7'd61;
+2:numbers=7'd61;
+3:numbers=7'd71;
+default:numbers=0;endcase
+12:case(col)
+0:numbers=7'd62;
+1:numbers=7'd63;
+2:numbers=7'd66;
+3:numbers=7'd71;
+default:numbers=0;endcase
+13:case(col)
+0:numbers=7'd62;
+1:numbers=7'd66;
+2:numbers=7'd61;
+3:numbers=7'd71;
+default:numbers=0;endcase
+14:case(col)
+0:numbers=7'd61;
+1:numbers=7'd71;
+default:numbers=0;endcase
+15:case(col)
+0:numbers=7'd62;
+1:numbers=7'd63;
+2:numbers=7'd71;
+default:numbers=0;endcase
+16:case(col)
+0:numbers=7'd63;
+1:numbers=7'd66;
+2:numbers=7'd71;
+default:numbers=0;endcase
+17:case(col)
+0:numbers=7'd64;
+1:numbers=7'd68;
+2:numbers=7'd71;
+default:numbers=0;endcase
+18:case(col)
+0:numbers=7'd66;
+1:numbers=7'd61;
+2:numbers=7'd71;
+default:numbers=0;endcase
+19:case(col)
+0:numbers=7'd67;
+1:numbers=7'd63;
+2:numbers=7'd71;
+default:numbers=0;endcase
+20:case(col)
+0:numbers=7'd68;
+1:numbers=7'd66;
+2:numbers=7'd71;
+default:numbers=0;endcase
+21:case(col)
+0:numbers=7'd69;
+1:numbers=7'd68;
+2:numbers=7'd71;
+default:numbers=0;endcase
+22:case(col)
+0:numbers=7'd62;
+1:numbers=7'd61;
+2:numbers=7'd61;
+3:numbers=7'd71;
+default:numbers=0;endcase
+default:numbers=0;endcase end endfunction
+function[6:0]value_glyph;input[3:0]item,c;input[20:0]cfg;begin case(item)
+0:value_glyph=words(cfg[0]?1:0,c);
+1:value_glyph=words(cfg[2:1]==0?2:cfg[2:1]==1?3:4,c);
+2:value_glyph=numbers(cfg[6:3],c);
+3:value_glyph=numbers(5'd9+cfg[9:7],c);
+4:value_glyph=numbers(5'd14+cfg[13:10],c);
+5:value_glyph=words(cfg[14]?5:6,c);
+6:value_glyph=words(cfg[15]?5:6,c);
+7:value_glyph=words(cfg[17:16]==0?7:cfg[17:16]==1?8:9,c);
+8:value_glyph=words(cfg[18]?5:6,c);
+9:value_glyph=words(cfg[19]?5:6,c);
+10:value_glyph=words(cfg[20]?5:6,c);
+default:value_glyph=0;endcase end endfunction
+reg[6:0]glyph;reg[4:0]row,col;reg[15:0]bg;integer j;reg[3:0]item;
+
+always @*begin
+ glyph=0;row=0;col=0;bg=16'h10e6;item=0;
+ for(j=0;j<11;j=j+1)begin
+  item=j;
+  if(item<11 && y>=42+j*24 && y<66+j*24)begin
+   bg=packet[24:21]==item?16'h2acf:16'h1948;
+   if(y<66+j*24)begin
+    row=y-(42+j*24);
+    if(x>=8&&x<128)begin glyph=label(item,(x-8)/24);col=(x-8)%24;end
+    if(x>=132&&x<228)begin glyph=value_glyph(item,(x-132)/24,packet[20:0]);col=(x-132)%24;end
+   end
+  end
+ end
+ if(x>=72&&x<168&&y>=10&&y<34)begin glyph=words(10,(x-72)/24);row=y-10;col=(x-72)%24;end
+
+end
+reg[10:0]address1;reg[4:0]col1,col2;reg[15:0]bg1,bg2;
+wire[23:0]bits2;
+`ifdef __ICARUS__
+reg[23:0]font[0:2047];reg[23:0]sim_bits;
+initial $readmemh("settings61_font.hex",font);
+always @(posedge clk)sim_bits<=font[address1];
+assign bits2=sim_bits;
+`else
+EG_LOGIC_BRAM #(.DATA_WIDTH_A(24),.ADDR_WIDTH_A(11),.DATA_DEPTH_A(2048),
+ .DATA_WIDTH_B(24),.ADDR_WIDTH_B(11),.DATA_DEPTH_B(2048),.MODE("SP"),
+ .REGMODE_A("NOREG"),.IMPLEMENT("9K"),.DEBUGGABLE("NO"),.PACKABLE("NO"),
+ .INIT_FILE("D:/EG4S20/Contest/HX4S20_Contest_202606/7_lab_ex_2026_nosoft/project2/lab_ex4_tf_audio_settings61/src/user_source/hdl_source/ui/settings61_font.mif"),.FILL_ALL("NONE")) u_font(
+ .dia(24'd0),.dib(24'd0),.addra(address1),.addrb(11'd0),.cea(1'b1),.ceb(1'b0),
+ .ocea(1'b0),.oceb(1'b0),.clka(clk),.clkb(1'b0),.wea(1'b0),.web(1'b0),
+ .bea(1'b0),.beb(1'b0),.rsta(1'b0),.rstb(1'b0),.doa(bits2),.dob());
+`endif
+always @(posedge clk)begin
+ address1<=glyph*11'd24+row;col1<=col;bg1<=bg;
+ col2<=col1;bg2<=bg1;rgb565<=bits2[23-col2]?16'hffff:bg2;
+end
+endmodule

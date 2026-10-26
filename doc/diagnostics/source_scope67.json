@@ -1,0 +1,61 @@
+{
+  "baseline": "settings61",
+  "changed_user_sources": [
+    {
+      "path": "src/user_source/constraints_source/pin.adc",
+      "new_file": false,
+      "sha256": "ebc5082b094d25d85c4a45204802c4830a8abfc2eab8912ceab74b3e4ee0512a"
+    },
+    {
+      "path": "src/user_source/hdl_source/top_hdmi_bmp.v",
+      "new_file": false,
+      "sha256": "2a9aeac97031bb420ee0a19f02f53430034d821c84a9b4deda06a0667e2d9b25"
+    },
+    {
+      "path": "src/user_source/hdl_source/audio/hdmi_audio_sine_i2s.v",
+      "new_file": false,
+      "sha256": "373384580e4d480a649e040e4d307063f6152ba938f48d24bb2d5b2982af3d40"
+    },
+    {
+      "path": "src/user_source/hdl_source/audio/pcm_spectrum_dft.v",
+      "new_file": false,
+      "sha256": "2220d9d29619ba4d7c9a5ee0e3048903edc4f7e35b5c215d4b68fce68ac3d934"
+    },
+    {
+      "path": "src/user_source/hdl_source/emergency/emergency_overlay.v",
+      "new_file": false,
+      "sha256": "869daec24e0244da85584bd1301082428cb90aa98c0db01b9c5894273f33fef6"
+    },
+    {
+      "path": "src/user_source/hdl_source/osd/hdmi_subtitle_osd.v",
+      "new_file": false,
+      "sha256": "9d006915edc6be0d06be4868e9f2bf53d83f897128f1ddcb447b925d01dc29a1"
+    },
+    {
+      "path": "src/user_source/hdl_source/osd/settings67_subtitle_font.mif",
+      "new_file": true,
+      "sha256": "4f509d1e1ef4f9fa2c8d1f99c312f482070ad8009b0f0f223364610a75d15b4a"
+    },
+    {
+      "path": "src/user_source/hdl_source/SD/bmp_read.v",
+      "new_file": false,
+      "sha256": "7cfbbcbf48bdcb08a185ffab5b2c65f00039e647393c8ae53f557cd71d0d1fe0"
+    },
+    {
+      "path": "src/user_source/hdl_source/ui/settings_display_router.v",
+      "new_file": true,
+      "sha256": "cd46036d5eb69089de9dc6f2b3a96dcb68cac00cb2491aa2023783504d296945"
+    },
+    {
+      "path": "src/user_source/hdl_source/ui/tft_settings_display.v",
+      "new_file": false,
+      "sha256": "9a89e4761fbc2af84429d2012ada7061442e1b5f01a914e95be43c0aa8be0f74"
+    },
+    {
+      "path": "src/user_source/hdl_source/ui/tft_settings_renderer.v",
+      "new_file": false,
+      "sha256": "2089c0aaf21b2574656fd997ddad8d779a982ed974b0a6a2634fb47a58099bc2"
+    }
+  ],
+  "original_tft_bus_and_settings_control_preserved": true
+}

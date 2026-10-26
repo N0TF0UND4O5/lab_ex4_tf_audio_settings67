@@ -1,0 +1,243 @@
+{
+  "version": "settings67",
+  "date": "2026-10-25",
+  "baseline": "settings61",
+  "baseline_bit_sha256": "d8c1b271ccb5e55bd1b0eaf85cf810c0fd9cf5ee4c967ef8af0824283c47ba96",
+  "bitstream": {
+    "path": "src/td_project/settings67.bit",
+    "bytes": 713441,
+    "sha256": "ef9fc733c259cb066e2a0bfc2cc2f68878a7a7639a39d05f12e4ddb350f8c490"
+  },
+  "downloaded": false,
+  "flash_written": false,
+  "hardware_verified": false,
+  "features": {
+    "sw1_pin": "C8",
+    "sw1_up": "HDMI menu ON / TFT OFF",
+    "sw1_down": "HDMI menu OFF / TFT ON",
+    "menu_bounds_xywh": [
+      16,
+      392,
+      608,
+      72
+    ],
+    "menu_font_px": 12,
+    "subtitle_bounds_xywh": [
+      16,
+      356,
+      608,
+      30
+    ],
+    "subtitle_text": "你好请排队   安路赛道赛题一",
+    "subtitle_font_px": 16,
+    "subtitle_control_independent_of_menu": true,
+    "shared_menu_renderer_and_font": true,
+    "bmp_header_cache_bram": true
+  },
+  "resources": {
+    "MSLICE": 4624,
+    "LSLICE": 4624,
+    "PAD": 124,
+    "BRAM": 60,
+    "DSP": 21
+  },
+  "baseline_resources": {
+    "MSLICE": 4677,
+    "LSLICE": 4677,
+    "PAD": 123,
+    "BRAM": 59,
+    "DSP": 21
+  },
+  "resource_delta": {
+    "MSLICE": -53,
+    "LSLICE": -53,
+    "PAD": 1,
+    "BRAM": 1,
+    "DSP": 0
+  },
+  "clock_timing_gate_passed": true,
+  "clock_timing": {
+    "clk": {
+      "setup_errors": 0,
+      "hold_errors": 0,
+      "minimum_ns": 16.142
+    },
+    "sd_card_clk": {
+      "setup_errors": 0,
+      "hold_errors": 0,
+      "minimum_ns": 9.747
+    },
+    "ext_mem_clk": {
+      "setup_errors": 0,
+      "hold_errors": 0,
+      "minimum_ns": 7.742
+    },
+    "ext_mem_clk_sft": {
+      "setup_errors": 0,
+      "hold_errors": 0,
+      "minimum_ns": 0.0
+    },
+    "video_clk": {
+      "setup_errors": 0,
+      "hold_errors": 0,
+      "minimum_ns": 39.098
+    },
+    "hdmi_5x_clk": {
+      "setup_errors": 0,
+      "hold_errors": 0,
+      "minimum_ns": 7.948
+    },
+    "audio_mclk": {
+      "setup_errors": 3,
+      "hold_errors": 0,
+      "minimum_ns": 85.7
+    },
+    "emergency_rx_clk": {
+      "setup_errors": 0,
+      "hold_errors": 0,
+      "minimum_ns": 7.891
+    }
+  },
+  "timing_limitations": [
+    "Up to 3 inherited audio reset recovery violations retained",
+    "Packaged SDRAM external IO warnings remain outside the clock-only timing gate",
+    "No clocks slowed and no new timing false paths"
+  ],
+  "tests": {
+    "renderer67": {
+      "passed": true,
+      "log": "doc/diagnostics/renderer67.log",
+      "sha256": "ff55a6620a71a5344c3a01e68632c9361db7c89a52b2cf62009dbaff049943fa"
+    },
+    "tft61_equivalence67": {
+      "passed": true,
+      "log": "doc/diagnostics/tft61_equivalence67.log",
+      "sha256": "5c75b97743da52530702880f61dda271e7bf9fb2c0efa7793e2c95f7d218fbce"
+    },
+    "router67": {
+      "passed": true,
+      "log": "doc/diagnostics/router67.log",
+      "sha256": "b57c42c8c83e2ac80da8431461b8b19a0ddb35e7257ec6d5224eb1b7c1f981e7"
+    },
+    "bmp67_0_0": {
+      "passed": true,
+      "log": "doc/diagnostics/bmp67_0_0.log",
+      "sha256": "86fab4303ebef043946b22072b819effd5a2e2dae5c457bee1467a1743cc8f0a"
+    },
+    "bmp67_0_1": {
+      "passed": true,
+      "log": "doc/diagnostics/bmp67_0_1.log",
+      "sha256": "f14a5f6461fbe136fbdb311151e47f766e3c5ddae440196875272a9fa3001f09"
+    },
+    "bmp67_1_0": {
+      "passed": true,
+      "log": "doc/diagnostics/bmp67_1_0.log",
+      "sha256": "aaf67124cc15a07eb51a5adeca9feba85c9cad06e66b49603d1ca0cb32087761"
+    },
+    "bmp67_1_1": {
+      "passed": true,
+      "log": "doc/diagnostics/bmp67_1_1.log",
+      "sha256": "aaf67124cc15a07eb51a5adeca9feba85c9cad06e66b49603d1ca0cb32087761"
+    }
+  },
+  "source_sha256": {
+    "src/td_project/build67.tcl": "61adedb34716e9219fe2596939eea2bf6baf7c574118a1590ffcf0185fbed42c",
+    "src/td_project/lab_ex4_tf_audio_settings67.al": "febf205581fc33a069135c4b87850ccbfda2873edd85e7e9fa49d90107778809",
+    "src/td_project/al_ip/PLL.v": "4e873eef9499fa93508d8cf2cac90eea0e16c6f649ae29502cdc4c5886cd32aa",
+    "src/user_source/constraints_source/pin.adc": "ebc5082b094d25d85c4a45204802c4830a8abfc2eab8912ceab74b3e4ee0512a",
+    "src/user_source/constraints_source/timing.sdc": "64c011df7c0edfe471d68ede2865adbbc8bd606dec8732f3b83c94900e888d21",
+    "src/user_source/hdl_source/hdmi_phy_warpper.v": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300",
+    "src/user_source/hdl_source/key_remove_shakes.v": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9",
+    "src/user_source/hdl_source/lane_lvds_10_1.v": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc",
+    "src/user_source/hdl_source/startup_pulse.v": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9",
+    "src/user_source/hdl_source/top_hdmi_bmp.v": "2a9aeac97031bb420ee0a19f02f53430034d821c84a9b4deda06a0667e2d9b25",
+    "src/user_source/hdl_source/top_hdmi_bmp_bufchk.v": "f6d09571c2b0aff45a9ce9a2dc3d710a56390180774526499ce9ce89e64546e5",
+    "src/user_source/hdl_source/top_hdmi_bmp_cnt.v": "6ce6534085718c8de70de0c5fd8d12e52d8b1ea95330afd319336e592175a777",
+    "src/user_source/hdl_source/top_hdmi_bmp_coarse.v": "e051ae7e43769dffef467d7e808cefdc06d96b7f45a347d1a87e1296a6dacc0a",
+    "src/user_source/hdl_source/top_hdmi_bmp_diag.v": "7d8284c4e8f3c3049072dc4e9463ef6be3fe44f9ee796bfe2b8a1c7ae10ad0fa",
+    "src/user_source/hdl_source/top_hdmi_bmp_rot.v": "367421ca41dc20184366d7cb93bc4726a9cfa453856d4cd51f7ca6c7a9efe76d",
+    "src/user_source/hdl_source/top_hdmi_bmp_ruler.v": "022076ebbd90cc44789d18020f92e74e2bebca33cf487947e030bb08fd5d9460",
+    "src/user_source/hdl_source/top_hdmi_bmp_segcnt.v": "c364f3609150f839978319a7389d26929ca0e2e92d1ecb87a527bdcd0ed3ac70",
+    "src/user_source/hdl_source/top_hdmi_bmp_selftest.v": "b9ccf8e3c8efc381d6e2923096e6af313ee3b6a226d39c58be79f85767c05f83",
+    "src/user_source/hdl_source/top_hdmi_bmp_shift.v": "e7bb3c049e457b0b7cc0abe8949a3d376753a31e571f9f01acdf464c8f2b0dd8",
+    "src/user_source/hdl_source/top_hdmi_bmp_solid.v": "6488a3706b79ac2a1c6bcc12139da18fb9d0a05fe1adc578e3f2ef723a5acdd9",
+    "src/user_source/hdl_source/top_hdmi_bmp_swap.v": "be15c3415db03fb5e0702ad4f68146688e64daee0baf13b53fd5321e3389b67a",
+    "src/user_source/hdl_source/top_img_display.v": "ddd00647a3551b87030c0c5fd9ed53bd816cfb27b59ae04e0d6f4a80493501c0",
+    "src/user_source/hdl_source/top_tf_hdmi_audio.v": "2a916c320712bdf329f0ac55672ca090e09763486b5561ce527a1c81a6c80032",
+    "src/user_source/hdl_source/video_rgb_to_axis_640x480.v": "9d87f68659e7e7a8bb4cd0cf44004e95f0005a187194add7f5f570a84e5c28e4",
+    "src/user_source/hdl_source/video_source_test.v": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc",
+    "src/user_source/ip_source/pll.v": "202799f886f12cfc1d837afa932328b636c6c3dee70167be68c084133647b39c",
+    "src/user_source/hdl_source/audio/audio_arc_calculate.v": "497958eeb364292ead9e85cc3e86d9f5c1a4a7fbf14b8b45ae66403596f97129",
+    "src/user_source/hdl_source/audio/hdmi_audio_sine_i2s.v": "373384580e4d480a649e040e4d307063f6152ba938f48d24bb2d5b2982af3d40",
+    "src/user_source/hdl_source/audio/I2S_receiver.v": "6803e03aa854ad0c2c6be4e4e93727a066207df761a4238d4827a353b3153022",
+    "src/user_source/hdl_source/audio/pcm_spectrum_dft.v": "2220d9d29619ba4d7c9a5ee0e3048903edc4f7e35b5c215d4b68fce68ac3d934",
+    "src/user_source/hdl_source/audio/picture_switch_sound.v": "cd6d6b9b27ce4ff92464e6be0cc3f24a6c014e421b96eb660f736df67189d630",
+    "src/user_source/hdl_source/audio/player53_quarter_sin.mif": "41651aab5c2c5bfffe8ea14450c55d7dd10ac3279f1502f4f9a451c47b6e8530",
+    "src/user_source/hdl_source/audio/player_audio_volume.v": "f5ae30bedb6c36a321e9558d599dc6f068469fb160000f53e86907509b6859c7",
+    "src/user_source/hdl_source/audio/PLL_HDMI_AUDIO.v": "1e174c1dc4edbce9c61d6b390aca3b7b94022b60995a92981d5278247b7f5867",
+    "src/user_source/hdl_source/audio/settings61_timbre.mif": "d31e18539a5386a176ee684d804fa3d70ed156a564be8ca0d18ebe68e09bf6cd",
+    "src/user_source/hdl_source/emergency/emergency_audio.v": "60fc305f9dac28c2623407132452e8a0106e6498e5988ee2df3b48244489ba48",
+    "src/user_source/hdl_source/emergency/emergency_control.v": "581b03f8dd12760c82df1e8d3b6d37538052dcdffc7ab4c9b48ec95044bee024",
+    "src/user_source/hdl_source/emergency/emergency_font.hex": "92844b91e20607994f7d512e3d59409f2a63a0dc0d44b0c14d99a3c40f9b865e",
+    "src/user_source/hdl_source/emergency/emergency_font.mif": "4ea6d92b1cdcb5eb13039312a984bfa72db5d73d6782c9aed7760eb6330d0e54",
+    "src/user_source/hdl_source/emergency/emergency_font24.mif": "d3739b984d6e2d099f3c756fa91b864211f0594d008300fdb69ae0bb71fe958f",
+    "src/user_source/hdl_source/emergency/emergency_overlay.v": "869daec24e0244da85584bd1301082428cb90aa98c0db01b9c5894273f33fef6",
+    "src/user_source/hdl_source/emergency/emergency_text.vh": "e75e30303eae4b307b24d52f49bcb986e59984bc1c9f3842f2f3029fdb9cde53",
+    "src/user_source/hdl_source/emergency/emergency_udp_rx.v": "c672d500ec8ce53e977ee3e1b3b5ba7ce88cd1ef9b1a61c699662747b3d54758",
+    "src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63",
+    "src/user_source/hdl_source/include/global_def.v": "04f854d7fe2f7816705b988ec59822fc258e4ed3a13529e36d0b9e6233a2682f",
+    "src/user_source/hdl_source/include/sdr_as_ram.enc.v": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57",
+    "src/user_source/hdl_source/include/sdr_init_ref.enc.v": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6",
+    "src/user_source/hdl_source/include/sdr_wrrd.enc.v": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2",
+    "src/user_source/hdl_source/IP/afifo_16_256.tcl": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+    "src/user_source/hdl_source/IP/afifo_16_256.v": "c489408d2748d99c00a2e408ba8e1deff6f1fd8c43aa70a889466d57a20b0f70",
+    "src/user_source/hdl_source/IP/afifo_16_256_sim.v": "55b81ab3aa699902b6f11fe766658b852e0740844879a942dca81cd57b40f729",
+    "src/user_source/hdl_source/IP/afifo_16_32_256.tcl": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+    "src/user_source/hdl_source/IP/afifo_16_32_256.v": "32c86a05d74f05c19e38ad87d73040530f6430fee6acbf9b4d4df8900152b4ed",
+    "src/user_source/hdl_source/IP/afifo_32_16_256.tcl": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+    "src/user_source/hdl_source/IP/afifo_32_16_256.v": "3f0119e1b1bcecd5af05cdfdb3a56dc336efcbc2eea9f9dd3af8b98a205ded75",
+    "src/user_source/hdl_source/IP/sdram.v": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe",
+    "src/user_source/hdl_source/IP/sys_pll.v": "02da17afa1b3f23c880254924437b9529ef7ab872b888073fce43d3dce07a4f6",
+    "src/user_source/hdl_source/IP/video_pll.v": "57e45a062814673e97773cf6c58ff1629fa45895e30de9d2c2b6bdd30bd9bb13",
+    "src/user_source/hdl_source/osd/hdmi_spectrum_overlay.v": "72cfde2383de23bad75bdb1c02410e1ea29835b9afd49021fc72cc1c099afb78",
+    "src/user_source/hdl_source/osd/hdmi_subtitle_osd.v": "9d006915edc6be0d06be4868e9f2bf53d83f897128f1ddcb447b925d01dc29a1",
+    "src/user_source/hdl_source/osd/osd_font16.vh": "7c36993103553d92bfa3b1756415bee3074c3755d724b1b5411d6f8fafaf4edf",
+    "src/user_source/hdl_source/osd/player52_subtitle_font.mif": "33c16a7cfd6e1e4e89ccac7c06f9193a46b68bd0b7a15a64c48e480fdd6c8674",
+    "src/user_source/hdl_source/osd/settings67_subtitle_font.mif": "4f509d1e1ef4f9fa2c8d1f99c312f482070ad8009b0f0f223364610a75d15b4a",
+    "src/user_source/hdl_source/SD/ax_debounce.v": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8",
+    "src/user_source/hdl_source/SD/bmp_read.v": "7cfbbcbf48bdcb08a185ffab5b2c65f00039e647393c8ae53f557cd71d0d1fe0",
+    "src/user_source/hdl_source/SD/color_bar.v": "3e488b2edc8cf12c75968d5c4d0a2fb53f186a4da06c501148dd32c68ef446b6",
+    "src/user_source/hdl_source/SD/frame_fifo_read.v": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac",
+    "src/user_source/hdl_source/SD/frame_fifo_write.v": "ef0f46443b6f79ebb9fbba8f39b11dca90ee7e9ae4637c1d45786744d964e540",
+    "src/user_source/hdl_source/SD/frame_read_write.v": "f9d7d04d81a8c8a3e226f855387971cf2308421bdd4c08c0ab465e9e40aa5cbd",
+    "src/user_source/hdl_source/SD/sdram.v": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99",
+    "src/user_source/hdl_source/SD/sd_card_bmp.v": "0116b596978592f0a62a983e35402571fa7ca2f7f896de8c25ec8ff0c221d840",
+    "src/user_source/hdl_source/SD/sd_card_cmd.v": "7c5e370ff4912c8634fe602c02f8dd34569681ac7df6218a79124425a55492c0",
+    "src/user_source/hdl_source/SD/sd_card_sec_read_write.v": "17c4da6ca78f27b2d79904fe0b7bcdec118c9b8fc3ded1636346a9572590bd68",
+    "src/user_source/hdl_source/SD/sd_card_top.v": "37e76c45ea73681b39a938ce65f2e81288602106c805a313e894d365663db34b",
+    "src/user_source/hdl_source/SD/seg_decoder.v": "bd3c9ffaa2500bf38015710a120c052a970aa7f251bc88cd9ee9d72f86de7fdd",
+    "src/user_source/hdl_source/SD/seg_scan.v": "583193b21b8c04b2dbb49f05afc968321989af3f2a76992dc6042a47fbf88362",
+    "src/user_source/hdl_source/SD/spi_master.v": "a8c1cce7d22a6bd32d2cf08d441723858085eb05424e462487844c571ec102f2",
+    "src/user_source/hdl_source/SD/video_define.v": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2",
+    "src/user_source/hdl_source/SD/video_delay.v": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433",
+    "src/user_source/hdl_source/SD/video_timing_data.v": "c6f75501e98dd5995f687aafb40455beffe45b426137b5089a73ac3a036f7282",
+    "src/user_source/hdl_source/ui/player_picture_adjust.v": "6908174e3a2aef185c8ec2528a994d088254ad80b0dbce9c77679923ee8011a9",
+    "src/user_source/hdl_source/ui/player_settings_control.v": "641023d4cda809ad8731d775b99fb9237bfc6c109d63634d0fdfccb64de54ac5",
+    "src/user_source/hdl_source/ui/settings61_font.mif": "3bb5a63963a8eb3b0b6b9c4c0fec1d6b7bb98517ab461b6d48331e20dbace0ac",
+    "src/user_source/hdl_source/ui/settings_display_router.v": "cd46036d5eb69089de9dc6f2b3a96dcb68cac00cb2491aa2023783504d296945",
+    "src/user_source/hdl_source/ui/tft54_init_rom.vh": "b8b429972baff008235c8db37f720731e4984e22c588038503d76d23b67193e4",
+    "src/user_source/hdl_source/ui/tft_8080_bus.v": "5f6271cfd0781d1cc35f78cb7b702d0d4e80ed7345d7d5a6e8807da605adbe97",
+    "src/user_source/hdl_source/ui/tft_settings_display.v": "9a89e4761fbc2af84429d2012ada7061442e1b5f01a914e95be43c0aa8be0f74",
+    "src/user_source/hdl_source/ui/tft_settings_renderer.v": "2089c0aaf21b2574656fd997ddad8d779a982ed974b0a6a2634fb47a58099bc2",
+    "src/user_source/hdl_source/video/bmp_bilinear_scaler.v": "3c8975b02dc14afce29913e9fdbb2727a28a8e46bde5990bcd2ffa2596498ece"
+  },
+  "hardware_limitations": [
+    "settings61 TFT corruption/white-screen root cause is not claimed fixed",
+    "TFT66 user reported deadlock; it was not used as the baseline",
+    "User will download and test; no automatic JTAG action performed"
+  ],
+  "non_release_attempts": [
+    "Initial upper-right-layout build failed strict timing and produced no bitstream",
+    "Before-fontfix build passed clock gate; its intermediate bitstream is not the final delivery"
+  ]
+}

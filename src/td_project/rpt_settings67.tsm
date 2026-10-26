@@ -1,0 +1,4172 @@
+eagle_s20
+13 18131 6811 1721 34162 2006228048 99 0
+-6.638 0.075 top_hdmi_bmp eagle_s20 EG4S20BG256 Detail NA 39 88
+clock: clk
+13 7346 446 2
+Setup check
+23 3
+Endpoint: seg_data[6]_syn_4
+23 3.858000 23 3
+Timing path: reg3_syn_48.clk->seg_data[6]_syn_4
+reg3_syn_48.clk
+seg_data[6]_syn_4
+25 3.858000 13.409000 9.551000 4 5
+commit_cnt[0] u_seg_commit/mux0_syn_31.a[0]
+seg_scan_m0/seg_data_2[6] seg_scan_m0/seg_data_b[6]_syn_17.a[1]
+seg_scan_m0/seg_data_b[6]_syn_2 seg_scan_m0/seg_data_b[5]_syn_19.c[0]
+seg_scan_m0/seg_data_b[6]_syn_4 seg_scan_m0/seg_data_b[6]_syn_20.a[1]
+seg_scan_m0/seg_data_b[6] seg_data[6]_syn_4.do[0]
+
+Timing path: reg3_syn_48.clk->seg_data[6]_syn_4
+reg3_syn_48.clk
+seg_data[6]_syn_4
+75 3.999000 13.409000 9.410000 4 5
+commit_cnt[1] u_seg_commit/mux0_syn_31.b[0]
+seg_scan_m0/seg_data_2[6] seg_scan_m0/seg_data_b[6]_syn_17.a[1]
+seg_scan_m0/seg_data_b[6]_syn_2 seg_scan_m0/seg_data_b[5]_syn_19.c[0]
+seg_scan_m0/seg_data_b[6]_syn_4 seg_scan_m0/seg_data_b[6]_syn_20.a[1]
+seg_scan_m0/seg_data_b[6] seg_data[6]_syn_4.do[0]
+
+Timing path: reg9_syn_49.clk->seg_data[6]_syn_4
+reg9_syn_49.clk
+seg_data[6]_syn_4
+125 4.261000 13.409000 9.148000 4 5
+load_cnt[2] u_seg_load/mux0_syn_33.c[0]
+seg_scan_m0/seg_data_3[6] seg_scan_m0/seg_data_b[6]_syn_17.b[1]
+seg_scan_m0/seg_data_b[6]_syn_2 seg_scan_m0/seg_data_b[5]_syn_19.c[0]
+seg_scan_m0/seg_data_b[6]_syn_4 seg_scan_m0/seg_data_b[6]_syn_20.a[1]
+seg_scan_m0/seg_data_b[6] seg_data[6]_syn_4.do[0]
+
+
+Endpoint: seg_data[2]_syn_4
+175 4.141000 60 3
+Timing path: sd_card_bmp_m0/direct_topdown_r_n2_syn_95.clk->seg_data[2]_syn_4
+sd_card_bmp_m0/direct_topdown_r_n2_syn_95.clk
+seg_data[2]_syn_4
+177 4.141000 13.409000 9.268000 3 4
+sd_card_bmp_m0/img_found_count[3] sd_card_bmp_m0/load_sector_b2[1]_syn_39.d[0]
+seg_scan_m0/seg_data_4[2] seg_scan_m0/seg_data_b[2]_syn_19.a[1]
+seg_scan_m0/seg_data_b[2]_syn_6 seg_scan_m0/seg_data_b[2]_syn_17.b[1]
+seg_scan_m0/seg_data_b[2] seg_data[2]_syn_4.do[0]
+
+Timing path: sd_card_bmp_m0/direct_topdown_r_n2_syn_95.clk->seg_data[2]_syn_4
+sd_card_bmp_m0/direct_topdown_r_n2_syn_95.clk
+seg_data[2]_syn_4
+225 4.141000 13.409000 9.268000 3 4
+sd_card_bmp_m0/img_found_count[3] sd_card_bmp_m0/load_sector_b2[1]_syn_39.d[0]
+seg_scan_m0/seg_data_4[2] seg_scan_m0/seg_data_b[2]_syn_19.a[0]
+seg_scan_m0/seg_data_b[2]_syn_6 seg_scan_m0/seg_data_b[2]_syn_17.b[1]
+seg_scan_m0/seg_data_b[2] seg_data[2]_syn_4.do[0]
+
+Timing path: sd_card_bmp_m0/direct_topdown_r_n2_syn_95.clk->seg_data[2]_syn_4
+sd_card_bmp_m0/direct_topdown_r_n2_syn_95.clk
+seg_data[2]_syn_4
+273 4.141000 13.409000 9.268000 3 4
+sd_card_bmp_m0/img_found_count[3] sd_card_bmp_m0/load_sector_b2[1]_syn_39.d[0]
+seg_scan_m0/seg_data_4[2] seg_scan_m0/seg_data_b[2]_syn_19.a[1]
+seg_scan_m0/seg_data_b[2]_syn_6 seg_scan_m0/seg_data_b[2]_syn_17.b[0]
+seg_scan_m0/seg_data_b[2] seg_data[2]_syn_4.do[0]
+
+
+Endpoint: seg_data[4]_syn_4
+321 4.181000 23 3
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg42_syn_22.clk->seg_data[4]_syn_4
+sd_card_bmp_m0/bmp_read_m0/reg42_syn_22.clk
+seg_data[4]_syn_4
+323 4.181000 13.409000 9.228000 3 4
+sd_card_bmp_m0/state_code_i[1] seg_decoder_m0/mux0_syn_51.b[1]
+seg_scan_m0/seg_data_5[4] seg_scan_m0/seg_data_b[4]_syn_19.b[1]
+seg_scan_m0/seg_data_b[4]_syn_6 seg_scan_m0/seg_data_b[4]_syn_21.b[1]
+seg_scan_m0/seg_data_b[4] seg_data[4]_syn_4.do[0]
+
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg42_syn_24.clk->seg_data[4]_syn_4
+sd_card_bmp_m0/bmp_read_m0/reg42_syn_24.clk
+seg_data[4]_syn_4
+371 4.252000 13.409000 9.157000 3 4
+sd_card_bmp_m0/state_code_i[2] seg_decoder_m0/mux0_syn_51.c[1]
+seg_scan_m0/seg_data_5[4] seg_scan_m0/seg_data_b[4]_syn_19.b[1]
+seg_scan_m0/seg_data_b[4]_syn_6 seg_scan_m0/seg_data_b[4]_syn_21.b[1]
+seg_scan_m0/seg_data_b[4] seg_data[4]_syn_4.do[0]
+
+Timing path: sd_card_bmp_m0/reinit_cnt_b[4]_syn_118.clk->seg_data[4]_syn_4
+sd_card_bmp_m0/reinit_cnt_b[4]_syn_118.clk
+seg_data[4]_syn_4
+419 4.479000 13.409000 8.930000 3 4
+sd_card_bmp_m0/img_found_count[0] u_seg_imgn/mux0_syn_33.a[0]
+seg_scan_m0/seg_data_4[4] seg_scan_m0/seg_data_b[4]_syn_19.a[1]
+seg_scan_m0/seg_data_b[4]_syn_6 seg_scan_m0/seg_data_b[4]_syn_21.b[1]
+seg_scan_m0/seg_data_b[4] seg_data[4]_syn_4.do[0]
+
+
+
+Hold check
+467 3
+Endpoint: reg14_syn_122
+469 0.468000 1 1
+Timing path: sd_card_bmp_m0/reinit_cnt_b[4]_syn_144.clk->reg14_syn_122
+sd_card_bmp_m0/reinit_cnt_b[4]_syn_144.clk
+reg14_syn_122
+471 0.468000 3.046000 3.514000 0 1
+rst_all_reg_dup_194 reg14_syn_122.ce
+
+
+Endpoint: reg14_syn_124
+509 0.468000 1 1
+Timing path: sd_card_bmp_m0/reinit_cnt_b[4]_syn_144.clk->reg14_syn_124
+sd_card_bmp_m0/reinit_cnt_b[4]_syn_144.clk
+reg14_syn_124
+511 0.468000 3.046000 3.514000 0 1
+rst_all_reg_dup_194 reg14_syn_124.ce
+
+
+Endpoint: reg14_syn_113
+549 0.468000 1 1
+Timing path: sd_card_bmp_m0/reinit_cnt_b[4]_syn_144.clk->reg14_syn_113
+sd_card_bmp_m0/reinit_cnt_b[4]_syn_144.clk
+reg14_syn_113
+551 0.468000 3.046000 3.514000 0 1
+rst_all_reg_dup_194 reg14_syn_113.ce
+
+
+
+
+clock: sd_card_clk
+589 357076 9216 5
+Setup check
+599 3
+Endpoint: my_sdram_frame_m0/rf_line_addr[7]_syn_95
+599 0.253000 683 3
+Timing path: my_sdram_frame_m0/u_wrfifo/reg6_syn_52.clk->my_sdram_frame_m0/rf_line_addr[7]_syn_95
+my_sdram_frame_m0/u_wrfifo/reg6_syn_52.clk
+my_sdram_frame_m0/rf_line_addr[7]_syn_95
+601 0.253000 13.570000 13.317000 8 9
+my_sdram_frame_m0/u_wrfifo/wbin[1] my_sdram_frame_m0/u_wrfifo/add0_syn_56.a[1]
+my_sdram_frame_m0/u_wrfifo/add0_syn_49 my_sdram_frame_m0/u_wrfifo/add0_syn_57.fci
+my_sdram_frame_m0/u_wrfifo/wbin_nxt[4] my_sdram_frame_m0/u_wrfifo/reg7_syn_48.d[1]
+my_sdram_frame_m0/u_wrfifo/wgray_nxt[3] my_sdram_frame_m0/u_wrfifo/reg8_syn_52.a[1]
+u_scaler/state_b[2]_syn_26 my_sdram_frame_m0/u_wrfifo/reg8_syn_46.a[1]
+u_scaler/state_b[2]_syn_28 my_sdram_frame_m0/u_wrfifo/reg8_syn_46.a[0]
+u_scaler/state_b[2]_syn_33 my_sdram_frame_m0/u_wrfifo/reg8_syn_55.d[0]
+u_scaler/state_b[4]_syn_8 u_scaler/reg26_syn_45.a[1]
+u_scaler/state_b[4] my_sdram_frame_m0/rf_line_addr[7]_syn_95.mi[0]
+
+Timing path: my_sdram_frame_m0/u_wrfifo/reg6_syn_52.clk->my_sdram_frame_m0/rf_line_addr[7]_syn_95
+my_sdram_frame_m0/u_wrfifo/reg6_syn_52.clk
+my_sdram_frame_m0/rf_line_addr[7]_syn_95
+663 0.253000 13.570000 13.317000 8 9
+my_sdram_frame_m0/u_wrfifo/wbin[1] my_sdram_frame_m0/u_wrfifo/add0_syn_56.a[1]
+my_sdram_frame_m0/u_wrfifo/add0_syn_49 my_sdram_frame_m0/u_wrfifo/add0_syn_57.fci
+my_sdram_frame_m0/u_wrfifo/wbin_nxt[4] my_sdram_frame_m0/u_wrfifo/reg7_syn_48.d[1]
+my_sdram_frame_m0/u_wrfifo/wgray_nxt[3] my_sdram_frame_m0/u_wrfifo/reg8_syn_52.a[1]
+u_scaler/state_b[2]_syn_26 my_sdram_frame_m0/u_wrfifo/reg8_syn_46.a[1]
+u_scaler/state_b[2]_syn_28 my_sdram_frame_m0/u_wrfifo/reg8_syn_46.a[0]
+u_scaler/state_b[2]_syn_33 my_sdram_frame_m0/u_wrfifo/reg8_syn_55.d[0]
+u_scaler/state_b[4]_syn_8 u_scaler/reg26_syn_45.a[0]
+u_scaler/state_b[4] my_sdram_frame_m0/rf_line_addr[7]_syn_95.mi[0]
+
+Timing path: my_sdram_frame_m0/rf_active_line[0]_syn_40.clk->my_sdram_frame_m0/rf_line_addr[7]_syn_95
+my_sdram_frame_m0/rf_active_line[0]_syn_40.clk
+my_sdram_frame_m0/rf_line_addr[7]_syn_95
+725 0.269000 13.570000 13.301000 8 9
+my_sdram_frame_m0/u_wrfifo/wbin[2] my_sdram_frame_m0/u_wrfifo/add0_syn_56.b[1]
+my_sdram_frame_m0/u_wrfifo/add0_syn_49 my_sdram_frame_m0/u_wrfifo/add0_syn_57.fci
+my_sdram_frame_m0/u_wrfifo/wbin_nxt[4] my_sdram_frame_m0/u_wrfifo/reg7_syn_48.d[1]
+my_sdram_frame_m0/u_wrfifo/wgray_nxt[3] my_sdram_frame_m0/u_wrfifo/reg8_syn_52.a[1]
+u_scaler/state_b[2]_syn_26 my_sdram_frame_m0/u_wrfifo/reg8_syn_46.a[1]
+u_scaler/state_b[2]_syn_28 my_sdram_frame_m0/u_wrfifo/reg8_syn_46.a[0]
+u_scaler/state_b[2]_syn_33 my_sdram_frame_m0/u_wrfifo/reg8_syn_55.d[0]
+u_scaler/state_b[4]_syn_8 u_scaler/reg26_syn_45.a[1]
+u_scaler/state_b[4] my_sdram_frame_m0/rf_line_addr[7]_syn_95.mi[0]
+
+
+Endpoint: u_scaler/reg38_syn_27
+787 0.289000 155 3
+Timing path: u_scaler/reg31_syn_86.clk->u_scaler/reg38_syn_27
+u_scaler/reg31_syn_86.clk
+u_scaler/reg38_syn_27
+789 0.289000 13.542000 13.253000 9 9
+u_scaler/target_y1[7] u_scaler/lt13_syn_70.b[0]
+u_scaler/lt13_syn_21 u_scaler/lt13_syn_73.fci
+u_scaler/lt13_syn_25 u_scaler/lt13_syn_76.fci
+u_scaler/blank_pixel_n8 u_scaler/reg8_syn_123.a[1]
+u_scaler/pop_n3 u_scaler/used_b[2]_syn_22.a[1]
+u_scaler/used_b[2]_syn_3 u_scaler/reg12_syn_156.a[1]
+u_scaler/used_b[2]_syn_5 u_scaler/right_sample_b1[7]_syn_31.a[0]
+u_scaler/mux18_syn_11 sd_card_bmp_m0/bmp_read_m0/reg2_syn_138.d[1]
+u_scaler/wp_b[3]_syn_3 u_scaler/reg38_syn_27.a[1]
+
+Timing path: u_scaler/reg31_syn_86.clk->u_scaler/reg38_syn_27
+u_scaler/reg31_syn_86.clk
+u_scaler/reg38_syn_27
+851 0.289000 13.542000 13.253000 9 9
+u_scaler/target_y1[7] u_scaler/lt13_syn_70.b[0]
+u_scaler/lt13_syn_21 u_scaler/lt13_syn_73.fci
+u_scaler/lt13_syn_25 u_scaler/lt13_syn_76.fci
+u_scaler/blank_pixel_n8 u_scaler/reg8_syn_123.a[1]
+u_scaler/pop_n3 u_scaler/used_b[2]_syn_22.a[1]
+u_scaler/used_b[2]_syn_3 u_scaler/reg12_syn_156.a[1]
+u_scaler/used_b[2]_syn_5 u_scaler/right_sample_b1[7]_syn_31.a[0]
+u_scaler/mux18_syn_11 sd_card_bmp_m0/bmp_read_m0/reg2_syn_138.d[1]
+u_scaler/wp_b[3]_syn_3 u_scaler/reg38_syn_27.a[0]
+
+Timing path: u_scaler/reg31_syn_77.clk->u_scaler/reg38_syn_27
+u_scaler/reg31_syn_77.clk
+u_scaler/reg38_syn_27
+913 0.380000 13.542000 13.162000 12 12
+u_scaler/target_y1[1] u_scaler/lt13_syn_61.b[0]
+u_scaler/lt13_syn_9 u_scaler/lt13_syn_64.fci
+u_scaler/lt13_syn_13 u_scaler/lt13_syn_67.fci
+u_scaler/lt13_syn_17 u_scaler/lt13_syn_70.fci
+u_scaler/lt13_syn_21 u_scaler/lt13_syn_73.fci
+u_scaler/lt13_syn_25 u_scaler/lt13_syn_76.fci
+u_scaler/blank_pixel_n8 u_scaler/reg8_syn_123.a[1]
+u_scaler/pop_n3 u_scaler/used_b[2]_syn_22.a[1]
+u_scaler/used_b[2]_syn_3 u_scaler/reg12_syn_156.a[1]
+u_scaler/used_b[2]_syn_5 u_scaler/right_sample_b1[7]_syn_31.a[0]
+u_scaler/mux18_syn_11 sd_card_bmp_m0/bmp_read_m0/reg2_syn_138.d[1]
+u_scaler/wp_b[3]_syn_3 u_scaler/reg38_syn_27.a[1]
+
+
+Endpoint: u_scaler/ramread3_syn_26
+981 0.345000 66 3
+Timing path: u_scaler/reg31_syn_86.clk->u_scaler/ramread3_syn_26
+u_scaler/reg31_syn_86.clk
+u_scaler/ramread3_syn_26
+983 0.345000 13.408000 13.063000 7 8
+u_scaler/target_y1[7] u_scaler/lt13_syn_70.b[0]
+u_scaler/lt13_syn_21 u_scaler/lt13_syn_73.fci
+u_scaler/lt13_syn_25 u_scaler/lt13_syn_76.fci
+u_scaler/blank_pixel_n8 u_scaler/reg8_syn_123.a[1]
+u_scaler/pop_n3 u_scaler/used_b[2]_syn_22.a[1]
+u_scaler/used_b[2]_syn_3 u_scaler/reg12_syn_156.a[1]
+u_scaler/used_b[2]_syn_5 u_scaler/row1_n_syn_5.d[1]
+u_scaler/row1_n u_scaler/ramread3_syn_26.wea
+
+Timing path: u_scaler/reg31_syn_77.clk->u_scaler/ramread3_syn_26
+u_scaler/reg31_syn_77.clk
+u_scaler/ramread3_syn_26
+1043 0.436000 13.408000 12.972000 10 11
+u_scaler/target_y1[1] u_scaler/lt13_syn_61.b[0]
+u_scaler/lt13_syn_9 u_scaler/lt13_syn_64.fci
+u_scaler/lt13_syn_13 u_scaler/lt13_syn_67.fci
+u_scaler/lt13_syn_17 u_scaler/lt13_syn_70.fci
+u_scaler/lt13_syn_21 u_scaler/lt13_syn_73.fci
+u_scaler/lt13_syn_25 u_scaler/lt13_syn_76.fci
+u_scaler/blank_pixel_n8 u_scaler/reg8_syn_123.a[1]
+u_scaler/pop_n3 u_scaler/used_b[2]_syn_22.a[1]
+u_scaler/used_b[2]_syn_3 u_scaler/reg12_syn_156.a[1]
+u_scaler/used_b[2]_syn_5 u_scaler/row1_n_syn_5.d[1]
+u_scaler/row1_n u_scaler/ramread3_syn_26.wea
+
+Timing path: u_scaler/reg22_syn_80.clk->u_scaler/ramread3_syn_26
+u_scaler/reg22_syn_80.clk
+u_scaler/ramread3_syn_26
+1109 0.536000 13.408000 12.872000 9 10
+u_scaler/received_rows[3] u_scaler/lt13_syn_64.a[0]
+u_scaler/lt13_syn_13 u_scaler/lt13_syn_67.fci
+u_scaler/lt13_syn_17 u_scaler/lt13_syn_70.fci
+u_scaler/lt13_syn_21 u_scaler/lt13_syn_73.fci
+u_scaler/lt13_syn_25 u_scaler/lt13_syn_76.fci
+u_scaler/blank_pixel_n8 u_scaler/reg8_syn_123.a[1]
+u_scaler/pop_n3 u_scaler/used_b[2]_syn_22.a[1]
+u_scaler/used_b[2]_syn_3 u_scaler/reg12_syn_156.a[1]
+u_scaler/used_b[2]_syn_5 u_scaler/row1_n_syn_5.d[1]
+u_scaler/row1_n u_scaler/ramread3_syn_26.wea
+
+
+
+Hold check
+1173 3
+Endpoint: u_picture_adjust/rgb_in[6]_syn_5
+1175 0.086000 1 1
+Timing path: u_emergency_control/reg0_syn_153.clk->u_picture_adjust/rgb_in[6]_syn_5
+u_emergency_control/reg0_syn_153.clk
+u_picture_adjust/rgb_in[6]_syn_5
+1177 0.086000 3.175000 3.261000 0 1
+u_emergency_control/state[1] u_picture_adjust/rgb_in[6]_syn_5.mi[0]
+
+
+Endpoint: sd_card_bmp_m0/ramread4_syn_72
+1223 0.167000 2 2
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg22_syn_69.clk->sd_card_bmp_m0/ramread4_syn_72
+sd_card_bmp_m0/bmp_read_m0/reg22_syn_69.clk
+sd_card_bmp_m0/ramread4_syn_72
+1225 0.167000 3.098000 3.265000 1 1
+sd_card_bmp_m0/bmp_read_m0/o_scan_pixel_offset[6] sd_card_bmp_m0/ramread4_syn_72.c[1]
+
+Timing path: sd_card_bmp_m0/img_sector3_b[16]_syn_7.clk->sd_card_bmp_m0/ramread4_syn_72
+sd_card_bmp_m0/img_sector3_b[16]_syn_7.clk
+sd_card_bmp_m0/ramread4_syn_72
+1271 0.748000 3.098000 3.846000 1 1
+sd_card_bmp_m0/img_found_count[2] sd_card_bmp_m0/ramread4_syn_72.c[0]
+
+
+Endpoint: sd_card_bmp_m0/ramread3_syn_78
+1317 0.167000 2 2
+Timing path: sd_card_bmp_m0/bmp_read_m0/reg20_syn_135.clk->sd_card_bmp_m0/ramread3_syn_78
+sd_card_bmp_m0/bmp_read_m0/reg20_syn_135.clk
+sd_card_bmp_m0/ramread3_syn_78
+1319 0.167000 3.098000 3.265000 1 1
+sd_card_bmp_m0/bmp_read_m0/o_scan_file_len[17] sd_card_bmp_m0/ramread3_syn_78.b[1]
+
+Timing path: sd_card_bmp_m0/reg8_syn_27.clk->sd_card_bmp_m0/ramread3_syn_78
+sd_card_bmp_m0/reg8_syn_27.clk
+sd_card_bmp_m0/ramread3_syn_78
+1365 0.716000 3.098000 3.814000 1 1
+sd_card_bmp_m0/img_found_count[1] sd_card_bmp_m0/ramread3_syn_78.b[0]
+
+
+
+Recovery check
+1411 3
+Endpoint: sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/next_state[2]_syn_41
+1413 5.509000 2 2
+Timing path: sd_card_bmp_m0/reinit_cnt_b[4]_syn_136.clk->sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/next_state[2]_syn_41
+sd_card_bmp_m0/reinit_cnt_b[4]_syn_136.clk
+sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/next_state[2]_syn_41
+1415 5.509000 13.358000 7.849000 2 3
+sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/sd_reinit sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/state_b[4]_syn_23.d[0]
+sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/abort_read_syn_2 sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/sector_mem_n_syn_7.d[1]
+sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/rst sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/next_state[2]_syn_41.sr
+
+Timing path: sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/spi_clk_div_b[3]_syn_16.clk->sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/next_state[2]_syn_41
+sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/spi_clk_div_b[3]_syn_16.clk
+sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/next_state[2]_syn_41
+1465 5.987000 13.358000 7.371000 2 3
+sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/cmd_reinit sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/state_b[4]_syn_23.c[0]
+sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/abort_read_syn_2 sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/sector_mem_n_syn_7.d[1]
+sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/rst sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/next_state[2]_syn_41.sr
+
+
+Endpoint: sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/reg2_syn_102
+1515 5.624000 2 2
+Timing path: sd_card_bmp_m0/reinit_cnt_b[4]_syn_136.clk->sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/reg2_syn_102
+sd_card_bmp_m0/reinit_cnt_b[4]_syn_136.clk
+sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/reg2_syn_102
+1517 5.624000 13.358000 7.734000 2 3
+sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/sd_reinit sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/state_b[4]_syn_23.d[0]
+sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/abort_read_syn_2 sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/sector_mem_n_syn_7.d[1]
+sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/rst sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/reg2_syn_102.sr
+
+Timing path: sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/spi_clk_div_b[3]_syn_16.clk->sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/reg2_syn_102
+sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/spi_clk_div_b[3]_syn_16.clk
+sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/reg2_syn_102
+1567 6.102000 13.358000 7.256000 2 3
+sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/cmd_reinit sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/state_b[4]_syn_23.c[0]
+sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/abort_read_syn_2 sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/sector_mem_n_syn_7.d[1]
+sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/rst sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/reg2_syn_102.sr
+
+
+Endpoint: sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/send_data_b[3]_syn_27
+1617 5.686000 2 2
+Timing path: sd_card_bmp_m0/reinit_cnt_b[4]_syn_136.clk->sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/send_data_b[3]_syn_27
+sd_card_bmp_m0/reinit_cnt_b[4]_syn_136.clk
+sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/send_data_b[3]_syn_27
+1619 5.686000 13.358000 7.672000 2 3
+sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/sd_reinit sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/state_b[4]_syn_23.d[0]
+sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/abort_read_syn_2 sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/sector_mem_n_syn_7.d[1]
+sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/rst sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/send_data_b[3]_syn_27.sr
+
+Timing path: sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/spi_clk_div_b[3]_syn_16.clk->sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/send_data_b[3]_syn_27
+sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/spi_clk_div_b[3]_syn_16.clk
+sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/send_data_b[3]_syn_27
+1669 6.164000 13.358000 7.194000 2 3
+sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/cmd_reinit sd_card_bmp_m0/sd_card_top_m0/sd_card_sec_read_write_m0/state_b[4]_syn_23.c[0]
+sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/abort_read_syn_2 sd_card_bmp_m0/sd_card_top_m0/u_sector_buffer/sector_mem_n_syn_7.d[1]
+sd_card_bmp_m0/sd_card_top_m0/spi_master_m0/rst sd_card_bmp_m0/sd_card_top_m0/sd_card_cmd_m0/send_data_b[3]_syn_27.sr
+
+
+
+Removal check
+1719 3
+Endpoint: u_settings/reg5_syn_38
+1721 0.075000 1 1
+Timing path: rst_all_reg_reg_syn_466.clk->u_settings/reg5_syn_38
+rst_all_reg_reg_syn_466.clk
+u_settings/reg5_syn_38
+1723 0.075000 3.301000 3.376000 0 1
+rst_all_reg_dup_330 u_settings/reg5_syn_38.sr
+
+
+Endpoint: u_settings/reg8_syn_35
+1765 0.075000 1 1
+Timing path: rst_all_reg_reg_syn_466.clk->u_settings/reg8_syn_35
+rst_all_reg_reg_syn_466.clk
+u_settings/reg8_syn_35
+1767 0.075000 3.301000 3.376000 0 1
+rst_all_reg_dup_330 u_settings/reg8_syn_35.sr
+
+
+Endpoint: u_settings/reg5_syn_34
+1809 0.075000 1 1
+Timing path: rst_all_reg_reg_syn_466.clk->u_settings/reg5_syn_34
+rst_all_reg_reg_syn_466.clk
+u_settings/reg5_syn_34
+1811 0.075000 3.301000 3.376000 0 1
+rst_all_reg_dup_330 u_settings/reg5_syn_34.sr
+
+
+
+Period check
+1853 1
+Endpoint: sd_card_bmp_m0/bmp_read_m0/mult2_syn_2.clk
+1857 6.586000 1 0
+
+
+
+clock: ext_mem_clk
+1858 30214 2770 4
+Setup check
+1868 3
+Endpoint: my_sdram_frame_m0/reg27_syn_94
+1868 0.258000 69 3
+Timing path: my_sdram_frame_m0/reg23_syn_56.clk->my_sdram_frame_m0/reg27_syn_94
+my_sdram_frame_m0/reg23_syn_56.clk
+my_sdram_frame_m0/reg27_syn_94
+1870 0.258000 11.676000 11.418000 3 4
+my_sdram_frame_m0/rf_active_line[3] my_sdram_frame_m0/mult4_syn_4.a[3]
+my_sdram_frame_m0/rf_line_addr_b3[14] my_sdram_frame_m0/rf_line_addr_b2[12]_syn_60.e[1]
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_53 my_sdram_frame_m0/rf_line_addr_b2[12]_syn_61.fci
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_2[6] my_sdram_frame_m0/reg27_syn_94.mi[1]
+
+Timing path: my_sdram_frame_m0/reg23_syn_56.clk->my_sdram_frame_m0/reg27_syn_94
+my_sdram_frame_m0/reg23_syn_56.clk
+my_sdram_frame_m0/reg27_syn_94
+1918 0.260000 11.676000 11.416000 3 4
+my_sdram_frame_m0/rf_active_line[2] my_sdram_frame_m0/mult4_syn_4.a[2]
+my_sdram_frame_m0/rf_line_addr_b3[14] my_sdram_frame_m0/rf_line_addr_b2[12]_syn_60.e[1]
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_53 my_sdram_frame_m0/rf_line_addr_b2[12]_syn_61.fci
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_2[6] my_sdram_frame_m0/reg27_syn_94.mi[1]
+
+Timing path: my_sdram_frame_m0/reg23_syn_56.clk->my_sdram_frame_m0/reg27_syn_94
+my_sdram_frame_m0/reg23_syn_56.clk
+my_sdram_frame_m0/reg27_syn_94
+1966 0.324000 11.676000 11.352000 2 3
+my_sdram_frame_m0/rf_active_line[3] my_sdram_frame_m0/mult4_syn_4.a[3]
+my_sdram_frame_m0/rf_line_addr_b3[16] my_sdram_frame_m0/rf_line_addr_b2[12]_syn_61.e[0]
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_2[6] my_sdram_frame_m0/reg27_syn_94.mi[1]
+
+
+Endpoint: my_sdram_frame_m0/reg27_syn_91
+2012 0.353000 69 3
+Timing path: my_sdram_frame_m0/reg23_syn_56.clk->my_sdram_frame_m0/reg27_syn_91
+my_sdram_frame_m0/reg23_syn_56.clk
+my_sdram_frame_m0/reg27_syn_91
+2014 0.353000 11.676000 11.323000 4 5
+my_sdram_frame_m0/rf_active_line[3] my_sdram_frame_m0/mult4_syn_4.a[3]
+my_sdram_frame_m0/rf_line_addr_b3[14] my_sdram_frame_m0/rf_line_addr_b2[12]_syn_60.e[1]
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_53 my_sdram_frame_m0/rf_line_addr_b2[12]_syn_61.fci
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_57 my_sdram_frame_m0/rf_line_addr_b2[12]_syn_62.fci
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_2[7] my_sdram_frame_m0/reg27_syn_91.mi[1]
+
+Timing path: my_sdram_frame_m0/reg23_syn_56.clk->my_sdram_frame_m0/reg27_syn_91
+my_sdram_frame_m0/reg23_syn_56.clk
+my_sdram_frame_m0/reg27_syn_91
+2064 0.355000 11.676000 11.321000 4 5
+my_sdram_frame_m0/rf_active_line[2] my_sdram_frame_m0/mult4_syn_4.a[2]
+my_sdram_frame_m0/rf_line_addr_b3[14] my_sdram_frame_m0/rf_line_addr_b2[12]_syn_60.e[1]
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_53 my_sdram_frame_m0/rf_line_addr_b2[12]_syn_61.fci
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_57 my_sdram_frame_m0/rf_line_addr_b2[12]_syn_62.fci
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_2[7] my_sdram_frame_m0/reg27_syn_91.mi[1]
+
+Timing path: my_sdram_frame_m0/reg23_syn_56.clk->my_sdram_frame_m0/reg27_syn_91
+my_sdram_frame_m0/reg23_syn_56.clk
+my_sdram_frame_m0/reg27_syn_91
+2114 0.419000 11.676000 11.257000 3 4
+my_sdram_frame_m0/rf_active_line[3] my_sdram_frame_m0/mult4_syn_4.a[3]
+my_sdram_frame_m0/rf_line_addr_b3[16] my_sdram_frame_m0/rf_line_addr_b2[12]_syn_61.e[0]
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_57 my_sdram_frame_m0/rf_line_addr_b2[12]_syn_62.fci
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_2[7] my_sdram_frame_m0/reg27_syn_91.mi[1]
+
+
+Endpoint: my_sdram_frame_m0/reg27_syn_85
+2162 0.419000 51 3
+Timing path: my_sdram_frame_m0/reg23_syn_56.clk->my_sdram_frame_m0/reg27_syn_85
+my_sdram_frame_m0/reg23_syn_56.clk
+my_sdram_frame_m0/reg27_syn_85
+2164 0.419000 11.676000 11.257000 3 4
+my_sdram_frame_m0/rf_active_line[3] my_sdram_frame_m0/mult4_syn_4.a[3]
+my_sdram_frame_m0/rf_line_addr_b3[14] my_sdram_frame_m0/rf_line_addr_b2[12]_syn_60.e[1]
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_53 my_sdram_frame_m0/rf_line_addr_b2[12]_syn_61.fci
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_2[5] my_sdram_frame_m0/reg27_syn_85.mi[0]
+
+Timing path: my_sdram_frame_m0/reg23_syn_56.clk->my_sdram_frame_m0/reg27_syn_85
+my_sdram_frame_m0/reg23_syn_56.clk
+my_sdram_frame_m0/reg27_syn_85
+2212 0.421000 11.676000 11.255000 3 4
+my_sdram_frame_m0/rf_active_line[2] my_sdram_frame_m0/mult4_syn_4.a[2]
+my_sdram_frame_m0/rf_line_addr_b3[14] my_sdram_frame_m0/rf_line_addr_b2[12]_syn_60.e[1]
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_53 my_sdram_frame_m0/rf_line_addr_b2[12]_syn_61.fci
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_2[5] my_sdram_frame_m0/reg27_syn_85.mi[0]
+
+Timing path: my_sdram_frame_m0/reg23_syn_47.clk->my_sdram_frame_m0/reg27_syn_85
+my_sdram_frame_m0/reg23_syn_47.clk
+my_sdram_frame_m0/reg27_syn_85
+2260 0.568000 11.676000 11.108000 3 4
+my_sdram_frame_m0/rf_active_line[4] my_sdram_frame_m0/mult4_syn_4.a[4]
+my_sdram_frame_m0/rf_line_addr_b3[14] my_sdram_frame_m0/rf_line_addr_b2[12]_syn_60.e[1]
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_53 my_sdram_frame_m0/rf_line_addr_b2[12]_syn_61.fci
+my_sdram_frame_m0/rf_line_addr_b2[12]_syn_2[5] my_sdram_frame_m0/reg27_syn_85.mi[0]
+
+
+
+Hold check
+2308 3
+Endpoint: my_sdram_frame_m0/u_wrfifo/ramread0_syn_9
+2310 0.203000 8 3
+Timing path: my_sdram_frame_m0/u_wrfifo/reg1_syn_46.clk->my_sdram_frame_m0/u_wrfifo/ramread0_syn_9
+my_sdram_frame_m0/u_wrfifo/reg1_syn_46.clk
+my_sdram_frame_m0/u_wrfifo/ramread0_syn_9
+2312 0.203000 3.276000 3.479000 1 1
+my_sdram_frame_m0/u_wrfifo/rbin[3] my_sdram_frame_m0/u_wrfifo/ramread0_syn_9.addrb[7]
+
+Timing path: my_sdram_frame_m0/u_wrfifo/reg1_syn_44.clk->my_sdram_frame_m0/u_wrfifo/ramread0_syn_9
+my_sdram_frame_m0/u_wrfifo/reg1_syn_44.clk
+my_sdram_frame_m0/u_wrfifo/ramread0_syn_9
+2354 0.212000 3.276000 3.488000 1 1
+my_sdram_frame_m0/u_wrfifo/rbin[5] my_sdram_frame_m0/u_wrfifo/ramread0_syn_9.addrb[9]
+
+Timing path: my_sdram_frame_m0/u_wrfifo/reg1_syn_41.clk->my_sdram_frame_m0/u_wrfifo/ramread0_syn_9
+my_sdram_frame_m0/u_wrfifo/reg1_syn_41.clk
+my_sdram_frame_m0/u_wrfifo/ramread0_syn_9
+2396 0.234000 3.276000 3.510000 1 1
+my_sdram_frame_m0/u_wrfifo/rbin[7] my_sdram_frame_m0/u_wrfifo/ramread0_syn_9.addrb[11]
+
+
+Endpoint: my_sdram_frame_m0/u_wrfifo/ramread0_syn_28
+2438 0.241000 8 3
+Timing path: my_sdram_frame_m0/u_wrfifo/reg1_syn_44.clk->my_sdram_frame_m0/u_wrfifo/ramread0_syn_28
+my_sdram_frame_m0/u_wrfifo/reg1_syn_44.clk
+my_sdram_frame_m0/u_wrfifo/ramread0_syn_28
+2440 0.241000 3.276000 3.517000 1 1
+my_sdram_frame_m0/u_wrfifo/rbin[5] my_sdram_frame_m0/u_wrfifo/ramread0_syn_28.addrb[9]
+
+Timing path: my_sdram_frame_m0/u_wrfifo/reg1_syn_41.clk->my_sdram_frame_m0/u_wrfifo/ramread0_syn_28
+my_sdram_frame_m0/u_wrfifo/reg1_syn_41.clk
+my_sdram_frame_m0/u_wrfifo/ramread0_syn_28
+2482 0.255000 3.276000 3.531000 1 1
+my_sdram_frame_m0/u_wrfifo/rbin[7] my_sdram_frame_m0/u_wrfifo/ramread0_syn_28.addrb[11]
+
+Timing path: my_sdram_frame_m0/u_wrfifo/reg1_syn_46.clk->my_sdram_frame_m0/u_wrfifo/ramread0_syn_28
+my_sdram_frame_m0/u_wrfifo/reg1_syn_46.clk
+my_sdram_frame_m0/u_wrfifo/ramread0_syn_28
+2524 0.416000 3.276000 3.692000 1 1
+my_sdram_frame_m0/u_wrfifo/rbin[3] my_sdram_frame_m0/u_wrfifo/ramread0_syn_28.addrb[7]
+
+
+Endpoint: my_sdram_frame_m0/ramread1_syn_28
+2566 0.242000 24 3
+Timing path: my_sdram_frame_m0/reg29_syn_71.clk->my_sdram_frame_m0/ramread1_syn_28
+my_sdram_frame_m0/reg29_syn_71.clk
+my_sdram_frame_m0/ramread1_syn_28
+2568 0.242000 3.276000 3.518000 1 1
+my_sdram_frame_m0/rf_recv_cnt[3] my_sdram_frame_m0/ramread1_syn_28.addra[5]
+
+Timing path: my_sdram_frame_m0/reg29_syn_65.clk->my_sdram_frame_m0/ramread1_syn_28
+my_sdram_frame_m0/reg29_syn_65.clk
+my_sdram_frame_m0/ramread1_syn_28
+2610 0.299000 3.276000 3.575000 1 1
+my_sdram_frame_m0/rf_recv_cnt[2] my_sdram_frame_m0/ramread1_syn_28.addra[4]
+
+Timing path: my_sdram_frame_m0/reg29_syn_74.clk->my_sdram_frame_m0/ramread1_syn_28
+my_sdram_frame_m0/reg29_syn_74.clk
+my_sdram_frame_m0/ramread1_syn_28
+2652 0.358000 3.276000 3.634000 1 1
+my_sdram_frame_m0/rf_recv_cnt[4] my_sdram_frame_m0/ramread1_syn_28.addra[6]
+
+
+
+Recovery check
+2694 3
+Endpoint: my_sdram_frame_m0/u_wrfifo/reg2_syn_57
+2696 1.349000 1 1
+Timing path: rst_all_reg_reg_syn_570.clk->my_sdram_frame_m0/u_wrfifo/reg2_syn_57
+rst_all_reg_reg_syn_570.clk
+my_sdram_frame_m0/u_wrfifo/reg2_syn_57
+2698 1.349000 7.479000 6.130000 1 2
+rst_all_reg_dup_199 U3/u2_ram/u1_init_ref/reg2_syn_59.d[0]
+my_sdram_frame_m0/u_wrfifo/rd_rst my_sdram_frame_m0/u_wrfifo/reg2_syn_57.sr
+
+
+Endpoint: my_sdram_frame_m0/u_wrfifo/reg1_syn_52
+2740 1.409000 1 1
+Timing path: rst_all_reg_reg_syn_570.clk->my_sdram_frame_m0/u_wrfifo/reg1_syn_52
+rst_all_reg_reg_syn_570.clk
+my_sdram_frame_m0/u_wrfifo/reg1_syn_52
+2742 1.409000 7.479000 6.070000 1 2
+rst_all_reg_dup_199 U3/u2_ram/u1_init_ref/reg2_syn_59.d[0]
+my_sdram_frame_m0/u_wrfifo/rd_rst my_sdram_frame_m0/u_wrfifo/reg1_syn_52.sr
+
+
+Endpoint: my_sdram_frame_m0/u_wrfifo/reg1_syn_49
+2784 1.409000 1 1
+Timing path: rst_all_reg_reg_syn_570.clk->my_sdram_frame_m0/u_wrfifo/reg1_syn_49
+rst_all_reg_reg_syn_570.clk
+my_sdram_frame_m0/u_wrfifo/reg1_syn_49
+2786 1.409000 7.479000 6.070000 1 2
+rst_all_reg_dup_199 U3/u2_ram/u1_init_ref/reg2_syn_59.d[0]
+my_sdram_frame_m0/u_wrfifo/rd_rst my_sdram_frame_m0/u_wrfifo/reg1_syn_49.sr
+
+
+
+Removal check
+2828 3
+Endpoint: my_sdram_frame_m0/reg2_syn_238
+2830 0.095000 1 1
+Timing path: my_video_timing_m0/lt3_syn_43.clk->my_sdram_frame_m0/reg2_syn_238
+my_video_timing_m0/lt3_syn_43.clk
+my_sdram_frame_m0/reg2_syn_238
+2832 0.095000 3.329000 3.424000 0 1
+my_sdram_frame_m0/mem_reset_pipe[2]_dup_15 my_sdram_frame_m0/reg2_syn_238.sr
+
+
+Endpoint: my_sdram_frame_m0/reg38_syn_185
+2874 0.111000 1 1
+Timing path: my_sdram_frame_m0/reg19_syn_66.clk->my_sdram_frame_m0/reg38_syn_185
+my_sdram_frame_m0/reg19_syn_66.clk
+my_sdram_frame_m0/reg38_syn_185
+2876 0.111000 3.329000 3.440000 0 1
+my_sdram_frame_m0/mem_reset_pipe[2]_dup_19 my_sdram_frame_m0/reg38_syn_185.sr
+
+
+Endpoint: my_sdram_frame_m0/reg0_syn_154
+2918 0.127000 1 1
+Timing path: my_sdram_frame_m0/reg19_syn_57.clk->my_sdram_frame_m0/reg0_syn_154
+my_sdram_frame_m0/reg19_syn_57.clk
+my_sdram_frame_m0/reg0_syn_154
+2920 0.127000 3.313000 3.440000 0 1
+my_sdram_frame_m0/mem_reset_pipe[2]_dup_18 my_sdram_frame_m0/reg0_syn_154.sr
+
+
+
+
+clock: ext_mem_clk_sft
+2964 0 0 0
+
+clock: video_clk
+2972 2000000000 20214 5
+Setup check
+2982 3
+Endpoint: u_picture_adjust/reg0_syn_64
+2982 0.902000 5 3
+Timing path: sd_card_bmp_m0/reg28_syn_44.clk->u_picture_adjust/reg0_syn_64
+sd_card_bmp_m0/reg28_syn_44.clk
+u_picture_adjust/reg0_syn_64
+2984 0.902000 11.732000 10.830000 2 3
+display_valid u_picture_adjust/rgb_in[3]_syn_5.c[1]
+u_picture_adjust/rgb_in[3] u_picture_adjust/mult2_syn_4.a[3]
+u_picture_adjust/b_b[4] u_picture_adjust/reg0_syn_64.mi[0]
+
+Timing path: sd_card_bmp_m0/reg28_syn_44.clk->u_picture_adjust/reg0_syn_64
+sd_card_bmp_m0/reg28_syn_44.clk
+u_picture_adjust/reg0_syn_64
+3034 0.924000 11.732000 10.808000 2 3
+display_valid u_picture_adjust/rgb_in[3]_syn_5.c[0]
+u_picture_adjust/rgb_in[4] u_picture_adjust/mult2_syn_4.a[4]
+u_picture_adjust/b_b[4] u_picture_adjust/reg0_syn_64.mi[0]
+
+Timing path: sd_card_bmp_m0/reg28_syn_44.clk->u_picture_adjust/reg0_syn_64
+sd_card_bmp_m0/reg28_syn_44.clk
+u_picture_adjust/reg0_syn_64
+3084 1.024000 11.732000 10.708000 2 3
+display_valid u_picture_adjust/rgb_in[0]_syn_5.c[1]
+u_picture_adjust/rgb_in[0] u_picture_adjust/mult2_syn_4.a[0]
+u_picture_adjust/b_b[4] u_picture_adjust/reg0_syn_64.mi[0]
+
+
+Endpoint: u_scaler/sub4_syn_62
+3134 0.904000 8 3
+Timing path: sd_card_bmp_m0/reg28_syn_44.clk->u_scaler/sub4_syn_62
+sd_card_bmp_m0/reg28_syn_44.clk
+u_scaler/sub4_syn_62
+3136 0.904000 11.732000 10.828000 2 3
+display_valid u_picture_adjust/rgb_in[6]_syn_5.c[1]
+u_picture_adjust/rgb_in[6] u_picture_adjust/mult2_syn_4.a[6]
+u_picture_adjust/b_b[7] u_scaler/sub4_syn_62.mi[0]
+
+Timing path: sd_card_bmp_m0/reg28_syn_44.clk->u_scaler/sub4_syn_62
+sd_card_bmp_m0/reg28_syn_44.clk
+u_scaler/sub4_syn_62
+3186 0.941000 11.732000 10.791000 2 3
+display_valid u_picture_adjust/rgb_in[5]_syn_5.c[1]
+u_picture_adjust/rgb_in[5] u_picture_adjust/mult2_syn_4.a[5]
+u_picture_adjust/b_b[7] u_scaler/sub4_syn_62.mi[0]
+
+Timing path: sd_card_bmp_m0/reg28_syn_44.clk->u_scaler/sub4_syn_62
+sd_card_bmp_m0/reg28_syn_44.clk
+u_scaler/sub4_syn_62
+3236 0.946000 11.732000 10.786000 2 3
+display_valid u_picture_adjust/rgb_in[3]_syn_5.c[1]
+u_picture_adjust/rgb_in[3] u_picture_adjust/mult2_syn_4.a[3]
+u_picture_adjust/b_b[7] u_scaler/sub4_syn_62.mi[0]
+
+
+Endpoint: u_picture_adjust/reg0_syn_61
+3286 0.986000 9 3
+Timing path: sd_card_bmp_m0/reg28_syn_44.clk->u_picture_adjust/reg0_syn_61
+sd_card_bmp_m0/reg28_syn_44.clk
+u_picture_adjust/reg0_syn_61
+3288 0.986000 11.732000 10.746000 2 3
+display_valid u_picture_adjust/rgb_in[6]_syn_5.c[1]
+u_picture_adjust/rgb_in[6] u_picture_adjust/mult2_syn_4.a[6]
+u_picture_adjust/b_b[10] u_picture_adjust/reg0_syn_61.mi[1]
+
+Timing path: sd_card_bmp_m0/reg28_syn_44.clk->u_picture_adjust/reg0_syn_61
+sd_card_bmp_m0/reg28_syn_44.clk
+u_picture_adjust/reg0_syn_61
+3338 1.023000 11.732000 10.709000 2 3
+display_valid u_picture_adjust/rgb_in[5]_syn_5.c[1]
+u_picture_adjust/rgb_in[5] u_picture_adjust/mult2_syn_4.a[5]
+u_picture_adjust/b_b[10] u_picture_adjust/reg0_syn_61.mi[1]
+
+Timing path: sd_card_bmp_m0/reg28_syn_44.clk->u_picture_adjust/reg0_syn_61
+sd_card_bmp_m0/reg28_syn_44.clk
+u_picture_adjust/reg0_syn_61
+3388 1.028000 11.732000 10.704000 2 3
+display_valid u_picture_adjust/rgb_in[3]_syn_5.c[1]
+u_picture_adjust/rgb_in[3] u_picture_adjust/mult2_syn_4.a[3]
+u_picture_adjust/b_b[10] u_picture_adjust/reg0_syn_61.mi[1]
+
+
+
+Hold check
+3438 3
+Endpoint: u_osd/u_subtitle_rom_syn_1
+3440 0.080000 10 3
+Timing path: u_osd/reg13_syn_39.clk->u_osd/u_subtitle_rom_syn_1
+u_osd/reg13_syn_39.clk
+u_osd/u_subtitle_rom_syn_1
+3442 0.080000 1.579000 1.659000 1 1
+u_osd/glyph_s1[2] u_osd/u_subtitle_rom_syn_1.addra[9]
+
+Timing path: u_osd/glyph[3]_syn_165.clk->u_osd/u_subtitle_rom_syn_1
+u_osd/glyph[3]_syn_165.clk
+u_osd/u_subtitle_rom_syn_1
+3488 0.205000 1.579000 1.784000 1 1
+u_osd/glyph_s1[1] u_osd/u_subtitle_rom_syn_1.addra[8]
+
+Timing path: u_osd/reg13_syn_44.clk->u_osd/u_subtitle_rom_syn_1
+u_osd/reg13_syn_44.clk
+u_osd/u_subtitle_rom_syn_1
+3534 0.271000 1.579000 1.850000 1 1
+u_osd/glyph_s1[4] u_osd/u_subtitle_rom_syn_1.addra[11]
+
+
+Endpoint: u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_697
+3580 0.089000 9 3
+Timing path: u_display_router/rgb_out_b[13]_syn_11.clk->u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_697
+u_display_router/rgb_out_b[13]_syn_11.clk
+u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_697
+3582 0.089000 1.579000 1.668000 1 1
+u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/S_packet_body_1d[54] u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_697.dia[0]
+
+Timing path: u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_BCH_64_56_encode/reg0_syn_53.clk->u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_697
+u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_BCH_64_56_encode/reg0_syn_53.clk
+u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_697
+3628 0.195000 1.579000 1.774000 1 1
+u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/S_packet_body_parity[1] u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_697.dia[3]
+
+Timing path: u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg4_syn_274.clk->u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_697
+u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/reg4_syn_274.clk
+u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_697
+3674 0.312000 1.579000 1.891000 1 1
+u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/S_packet_body_1d[55] u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo_syn_697.dia[1]
+
+
+Endpoint: u_display_router/u_renderer/u_font_syn_1
+3720 0.096000 11 3
+Timing path: u_display_router/u_renderer/reg6_syn_322.clk->u_display_router/u_renderer/u_font_syn_1
+u_display_router/u_renderer/reg6_syn_322.clk
+u_display_router/u_renderer/u_font_syn_1
+3722 0.096000 1.579000 1.675000 1 1
+u_display_router/u_renderer/address1[10] u_display_router/u_renderer/u_font_syn_1.addra[12]
+
+Timing path: u_display_router/u_renderer/reg1_syn_65.clk->u_display_router/u_renderer/u_font_syn_1
+u_display_router/u_renderer/reg1_syn_65.clk
+u_display_router/u_renderer/u_font_syn_1
+3768 0.212000 1.579000 1.791000 1 1
+u_display_router/u_renderer/address1[6] u_display_router/u_renderer/u_font_syn_1.addra[8]
+
+Timing path: u_display_router/u_renderer/reg1_syn_62.clk->u_display_router/u_renderer/u_font_syn_1
+u_display_router/u_renderer/reg1_syn_62.clk
+u_display_router/u_renderer/u_font_syn_1
+3814 0.241000 1.579000 1.820000 1 1
+u_display_router/u_renderer/address1[9] u_display_router/u_renderer/u_font_syn_1.addra[11]
+
+
+
+Recovery check
+3860 3
+Endpoint: u_scaler/div_num_b1[9]_syn_13
+3862 13.661000 1 1
+Timing path: u_display_router/u_renderer/glyph[1]_syn_147.clk->u_scaler/div_num_b1[9]_syn_13
+u_display_router/u_renderer/glyph[1]_syn_147.clk
+u_scaler/div_num_b1[9]_syn_13
+3864 13.661000 21.548000 7.887000 1 2
+rst_all_reg_dup_272 u_display_router/u_tft/rst_syn_5.d[1]
+u_display_router/u_tft/rst u_scaler/div_num_b1[9]_syn_13.sr
+
+
+Endpoint: tft_data[4]_syn_4
+3908 14.145000 1 1
+Timing path: u_display_router/u_renderer/glyph[1]_syn_147.clk->tft_data[4]_syn_4
+u_display_router/u_renderer/glyph[1]_syn_147.clk
+tft_data[4]_syn_4
+3910 14.145000 21.690000 7.545000 1 2
+rst_all_reg_dup_272 u_display_router/u_tft/rst_syn_5.d[1]
+u_display_router/u_tft/rst tft_data[4]_syn_4.rst
+
+
+Endpoint: tft_data[5]_syn_4
+3954 14.145000 1 1
+Timing path: u_display_router/u_renderer/glyph[1]_syn_147.clk->tft_data[5]_syn_4
+u_display_router/u_renderer/glyph[1]_syn_147.clk
+tft_data[5]_syn_4
+3956 14.145000 21.690000 7.545000 1 2
+rst_all_reg_dup_272 u_display_router/u_tft/rst_syn_5.d[1]
+u_display_router/u_tft/rst tft_data[5]_syn_4.rst
+
+
+
+Removal check
+4000 3
+Endpoint: video_clk_syn_1707
+4002 0.146000 1 1
+Timing path: u_hdmi/u0_reset_sync/O_sync_reset_reg_syn_62.clk->video_clk_syn_1707
+u_hdmi/u0_reset_sync/O_sync_reset_reg_syn_62.clk
+video_clk_syn_1707
+4004 0.146000 1.616000 1.762000 0 1
+u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_receiver_controller/I_rst_dup_27 video_clk_syn_1707.sr
+
+
+Endpoint: u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/reg0_syn_466
+4050 0.154000 1 1
+Timing path: u_hdmi/u0_reset_sync/O_sync_reset_reg_syn_52.clk->u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/reg0_syn_466
+u_hdmi/u0_reset_sync/O_sync_reset_reg_syn_52.clk
+u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/reg0_syn_466
+4052 0.154000 1.616000 1.770000 0 1
+u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_receiver_controller/I_rst_dup_15 u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/reg0_syn_466.sr
+
+
+Endpoint: u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/reg11_syn_245
+4098 0.154000 1 1
+Timing path: u_hdmi/u0_reset_sync/O_sync_reset_reg_syn_52.clk->u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/reg11_syn_245
+u_hdmi/u0_reset_sync/O_sync_reset_reg_syn_52.clk
+u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/reg11_syn_245
+4100 0.154000 1.616000 1.770000 0 1
+u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_receiver_controller/I_rst_dup_15 u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_assemble/reg11_syn_245.sr
+
+
+
+Period check
+4146 3
+Endpoint: u_spectrum/mult4_syn_1.clk
+4150 36.586000 1 0
+
+Endpoint: u_spectrum/mult3_syn_1.clk
+4151 36.586000 1 0
+
+Endpoint: u_spectrum/mult2_syn_2.clk
+4152 36.586000 1 0
+
+
+
+clock: hdmi_5x_clk
+4153 266 144 4
+Setup check
+4163 3
+Endpoint: u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211
+4163 5.016000 2 2
+Timing path: u_phy/u0_lane_lvds_8_1/S_load_en_2d_reg_syn_5.clk->u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211
+u_phy/u0_lane_lvds_8_1/S_load_en_2d_reg_syn_5.clk
+u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211
+4165 5.016000 9.617000 4.601000 1 1
+u_phy/u0_lane_lvds_8_1/S_load_en_2d u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211.d[0]
+
+Timing path: u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_209.clk->u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211
+u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_209.clk
+u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211
+4207 6.579000 9.617000 3.038000 1 1
+u_phy/u3_lane_lvds_8_1/S_shift_data[5] u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211.c[0]
+
+
+Endpoint: u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_209
+4249 5.247000 1 1
+Timing path: u_phy/u0_lane_lvds_8_1/S_load_en_2d_reg_syn_5.clk->u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_209
+u_phy/u0_lane_lvds_8_1/S_load_en_2d_reg_syn_5.clk
+u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_209
+4251 5.247000 9.617000 4.370000 0 1
+u_phy/u0_lane_lvds_8_1/S_load_en_2d u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_209.mi[0]
+
+
+Endpoint: u_display_router/u_renderer/glyph[3]_syn_139
+4293 5.275000 2 2
+Timing path: u_phy/u0_lane_lvds_8_1/S_load_en_2d_reg_syn_5.clk->u_display_router/u_renderer/glyph[3]_syn_139
+u_phy/u0_lane_lvds_8_1/S_load_en_2d_reg_syn_5.clk
+u_display_router/u_renderer/glyph[3]_syn_139
+4295 5.275000 9.617000 4.342000 1 1
+u_phy/u0_lane_lvds_8_1/S_load_en_2d u_display_router/u_renderer/glyph[3]_syn_139.d[0]
+
+Timing path: u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211.clk->u_display_router/u_renderer/glyph[3]_syn_139
+u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211.clk
+u_display_router/u_renderer/glyph[3]_syn_139
+4337 6.565000 9.617000 3.052000 1 1
+u_phy/u3_lane_lvds_8_1/S_shift_data[7] u_display_router/u_renderer/glyph[3]_syn_139.c[0]
+
+
+
+Hold check
+4379 3
+Endpoint: u_phy/u2_lane_lvds_8_1/reg1_syn_76
+4381 0.413000 1 1
+Timing path: u_hdmi/u_hdmi_tx_controller_wrapper/u2_hdmi_tmds_encode/reg0_syn_65.clk->u_phy/u2_lane_lvds_8_1/reg1_syn_76
+u_hdmi/u_hdmi_tx_controller_wrapper/u2_hdmi_tmds_encode/reg0_syn_65.clk
+u_phy/u2_lane_lvds_8_1/reg1_syn_76
+4383 0.413000 1.410000 1.823000 1 1
+u_phy/I_tmds_channel_2[8] u_phy/u2_lane_lvds_8_1/reg1_syn_76.d[1]
+
+
+Endpoint: u_phy/u0_lane_lvds_8_1/S_load_en_2d_reg_syn_5
+4427 0.420000 1 1
+Timing path: u_switch_sound/remaining[7]_syn_79.clk->u_phy/u0_lane_lvds_8_1/S_load_en_2d_reg_syn_5
+u_switch_sound/remaining[7]_syn_79.clk
+u_phy/u0_lane_lvds_8_1/S_load_en_2d_reg_syn_5
+4429 0.420000 1.440000 1.860000 0 1
+u_phy/u0_lane_lvds_8_1/S_load_en_1d u_phy/u0_lane_lvds_8_1/S_load_en_2d_reg_syn_5.mi[0]
+
+
+Endpoint: u_phy/u2_lane_lvds_8_1/reg1_syn_67
+4471 0.465000 1 1
+Timing path: u_hdmi/u_hdmi_tx_controller_wrapper/u2_hdmi_tmds_encode/reg0_syn_74.clk->u_phy/u2_lane_lvds_8_1/reg1_syn_67
+u_hdmi/u_hdmi_tx_controller_wrapper/u2_hdmi_tmds_encode/reg0_syn_74.clk
+u_phy/u2_lane_lvds_8_1/reg1_syn_67
+4473 0.465000 1.410000 1.875000 1 1
+u_phy/I_tmds_channel_2[6] u_phy/u2_lane_lvds_8_1/reg1_syn_67.d[1]
+
+
+
+Recovery check
+4517 3
+Endpoint: u_phy/u2_lane_lvds_8_1/reg1_syn_73
+4519 0.052000 1 1
+Timing path: u_spectrum/range_index_b[6]_syn_66.clk->u_phy/u2_lane_lvds_8_1/reg1_syn_73
+u_spectrum/range_index_b[6]_syn_66.clk
+u_phy/u2_lane_lvds_8_1/reg1_syn_73
+4521 0.052000 5.548000 5.496000 0 1
+rst_all_reg_dup_283 u_phy/u2_lane_lvds_8_1/reg1_syn_73.sr
+
+
+Endpoint: u_phy/u1_lane_lvds_8_1/reg1_syn_70
+4561 0.435000 1 1
+Timing path: rst_all_reg_reg_syn_573.clk->u_phy/u1_lane_lvds_8_1/reg1_syn_70
+rst_all_reg_reg_syn_573.clk
+u_phy/u1_lane_lvds_8_1/reg1_syn_70
+4563 0.435000 5.548000 5.113000 0 1
+rst_all_reg_dup_288 u_phy/u1_lane_lvds_8_1/reg1_syn_70.sr
+
+
+Endpoint: u_display_router/u_renderer/glyph[3]_syn_139
+4603 0.486000 1 1
+Timing path: u_display_router/u_tft/wait_count_b[21]_syn_90.clk->u_display_router/u_renderer/glyph[3]_syn_139
+u_display_router/u_tft/wait_count_b[21]_syn_90.clk
+u_display_router/u_renderer/glyph[3]_syn_139
+4605 0.486000 5.548000 5.062000 0 1
+rst_all_reg_dup_271 u_display_router/u_renderer/glyph[3]_syn_139.sr
+
+
+
+Removal check
+4645 3
+Endpoint: u_phy/u0_lane_lvds_8_1/reg1_syn_70
+4647 1.731000 1 1
+Timing path: u_hdmi/u_hdmi_tx_controller_wrapper/u1_hdmi_tmds_encode/S_N_1_q_m_0_7_b[2]_syn_26.clk->u_phy/u0_lane_lvds_8_1/reg1_syn_70
+u_hdmi/u_hdmi_tx_controller_wrapper/u1_hdmi_tmds_encode/S_N_1_q_m_0_7_b[2]_syn_26.clk
+u_phy/u0_lane_lvds_8_1/reg1_syn_70
+4649 1.731000 1.602000 3.333000 0 1
+rst_all_reg_dup_299 u_phy/u0_lane_lvds_8_1/reg1_syn_70.sr
+
+
+Endpoint: u_phy/u1_lane_lvds_8_1/reg1_syn_76
+4689 1.731000 1 1
+Timing path: u_hdmi/u_hdmi_tx_controller_wrapper/u1_hdmi_tmds_encode/S_N_1_q_m_0_7_b[2]_syn_26.clk->u_phy/u1_lane_lvds_8_1/reg1_syn_76
+u_hdmi/u_hdmi_tx_controller_wrapper/u1_hdmi_tmds_encode/S_N_1_q_m_0_7_b[2]_syn_26.clk
+u_phy/u1_lane_lvds_8_1/reg1_syn_76
+4691 1.731000 1.602000 3.333000 0 1
+rst_all_reg_dup_299 u_phy/u1_lane_lvds_8_1/reg1_syn_76.sr
+
+
+Endpoint: u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211
+4731 1.849000 1 1
+Timing path: u_hdmi/u_hdmi_edid_wrapper/u_hdmi_edid_read_controller/add1_syn_62.clk->u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211
+u_hdmi/u_hdmi_edid_wrapper/u_hdmi_edid_read_controller/add1_syn_62.clk
+u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211
+4733 1.849000 1.602000 3.451000 0 1
+rst_all_reg_dup_268 u_hdmi/u_hdmi_edid_wrapper/u_iic_master_wrapper/u_iic_transmitter_controller/O_bit_tx_data_type_b[0]_syn_211.sr
+
+
+
+
+clock: audio_mclk
+4773 5821024 570 4
+Setup check
+4783 3
+Endpoint: u_audio_tone/reg8_syn_188
+4783 63.473000 60103 3
+Timing path: u_audio_tone/reg4_syn_42.clk->u_audio_tone/reg8_syn_188
+u_audio_tone/reg4_syn_42.clk
+u_audio_tone/reg8_syn_188
+4785 63.473000 82.816000 19.343000 14 14
+u_audio_tone/note_index[0] u_audio_tone/phase_b3[27]_syn_143.d[1]
+u_audio_tone/phase_b3[27]_syn_22 u_audio_tone/phase_b3[27]_syn_143.b[0]
+u_audio_tone/phase_b3[27]_syn_24 u_audio_tone/phase_b3[27]_syn_126.a[1]
+u_audio_tone/phase_b3[27]_syn_28 u_audio_tone/phase_b3[27]_syn_166.b[1]
+u_audio_tone/note_samples[0] u_audio_tone/sel0_syn_36.d[1]
+u_audio_tone/sel0_syn_19 u_audio_tone/sub0_syn_97.a[0]
+u_audio_tone/sub0_syn_86 u_audio_tone/sub0_syn_98.fci
+u_audio_tone/sub0_syn_90 u_audio_tone/sub0_syn_99.fci
+u_audio_tone/remaining[14] u_audio_tone/lt2_syn_52.a[1]
+u_audio_tone/lt2_syn_18 u_audio_tone/lt2_syn_55.fci
+u_audio_tone/gain_b1_n u_audio_tone/gain[3]_syn_5.b[1]
+u_audio_tone/gain[3] u_audio_tone/mult0_syn_2.b[3]
+u_audio_tone/scaled_sample[19] u_audio_tone/reg7_syn_157.d[1]
+u_audio_tone/shift_word_b2[59] u_audio_tone/reg8_syn_188.d[1]
+
+Timing path: u_audio_tone/reg4_syn_42.clk->u_audio_tone/reg8_syn_188
+u_audio_tone/reg4_syn_42.clk
+u_audio_tone/reg8_syn_188
+4853 63.473000 82.816000 19.343000 14 14
+u_audio_tone/note_index[0] u_audio_tone/phase_b3[27]_syn_143.d[1]
+u_audio_tone/phase_b3[27]_syn_22 u_audio_tone/phase_b3[27]_syn_143.b[0]
+u_audio_tone/phase_b3[27]_syn_24 u_audio_tone/phase_b3[27]_syn_126.a[1]
+u_audio_tone/phase_b3[27]_syn_28 u_audio_tone/phase_b3[27]_syn_166.b[1]
+u_audio_tone/note_samples[0] u_audio_tone/sel0_syn_36.d[1]
+u_audio_tone/sel0_syn_19 u_audio_tone/sub0_syn_97.a[0]
+u_audio_tone/sub0_syn_86 u_audio_tone/sub0_syn_98.fci
+u_audio_tone/sub0_syn_90 u_audio_tone/sub0_syn_99.fci
+u_audio_tone/remaining[14] u_audio_tone/lt2_syn_52.a[1]
+u_audio_tone/lt2_syn_18 u_audio_tone/lt2_syn_55.fci
+u_audio_tone/gain_b1_n u_audio_tone/gain[3]_syn_5.b[0]
+u_audio_tone/gain[3] u_audio_tone/mult0_syn_2.b[3]
+u_audio_tone/scaled_sample[19] u_audio_tone/reg7_syn_157.d[1]
+u_audio_tone/shift_word_b2[59] u_audio_tone/reg8_syn_188.d[1]
+
+Timing path: u_audio_tone/reg4_syn_42.clk->u_audio_tone/reg8_syn_188
+u_audio_tone/reg4_syn_42.clk
+u_audio_tone/reg8_syn_188
+4921 63.496000 82.816000 19.320000 14 14
+u_audio_tone/note_index[0] u_audio_tone/phase_b3[27]_syn_143.d[1]
+u_audio_tone/phase_b3[27]_syn_22 u_audio_tone/phase_b3[27]_syn_143.b[0]
+u_audio_tone/phase_b3[27]_syn_24 u_audio_tone/phase_b3[27]_syn_126.a[1]
+u_audio_tone/phase_b3[27]_syn_28 u_audio_tone/phase_b3[27]_syn_166.b[1]
+u_audio_tone/note_samples[0] u_audio_tone/sel0_syn_36.d[1]
+u_audio_tone/sel0_syn_19 u_audio_tone/sub0_syn_97.a[0]
+u_audio_tone/sub0_syn_86 u_audio_tone/sub0_syn_98.fci
+u_audio_tone/sub0_syn_90 u_audio_tone/sub0_syn_99.fci
+u_audio_tone/remaining[14] u_audio_tone/lt2_syn_52.a[1]
+u_audio_tone/lt2_syn_18 u_audio_tone/lt2_syn_55.fci
+u_audio_tone/gain_b1_n u_audio_tone/gain[2]_syn_5.b[1]
+u_audio_tone/gain[2] u_audio_tone/mult0_syn_2.b[2]
+u_audio_tone/scaled_sample[19] u_audio_tone/reg7_syn_157.d[1]
+u_audio_tone/shift_word_b2[59] u_audio_tone/reg8_syn_188.d[1]
+
+
+Endpoint: u_audio_tone/reg8_syn_209
+4989 63.803000 60094 3
+Timing path: u_audio_tone/reg4_syn_42.clk->u_audio_tone/reg8_syn_209
+u_audio_tone/reg4_syn_42.clk
+u_audio_tone/reg8_syn_209
+4991 63.803000 82.816000 19.013000 14 14
+u_audio_tone/note_index[0] u_audio_tone/phase_b3[27]_syn_143.d[1]
+u_audio_tone/phase_b3[27]_syn_22 u_audio_tone/phase_b3[27]_syn_143.b[0]
+u_audio_tone/phase_b3[27]_syn_24 u_audio_tone/phase_b3[27]_syn_126.a[1]
+u_audio_tone/phase_b3[27]_syn_28 u_audio_tone/phase_b3[27]_syn_166.b[1]
+u_audio_tone/note_samples[0] u_audio_tone/sel0_syn_36.d[1]
+u_audio_tone/sel0_syn_19 u_audio_tone/sub0_syn_97.a[0]
+u_audio_tone/sub0_syn_86 u_audio_tone/sub0_syn_98.fci
+u_audio_tone/sub0_syn_90 u_audio_tone/sub0_syn_99.fci
+u_audio_tone/remaining[14] u_audio_tone/lt2_syn_52.a[1]
+u_audio_tone/lt2_syn_18 u_audio_tone/lt2_syn_55.fci
+u_audio_tone/gain_b1_n u_audio_tone/gain[3]_syn_5.b[1]
+u_audio_tone/gain[3] u_audio_tone/mult0_syn_2.b[3]
+u_audio_tone/scaled_sample[8] u_audio_tone/reg7_syn_175.d[0]
+u_audio_tone/shift_word_b2[48] u_audio_tone/reg8_syn_209.d[0]
+
+Timing path: u_audio_tone/reg4_syn_42.clk->u_audio_tone/reg8_syn_209
+u_audio_tone/reg4_syn_42.clk
+u_audio_tone/reg8_syn_209
+5059 63.803000 82.816000 19.013000 14 14
+u_audio_tone/note_index[0] u_audio_tone/phase_b3[27]_syn_143.d[1]
+u_audio_tone/phase_b3[27]_syn_22 u_audio_tone/phase_b3[27]_syn_143.b[0]
+u_audio_tone/phase_b3[27]_syn_24 u_audio_tone/phase_b3[27]_syn_126.a[1]
+u_audio_tone/phase_b3[27]_syn_28 u_audio_tone/phase_b3[27]_syn_166.b[1]
+u_audio_tone/note_samples[0] u_audio_tone/sel0_syn_36.d[1]
+u_audio_tone/sel0_syn_19 u_audio_tone/sub0_syn_97.a[0]
+u_audio_tone/sub0_syn_86 u_audio_tone/sub0_syn_98.fci
+u_audio_tone/sub0_syn_90 u_audio_tone/sub0_syn_99.fci
+u_audio_tone/remaining[14] u_audio_tone/lt2_syn_52.a[1]
+u_audio_tone/lt2_syn_18 u_audio_tone/lt2_syn_55.fci
+u_audio_tone/gain_b1_n u_audio_tone/gain[3]_syn_5.b[0]
+u_audio_tone/gain[3] u_audio_tone/mult0_syn_2.b[3]
+u_audio_tone/scaled_sample[8] u_audio_tone/reg7_syn_175.d[0]
+u_audio_tone/shift_word_b2[48] u_audio_tone/reg8_syn_209.d[0]
+
+Timing path: u_audio_tone/reg4_syn_42.clk->u_audio_tone/reg8_syn_209
+u_audio_tone/reg4_syn_42.clk
+u_audio_tone/reg8_syn_209
+5127 63.826000 82.816000 18.990000 14 14
+u_audio_tone/note_index[0] u_audio_tone/phase_b3[27]_syn_143.d[1]
+u_audio_tone/phase_b3[27]_syn_22 u_audio_tone/phase_b3[27]_syn_143.b[0]
+u_audio_tone/phase_b3[27]_syn_24 u_audio_tone/phase_b3[27]_syn_126.a[1]
+u_audio_tone/phase_b3[27]_syn_28 u_audio_tone/phase_b3[27]_syn_166.b[1]
+u_audio_tone/note_samples[0] u_audio_tone/sel0_syn_36.d[1]
+u_audio_tone/sel0_syn_19 u_audio_tone/sub0_syn_97.a[0]
+u_audio_tone/sub0_syn_86 u_audio_tone/sub0_syn_98.fci
+u_audio_tone/sub0_syn_90 u_audio_tone/sub0_syn_99.fci
+u_audio_tone/remaining[14] u_audio_tone/lt2_syn_52.a[1]
+u_audio_tone/lt2_syn_18 u_audio_tone/lt2_syn_55.fci
+u_audio_tone/gain_b1_n u_audio_tone/gain[2]_syn_5.b[1]
+u_audio_tone/gain[2] u_audio_tone/mult0_syn_2.b[2]
+u_audio_tone/scaled_sample[8] u_audio_tone/reg7_syn_175.d[0]
+u_audio_tone/shift_word_b2[48] u_audio_tone/reg8_syn_209.d[0]
+
+
+Endpoint: u_audio_tone/reg8_syn_206
+5195 64.099000 60095 3
+Timing path: u_audio_tone/reg4_syn_42.clk->u_audio_tone/reg8_syn_206
+u_audio_tone/reg4_syn_42.clk
+u_audio_tone/reg8_syn_206
+5197 64.099000 82.816000 18.717000 14 14
+u_audio_tone/note_index[0] u_audio_tone/phase_b3[27]_syn_143.d[1]
+u_audio_tone/phase_b3[27]_syn_22 u_audio_tone/phase_b3[27]_syn_143.b[0]
+u_audio_tone/phase_b3[27]_syn_24 u_audio_tone/phase_b3[27]_syn_126.a[1]
+u_audio_tone/phase_b3[27]_syn_28 u_audio_tone/phase_b3[27]_syn_166.b[1]
+u_audio_tone/note_samples[0] u_audio_tone/sel0_syn_36.d[1]
+u_audio_tone/sel0_syn_19 u_audio_tone/sub0_syn_97.a[0]
+u_audio_tone/sub0_syn_86 u_audio_tone/sub0_syn_98.fci
+u_audio_tone/sub0_syn_90 u_audio_tone/sub0_syn_99.fci
+u_audio_tone/remaining[14] u_audio_tone/lt2_syn_52.a[1]
+u_audio_tone/lt2_syn_18 u_audio_tone/lt2_syn_55.fci
+u_audio_tone/gain_b1_n u_audio_tone/gain[3]_syn_5.b[1]
+u_audio_tone/gain[3] u_audio_tone/mult0_syn_2.b[3]
+u_audio_tone/scaled_sample[9] u_audio_tone/reg7_syn_178.d[0]
+u_audio_tone/shift_word_b2[49] u_audio_tone/reg8_syn_206.d[1]
+
+Timing path: u_audio_tone/reg4_syn_42.clk->u_audio_tone/reg8_syn_206
+u_audio_tone/reg4_syn_42.clk
+u_audio_tone/reg8_syn_206
+5265 64.099000 82.816000 18.717000 14 14
+u_audio_tone/note_index[0] u_audio_tone/phase_b3[27]_syn_143.d[1]
+u_audio_tone/phase_b3[27]_syn_22 u_audio_tone/phase_b3[27]_syn_143.b[0]
+u_audio_tone/phase_b3[27]_syn_24 u_audio_tone/phase_b3[27]_syn_126.a[1]
+u_audio_tone/phase_b3[27]_syn_28 u_audio_tone/phase_b3[27]_syn_166.b[1]
+u_audio_tone/note_samples[0] u_audio_tone/sel0_syn_36.d[1]
+u_audio_tone/sel0_syn_19 u_audio_tone/sub0_syn_97.a[0]
+u_audio_tone/sub0_syn_86 u_audio_tone/sub0_syn_98.fci
+u_audio_tone/sub0_syn_90 u_audio_tone/sub0_syn_99.fci
+u_audio_tone/remaining[14] u_audio_tone/lt2_syn_52.a[1]
+u_audio_tone/lt2_syn_18 u_audio_tone/lt2_syn_55.fci
+u_audio_tone/gain_b1_n u_audio_tone/gain[3]_syn_5.b[0]
+u_audio_tone/gain[3] u_audio_tone/mult0_syn_2.b[3]
+u_audio_tone/scaled_sample[9] u_audio_tone/reg7_syn_178.d[0]
+u_audio_tone/shift_word_b2[49] u_audio_tone/reg8_syn_206.d[1]
+
+Timing path: u_audio_tone/reg4_syn_42.clk->u_audio_tone/reg8_syn_206
+u_audio_tone/reg4_syn_42.clk
+u_audio_tone/reg8_syn_206
+5333 64.122000 82.816000 18.694000 14 14
+u_audio_tone/note_index[0] u_audio_tone/phase_b3[27]_syn_143.d[1]
+u_audio_tone/phase_b3[27]_syn_22 u_audio_tone/phase_b3[27]_syn_143.b[0]
+u_audio_tone/phase_b3[27]_syn_24 u_audio_tone/phase_b3[27]_syn_126.a[1]
+u_audio_tone/phase_b3[27]_syn_28 u_audio_tone/phase_b3[27]_syn_166.b[1]
+u_audio_tone/note_samples[0] u_audio_tone/sel0_syn_36.d[1]
+u_audio_tone/sel0_syn_19 u_audio_tone/sub0_syn_97.a[0]
+u_audio_tone/sub0_syn_86 u_audio_tone/sub0_syn_98.fci
+u_audio_tone/sub0_syn_90 u_audio_tone/sub0_syn_99.fci
+u_audio_tone/remaining[14] u_audio_tone/lt2_syn_52.a[1]
+u_audio_tone/lt2_syn_18 u_audio_tone/lt2_syn_55.fci
+u_audio_tone/gain_b1_n u_audio_tone/gain[2]_syn_5.b[1]
+u_audio_tone/gain[2] u_audio_tone/mult0_syn_2.b[2]
+u_audio_tone/scaled_sample[9] u_audio_tone/reg7_syn_178.d[0]
+u_audio_tone/shift_word_b2[49] u_audio_tone/reg8_syn_206.d[1]
+
+
+
+Hold check
+5401 3
+Endpoint: u_audio_tone/u_timbre_rom_syn_11
+5403 0.238000 10 3
+Timing path: u_audio_tone/reg5_syn_197.clk->u_audio_tone/u_timbre_rom_syn_11
+u_audio_tone/reg5_syn_197.clk
+u_audio_tone/u_timbre_rom_syn_11
+5405 0.238000 1.488000 1.726000 1 1
+u_audio_tone/phase[23] u_audio_tone/u_timbre_rom_syn_11.addra[4]
+
+Timing path: u_audio_tone/reg5_syn_199.clk->u_audio_tone/u_timbre_rom_syn_11
+u_audio_tone/reg5_syn_199.clk
+u_audio_tone/u_timbre_rom_syn_11
+5447 0.244000 1.488000 1.732000 1 1
+u_audio_tone/phase[24] u_audio_tone/u_timbre_rom_syn_11.addra[5]
+
+Timing path: u_audio_tone/reg5_syn_203.clk->u_audio_tone/u_timbre_rom_syn_11
+u_audio_tone/reg5_syn_203.clk
+u_audio_tone/u_timbre_rom_syn_11
+5489 0.253000 1.488000 1.741000 1 1
+u_audio_tone/phase[26] u_audio_tone/u_timbre_rom_syn_11.addra[7]
+
+
+Endpoint: u_audio_tone/u_timbre_rom_syn_1
+5531 0.282000 10 3
+Timing path: u_audio_tone/reg5_syn_203.clk->u_audio_tone/u_timbre_rom_syn_1
+u_audio_tone/reg5_syn_203.clk
+u_audio_tone/u_timbre_rom_syn_1
+5533 0.282000 1.488000 1.770000 1 1
+u_audio_tone/phase[26] u_audio_tone/u_timbre_rom_syn_1.addra[7]
+
+Timing path: u_audio_tone/reg5_syn_201.clk->u_audio_tone/u_timbre_rom_syn_1
+u_audio_tone/reg5_syn_201.clk
+u_audio_tone/u_timbre_rom_syn_1
+5575 0.295000 1.488000 1.783000 1 1
+u_audio_tone/phase[25] u_audio_tone/u_timbre_rom_syn_1.addra[6]
+
+Timing path: u_audio_tone/reg5_syn_199.clk->u_audio_tone/u_timbre_rom_syn_1
+u_audio_tone/reg5_syn_199.clk
+u_audio_tone/u_timbre_rom_syn_1
+5617 0.360000 1.488000 1.848000 1 1
+u_audio_tone/phase[24] u_audio_tone/u_timbre_rom_syn_1.addra[5]
+
+
+Endpoint: reg10_syn_13
+5659 0.420000 1 1
+Timing path: u_scaler/div_num_b1[14]_syn_19.clk->reg10_syn_13
+u_scaler/div_num_b1[14]_syn_19.clk
+reg10_syn_13
+5661 0.420000 1.349000 1.769000 0 1
+music_pause_sync[0] reg10_syn_13.mi[0]
+
+
+
+Recovery check
+5703 3
+Endpoint: reg0_syn_21
+5705 -4.367000 1 1
+Timing path: rst_all_reg_reg_syn_577.clk->reg0_syn_21
+rst_all_reg_reg_syn_577.clk
+reg0_syn_21
+5707 -4.367000 2.695000 7.062000 1 2
+rst_all_reg_dup_285 u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/u_audio_clock_regeneration_packet/reg5_syn_117.d[0]
+audio_async_rst reg0_syn_21.sr
+
+
+Endpoint: reg0_syn_23
+5749 -4.322000 1 1
+Timing path: rst_all_reg_reg_syn_577.clk->reg0_syn_23
+rst_all_reg_reg_syn_577.clk
+reg0_syn_23
+5751 -4.322000 2.695000 7.017000 1 2
+rst_all_reg_dup_285 u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/u_audio_clock_regeneration_packet/reg5_syn_117.d[0]
+audio_async_rst reg0_syn_23.sr
+
+
+Endpoint: reg0_syn_25
+5793 -4.171000 1 1
+Timing path: rst_all_reg_reg_syn_577.clk->reg0_syn_25
+rst_all_reg_reg_syn_577.clk
+reg0_syn_25
+5795 -4.171000 2.695000 6.866000 1 2
+rst_all_reg_dup_285 u_hdmi/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/u_audio_clock_regeneration_packet/reg5_syn_117.d[0]
+audio_async_rst reg0_syn_25.sr
+
+
+
+Removal check
+5837 3
+Endpoint: u_audio_tone/reg6_syn_110
+5839 0.369000 1 1
+Timing path: reg0_syn_25.clk->u_audio_tone/reg6_syn_110
+reg0_syn_25.clk
+u_audio_tone/reg6_syn_110
+5841 0.369000 1.604000 1.973000 0 1
+u_audio_tone/I_rst_dup_5 u_audio_tone/reg6_syn_110.sr
+
+
+Endpoint: u_audio_tone/reg6_syn_107
+5883 0.369000 1 1
+Timing path: reg0_syn_25.clk->u_audio_tone/reg6_syn_107
+reg0_syn_25.clk
+u_audio_tone/reg6_syn_107
+5885 0.369000 1.604000 1.973000 0 1
+u_audio_tone/I_rst_dup_5 u_audio_tone/reg6_syn_107.sr
+
+
+Endpoint: u_audio_tone/reg6_syn_114
+5927 0.371000 1 1
+Timing path: reg0_syn_25.clk->u_audio_tone/reg6_syn_114
+reg0_syn_25.clk
+u_audio_tone/reg6_syn_114
+5929 0.371000 1.604000 1.975000 0 1
+u_audio_tone/I_rst_dup_5 u_audio_tone/reg6_syn_114.sr
+
+
+
+
+clock: emergency_rx_clk
+5971 11898 642 4
+Setup check
+5981 3
+Endpoint: u_emergency_rx/u_packet/reg2_syn_42
+5981 0.109000 269 3
+Timing path: u_emergency_rx/u_packet/broadcast_match_n1_syn_91.clk->u_emergency_rx/u_packet/reg2_syn_42
+u_emergency_rx/u_packet/broadcast_match_n1_syn_91.clk
+u_emergency_rx/u_packet/reg2_syn_42
+5983 0.109000 11.542000 11.433000 6 7
+u_emergency_rx/u_packet/phase[1] u_emergency_rx/u_packet/bad_n1_syn_123.c[1]
+u_emergency_rx/u_packet/command_b1_n3 u_emergency_rx/u_packet/mux22_syn_138.a[1]
+u_emergency_rx/u_packet/mux22_syn_52 u_emergency_rx/u_packet/mux22_syn_146.a[1]
+u_emergency_rx/u_packet/mux22_syn_56 u_emergency_rx/u_packet/mux22_syn_166.a[1]
+u_emergency_rx/u_packet/mux22_syn_60 u_emergency_rx/u_packet/mux22_syn_158.a[1]
+u_emergency_rx/u_packet/mux22_syn_66 u_emergency_rx/u_packet/mux22_syn_154.a[0]
+u_emergency_rx/u_packet/mux22_syn_13 u_emergency_rx/u_packet/reg2_syn_42.ce
+
+Timing path: u_emergency_rx/u_packet/reg7_syn_19.clk->u_emergency_rx/u_packet/reg2_syn_42
+u_emergency_rx/u_packet/reg7_syn_19.clk
+u_emergency_rx/u_packet/reg2_syn_42
+6033 0.210000 11.542000 11.332000 6 7
+u_emergency_rx/u_packet/phase[0] u_emergency_rx/u_packet/bad_n1_syn_123.d[1]
+u_emergency_rx/u_packet/command_b1_n3 u_emergency_rx/u_packet/mux22_syn_138.a[1]
+u_emergency_rx/u_packet/mux22_syn_52 u_emergency_rx/u_packet/mux22_syn_146.a[1]
+u_emergency_rx/u_packet/mux22_syn_56 u_emergency_rx/u_packet/mux22_syn_166.a[1]
+u_emergency_rx/u_packet/mux22_syn_60 u_emergency_rx/u_packet/mux22_syn_158.a[1]
+u_emergency_rx/u_packet/mux22_syn_66 u_emergency_rx/u_packet/mux22_syn_154.a[0]
+u_emergency_rx/u_packet/mux22_syn_13 u_emergency_rx/u_packet/reg2_syn_42.ce
+
+Timing path: u_emergency_rx/u_packet/reg6_syn_104.clk->u_emergency_rx/u_packet/reg2_syn_42
+u_emergency_rx/u_packet/reg6_syn_104.clk
+u_emergency_rx/u_packet/reg2_syn_42
+6083 0.684000 11.542000 10.858000 7 8
+u_emergency_rx/u_packet/ip_sum[1] u_emergency_rx/u_packet/ip_sum[0]_syn_100.a[1]
+u_emergency_rx/u_packet/ip_sum[0]_syn_84 u_emergency_rx/u_packet/ip_sum[0]_syn_101.fci
+u_emergency_rx/u_packet/ip_sum[0]_syn_88 u_emergency_rx/u_packet/ip_sum[0]_syn_102.fci
+u_emergency_rx/u_packet/ip_sum[0]_syn_92 u_emergency_rx/u_packet/ip_sum[0]_syn_103.fci
+u_emergency_rx/u_packet/fold[12] u_emergency_rx/u_packet/mux22_syn_162.b[1]
+u_emergency_rx/u_packet/mux22_syn_62 u_emergency_rx/u_packet/mux22_syn_158.b[1]
+u_emergency_rx/u_packet/mux22_syn_66 u_emergency_rx/u_packet/mux22_syn_154.a[0]
+u_emergency_rx/u_packet/mux22_syn_13 u_emergency_rx/u_packet/reg2_syn_42.ce
+
+
+Endpoint: u_osd/lt4_syn_47
+6135 0.109000 269 3
+Timing path: u_emergency_rx/u_packet/broadcast_match_n1_syn_91.clk->u_osd/lt4_syn_47
+u_emergency_rx/u_packet/broadcast_match_n1_syn_91.clk
+u_osd/lt4_syn_47
+6137 0.109000 11.542000 11.433000 6 7
+u_emergency_rx/u_packet/phase[1] u_emergency_rx/u_packet/bad_n1_syn_123.c[1]
+u_emergency_rx/u_packet/command_b1_n3 u_emergency_rx/u_packet/mux22_syn_138.a[1]
+u_emergency_rx/u_packet/mux22_syn_52 u_emergency_rx/u_packet/mux22_syn_146.a[1]
+u_emergency_rx/u_packet/mux22_syn_56 u_emergency_rx/u_packet/mux22_syn_166.a[1]
+u_emergency_rx/u_packet/mux22_syn_60 u_emergency_rx/u_packet/mux22_syn_158.a[1]
+u_emergency_rx/u_packet/mux22_syn_66 u_emergency_rx/u_packet/mux22_syn_154.a[0]
+u_emergency_rx/u_packet/mux22_syn_13 u_osd/lt4_syn_47.ce
+
+Timing path: u_emergency_rx/u_packet/reg7_syn_19.clk->u_osd/lt4_syn_47
+u_emergency_rx/u_packet/reg7_syn_19.clk
+u_osd/lt4_syn_47
+6187 0.210000 11.542000 11.332000 6 7
+u_emergency_rx/u_packet/phase[0] u_emergency_rx/u_packet/bad_n1_syn_123.d[1]
+u_emergency_rx/u_packet/command_b1_n3 u_emergency_rx/u_packet/mux22_syn_138.a[1]
+u_emergency_rx/u_packet/mux22_syn_52 u_emergency_rx/u_packet/mux22_syn_146.a[1]
+u_emergency_rx/u_packet/mux22_syn_56 u_emergency_rx/u_packet/mux22_syn_166.a[1]
+u_emergency_rx/u_packet/mux22_syn_60 u_emergency_rx/u_packet/mux22_syn_158.a[1]
+u_emergency_rx/u_packet/mux22_syn_66 u_emergency_rx/u_packet/mux22_syn_154.a[0]
+u_emergency_rx/u_packet/mux22_syn_13 u_osd/lt4_syn_47.ce
+
+Timing path: u_emergency_rx/u_packet/reg6_syn_104.clk->u_osd/lt4_syn_47
+u_emergency_rx/u_packet/reg6_syn_104.clk
+u_osd/lt4_syn_47
+6237 0.684000 11.542000 10.858000 7 8
+u_emergency_rx/u_packet/ip_sum[1] u_emergency_rx/u_packet/ip_sum[0]_syn_100.a[1]
+u_emergency_rx/u_packet/ip_sum[0]_syn_84 u_emergency_rx/u_packet/ip_sum[0]_syn_101.fci
+u_emergency_rx/u_packet/ip_sum[0]_syn_88 u_emergency_rx/u_packet/ip_sum[0]_syn_102.fci
+u_emergency_rx/u_packet/ip_sum[0]_syn_92 u_emergency_rx/u_packet/ip_sum[0]_syn_103.fci
+u_emergency_rx/u_packet/fold[12] u_emergency_rx/u_packet/mux22_syn_162.b[1]
+u_emergency_rx/u_packet/mux22_syn_62 u_emergency_rx/u_packet/mux22_syn_158.b[1]
+u_emergency_rx/u_packet/mux22_syn_66 u_emergency_rx/u_packet/mux22_syn_154.a[0]
+u_emergency_rx/u_packet/mux22_syn_13 u_osd/lt4_syn_47.ce
+
+
+Endpoint: u_emergency_rx/u_packet/seconds_b1[7]_syn_13
+6289 0.134000 92 3
+Timing path: u_emergency_rx/u_packet/reg8_syn_64.clk->u_emergency_rx/u_packet/seconds_b1[7]_syn_13
+u_emergency_rx/u_packet/reg8_syn_64.clk
+u_emergency_rx/u_packet/seconds_b1[7]_syn_13
+6291 0.134000 11.542000 11.408000 6 6
+u_emergency_rx/u_packet/position[3] u_emergency_rx/u_packet/broadcast_match_n1_syn_97.b[0]
+u_emergency_rx/u_packet/bad_n1_syn_3 u_emergency_rx/u_packet/bad_n1_syn_143.d[1]
+u_emergency_rx/u_packet/bad_n1_syn_5 u_emergency_rx/u_packet/seconds_b1[2]_syn_24.b[1]
+u_emergency_rx/u_packet/sel5_syn_108 u_emergency_rx/u_packet/seconds_b1[0]_syn_13.d[1]
+u_emergency_rx/u_packet/seconds_b1[0]_syn_2 u_emergency_rx/u_packet/seconds_b1[0]_syn_11.a[1]
+u_emergency_rx/u_packet/sel5_syn_2[0] u_emergency_rx/u_packet/seconds_b1[7]_syn_13.a[0]
+
+Timing path: u_emergency_rx/u_packet/reg8_syn_64.clk->u_emergency_rx/u_packet/seconds_b1[7]_syn_13
+u_emergency_rx/u_packet/reg8_syn_64.clk
+u_emergency_rx/u_packet/seconds_b1[7]_syn_13
+6339 0.134000 11.542000 11.408000 6 6
+u_emergency_rx/u_packet/position[3] u_emergency_rx/u_packet/broadcast_match_n1_syn_97.b[0]
+u_emergency_rx/u_packet/bad_n1_syn_3 u_emergency_rx/u_packet/bad_n1_syn_143.d[1]
+u_emergency_rx/u_packet/bad_n1_syn_5 u_emergency_rx/u_packet/seconds_b1[2]_syn_24.b[0]
+u_emergency_rx/u_packet/sel5_syn_108 u_emergency_rx/u_packet/seconds_b1[0]_syn_13.d[1]
+u_emergency_rx/u_packet/seconds_b1[0]_syn_2 u_emergency_rx/u_packet/seconds_b1[0]_syn_11.a[1]
+u_emergency_rx/u_packet/sel5_syn_2[0] u_emergency_rx/u_packet/seconds_b1[7]_syn_13.a[0]
+
+Timing path: u_emergency_rx/u_packet/reg8_syn_64.clk->u_emergency_rx/u_packet/seconds_b1[7]_syn_13
+u_emergency_rx/u_packet/reg8_syn_64.clk
+u_emergency_rx/u_packet/seconds_b1[7]_syn_13
+6387 0.134000 11.542000 11.408000 6 6
+u_emergency_rx/u_packet/position[3] u_emergency_rx/u_packet/broadcast_match_n1_syn_97.b[0]
+u_emergency_rx/u_packet/bad_n1_syn_3 u_emergency_rx/u_packet/bad_n1_syn_143.d[1]
+u_emergency_rx/u_packet/bad_n1_syn_5 u_emergency_rx/u_packet/seconds_b1[2]_syn_24.b[1]
+u_emergency_rx/u_packet/sel5_syn_108 u_emergency_rx/u_packet/seconds_b1[0]_syn_13.d[1]
+u_emergency_rx/u_packet/seconds_b1[0]_syn_2 u_emergency_rx/u_packet/seconds_b1[0]_syn_11.a[0]
+u_emergency_rx/u_packet/sel5_syn_2[0] u_emergency_rx/u_packet/seconds_b1[7]_syn_13.a[0]
+
+
+
+Hold check
+6435 3
+Endpoint: u_emergency_rx/u_packet/reg2_syn_45
+6437 0.339000 1 1
+Timing path: u_emergency_rx/u_packet/reg1_syn_14.clk->u_emergency_rx/u_packet/reg2_syn_45
+u_emergency_rx/u_packet/reg1_syn_14.clk
+u_emergency_rx/u_packet/reg2_syn_45
+6439 0.339000 3.030000 3.369000 0 1
+u_emergency_rx/u_packet/code[0] u_emergency_rx/u_packet/reg2_syn_45.mi[1]
+
+
+Endpoint: u_emergency_rx/u_packet/reg2_syn_42
+6477 0.429000 1 1
+Timing path: u_emergency_rx/u_packet/reg9_syn_45.clk->u_emergency_rx/u_packet/reg2_syn_42
+u_emergency_rx/u_packet/reg9_syn_45.clk
+u_emergency_rx/u_packet/reg2_syn_42
+6479 0.429000 3.046000 3.475000 0 1
+u_emergency_rx/u_packet/seconds[7] u_emergency_rx/u_packet/reg2_syn_42.mi[1]
+
+
+Endpoint: u_osd/lt4_syn_47
+6517 0.446000 1 1
+Timing path: u_emergency_rx/u_packet/reg9_syn_48.clk->u_osd/lt4_syn_47
+u_emergency_rx/u_packet/reg9_syn_48.clk
+u_osd/lt4_syn_47
+6519 0.446000 3.046000 3.492000 0 1
+u_emergency_rx/u_packet/seconds[2] u_osd/lt4_syn_47.mi[1]
+
+
+
+Recovery check
+6557 3
+Endpoint: u_emergency_rx/reg0_syn_35
+6559 1.387000 1 1
+Timing path: u_spectrum_overlay/peak_hold[0]_b48[4]_syn_14.clk->u_emergency_rx/reg0_syn_35
+u_spectrum_overlay/peak_hold[0]_b48[4]_syn_14.clk
+u_emergency_rx/reg0_syn_35
+6561 1.387000 7.046000 5.659000 0 1
+rst_all_reg_dup_304 u_emergency_rx/reg0_syn_35.sr
+
+
+Endpoint: u_spectrum_overlay/sub17_syn_44
+6599 1.546000 1 1
+Timing path: u_spectrum_overlay/peak_hold[0]_b48[4]_syn_14.clk->u_spectrum_overlay/sub17_syn_44
+u_spectrum_overlay/peak_hold[0]_b48[4]_syn_14.clk
+u_spectrum_overlay/sub17_syn_44
+6601 1.546000 7.046000 5.500000 0 1
+rst_all_reg_dup_304 u_spectrum_overlay/sub17_syn_44.sr
+
+
+Endpoint: u_emergency_rx/u_packet/is_17_n_syn_8
+6639 1.584000 1 1
+Timing path: u_spectrum_overlay/peak_hold[0]_b48[4]_syn_14.clk->u_emergency_rx/u_packet/is_17_n_syn_8
+u_spectrum_overlay/peak_hold[0]_b48[4]_syn_14.clk
+u_emergency_rx/u_packet/is_17_n_syn_8
+6641 1.584000 7.046000 5.462000 0 1
+rst_all_reg_dup_304 u_emergency_rx/u_packet/is_17_n_syn_8.sr
+
+
+
+Removal check
+6679 3
+Endpoint: u_emergency_rx/u_packet/broadcast_match_n1_syn_91
+6681 0.227000 1 1
+Timing path: u_emergency_rx/reg0_syn_33.clk->u_emergency_rx/u_packet/broadcast_match_n1_syn_91
+u_emergency_rx/reg0_syn_33.clk
+u_emergency_rx/u_packet/broadcast_match_n1_syn_91
+6683 0.227000 3.238000 3.465000 0 1
+u_emergency_rx/u_packet/rst_dup_8 u_emergency_rx/u_packet/broadcast_match_n1_syn_91.sr
+
+
+Endpoint: u_emergency_rx/u_packet/position_b1[9]_syn_12
+6721 0.257000 1 1
+Timing path: u_emergency_rx/reg0_syn_33.clk->u_emergency_rx/u_packet/position_b1[9]_syn_12
+u_emergency_rx/reg0_syn_33.clk
+u_emergency_rx/u_packet/position_b1[9]_syn_12
+6723 0.257000 3.238000 3.495000 0 1
+u_emergency_rx/u_packet/rst_dup_8 u_emergency_rx/u_packet/position_b1[9]_syn_12.sr
+
+
+Endpoint: u_emergency_rx/u_packet/broadcast_match_n1_syn_81
+6761 0.257000 1 1
+Timing path: u_emergency_rx/u_packet/broadcast_match_n1_syn_89.clk->u_emergency_rx/u_packet/broadcast_match_n1_syn_81
+u_emergency_rx/u_packet/broadcast_match_n1_syn_89.clk
+u_emergency_rx/u_packet/broadcast_match_n1_syn_81
+6763 0.257000 3.208000 3.465000 0 1
+u_emergency_rx/u_packet/rst_dup_7 u_emergency_rx/u_packet/broadcast_match_n1_syn_81.sr
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+6801 2 2 2
+Setup check
+6811 1
+Endpoint: U3/sdram_syn_26
+6811 -6.638000 1 1
+Timing path: dq[31]->U3/sdram_syn_26
+dq[31]
+U3/sdram_syn_26
+6813 -6.638000 7.634000 14.272000 0 1
+dq[31] U3/sdram_syn_26.bpad
+
+
+
+Hold check
+6858 1
+Endpoint: U3/sdram_syn_26
+6860 8.682000 1 1
+Timing path: dq[31]->U3/sdram_syn_26
+dq[31]
+U3/sdram_syn_26
+6862 8.682000 -1.110000 7.572000 0 1
+dq[31] U3/sdram_syn_26.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+6907 2 2 2
+Setup check
+6917 1
+Endpoint: U3/sdram_syn_27
+6917 -6.638000 1 1
+Timing path: dq[30]->U3/sdram_syn_27
+dq[30]
+U3/sdram_syn_27
+6919 -6.638000 7.634000 14.272000 0 1
+dq[30] U3/sdram_syn_27.bpad
+
+
+
+Hold check
+6964 1
+Endpoint: U3/sdram_syn_27
+6966 8.682000 1 1
+Timing path: dq[30]->U3/sdram_syn_27
+dq[30]
+U3/sdram_syn_27
+6968 8.682000 -1.110000 7.572000 0 1
+dq[30] U3/sdram_syn_27.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+7013 2 2 2
+Setup check
+7023 1
+Endpoint: U3/sdram_syn_29
+7023 -6.638000 1 1
+Timing path: dq[29]->U3/sdram_syn_29
+dq[29]
+U3/sdram_syn_29
+7025 -6.638000 7.634000 14.272000 0 1
+dq[29] U3/sdram_syn_29.bpad
+
+
+
+Hold check
+7070 1
+Endpoint: U3/sdram_syn_29
+7072 8.682000 1 1
+Timing path: dq[29]->U3/sdram_syn_29
+dq[29]
+U3/sdram_syn_29
+7074 8.682000 -1.110000 7.572000 0 1
+dq[29] U3/sdram_syn_29.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+7119 2 2 2
+Setup check
+7129 1
+Endpoint: U3/sdram_syn_30
+7129 -6.638000 1 1
+Timing path: dq[28]->U3/sdram_syn_30
+dq[28]
+U3/sdram_syn_30
+7131 -6.638000 7.634000 14.272000 0 1
+dq[28] U3/sdram_syn_30.bpad
+
+
+
+Hold check
+7176 1
+Endpoint: U3/sdram_syn_30
+7178 8.682000 1 1
+Timing path: dq[28]->U3/sdram_syn_30
+dq[28]
+U3/sdram_syn_30
+7180 8.682000 -1.110000 7.572000 0 1
+dq[28] U3/sdram_syn_30.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+7225 2 2 2
+Setup check
+7235 1
+Endpoint: U3/sdram_syn_31
+7235 -6.638000 1 1
+Timing path: dq[27]->U3/sdram_syn_31
+dq[27]
+U3/sdram_syn_31
+7237 -6.638000 7.634000 14.272000 0 1
+dq[27] U3/sdram_syn_31.bpad
+
+
+
+Hold check
+7282 1
+Endpoint: U3/sdram_syn_31
+7284 8.682000 1 1
+Timing path: dq[27]->U3/sdram_syn_31
+dq[27]
+U3/sdram_syn_31
+7286 8.682000 -1.110000 7.572000 0 1
+dq[27] U3/sdram_syn_31.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+7331 2 2 2
+Setup check
+7341 1
+Endpoint: U3/sdram_syn_32
+7341 -6.638000 1 1
+Timing path: dq[26]->U3/sdram_syn_32
+dq[26]
+U3/sdram_syn_32
+7343 -6.638000 7.634000 14.272000 0 1
+dq[26] U3/sdram_syn_32.bpad
+
+
+
+Hold check
+7388 1
+Endpoint: U3/sdram_syn_32
+7390 8.682000 1 1
+Timing path: dq[26]->U3/sdram_syn_32
+dq[26]
+U3/sdram_syn_32
+7392 8.682000 -1.110000 7.572000 0 1
+dq[26] U3/sdram_syn_32.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+7437 2 2 2
+Setup check
+7447 1
+Endpoint: U3/sdram_syn_33
+7447 -6.638000 1 1
+Timing path: dq[25]->U3/sdram_syn_33
+dq[25]
+U3/sdram_syn_33
+7449 -6.638000 7.634000 14.272000 0 1
+dq[25] U3/sdram_syn_33.bpad
+
+
+
+Hold check
+7494 1
+Endpoint: U3/sdram_syn_33
+7496 8.682000 1 1
+Timing path: dq[25]->U3/sdram_syn_33
+dq[25]
+U3/sdram_syn_33
+7498 8.682000 -1.110000 7.572000 0 1
+dq[25] U3/sdram_syn_33.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+7543 2 2 2
+Setup check
+7553 1
+Endpoint: U3/sdram_syn_34
+7553 -6.638000 1 1
+Timing path: dq[24]->U3/sdram_syn_34
+dq[24]
+U3/sdram_syn_34
+7555 -6.638000 7.634000 14.272000 0 1
+dq[24] U3/sdram_syn_34.bpad
+
+
+
+Hold check
+7600 1
+Endpoint: U3/sdram_syn_34
+7602 8.682000 1 1
+Timing path: dq[24]->U3/sdram_syn_34
+dq[24]
+U3/sdram_syn_34
+7604 8.682000 -1.110000 7.572000 0 1
+dq[24] U3/sdram_syn_34.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+7649 2 2 2
+Setup check
+7659 1
+Endpoint: U3/sdram_syn_18
+7659 -6.638000 1 1
+Timing path: dq[23]->U3/sdram_syn_18
+dq[23]
+U3/sdram_syn_18
+7661 -6.638000 7.634000 14.272000 0 1
+dq[23] U3/sdram_syn_18.bpad
+
+
+
+Hold check
+7706 1
+Endpoint: U3/sdram_syn_18
+7708 8.682000 1 1
+Timing path: dq[23]->U3/sdram_syn_18
+dq[23]
+U3/sdram_syn_18
+7710 8.682000 -1.110000 7.572000 0 1
+dq[23] U3/sdram_syn_18.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+7755 2 2 2
+Setup check
+7765 1
+Endpoint: U3/sdram_syn_19
+7765 -6.638000 1 1
+Timing path: dq[22]->U3/sdram_syn_19
+dq[22]
+U3/sdram_syn_19
+7767 -6.638000 7.634000 14.272000 0 1
+dq[22] U3/sdram_syn_19.bpad
+
+
+
+Hold check
+7812 1
+Endpoint: U3/sdram_syn_19
+7814 8.682000 1 1
+Timing path: dq[22]->U3/sdram_syn_19
+dq[22]
+U3/sdram_syn_19
+7816 8.682000 -1.110000 7.572000 0 1
+dq[22] U3/sdram_syn_19.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+7861 2 2 2
+Setup check
+7871 1
+Endpoint: U3/sdram_syn_20
+7871 -6.638000 1 1
+Timing path: dq[21]->U3/sdram_syn_20
+dq[21]
+U3/sdram_syn_20
+7873 -6.638000 7.634000 14.272000 0 1
+dq[21] U3/sdram_syn_20.bpad
+
+
+
+Hold check
+7918 1
+Endpoint: U3/sdram_syn_20
+7920 8.682000 1 1
+Timing path: dq[21]->U3/sdram_syn_20
+dq[21]
+U3/sdram_syn_20
+7922 8.682000 -1.110000 7.572000 0 1
+dq[21] U3/sdram_syn_20.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+7967 2 2 2
+Setup check
+7977 1
+Endpoint: U3/sdram_syn_21
+7977 -6.638000 1 1
+Timing path: dq[20]->U3/sdram_syn_21
+dq[20]
+U3/sdram_syn_21
+7979 -6.638000 7.634000 14.272000 0 1
+dq[20] U3/sdram_syn_21.bpad
+
+
+
+Hold check
+8024 1
+Endpoint: U3/sdram_syn_21
+8026 8.682000 1 1
+Timing path: dq[20]->U3/sdram_syn_21
+dq[20]
+U3/sdram_syn_21
+8028 8.682000 -1.110000 7.572000 0 1
+dq[20] U3/sdram_syn_21.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+8073 2 2 2
+Setup check
+8083 1
+Endpoint: U3/sdram_syn_22
+8083 -6.638000 1 1
+Timing path: dq[19]->U3/sdram_syn_22
+dq[19]
+U3/sdram_syn_22
+8085 -6.638000 7.634000 14.272000 0 1
+dq[19] U3/sdram_syn_22.bpad
+
+
+
+Hold check
+8130 1
+Endpoint: U3/sdram_syn_22
+8132 8.682000 1 1
+Timing path: dq[19]->U3/sdram_syn_22
+dq[19]
+U3/sdram_syn_22
+8134 8.682000 -1.110000 7.572000 0 1
+dq[19] U3/sdram_syn_22.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+8179 2 2 2
+Setup check
+8189 1
+Endpoint: U3/sdram_syn_23
+8189 -6.638000 1 1
+Timing path: dq[18]->U3/sdram_syn_23
+dq[18]
+U3/sdram_syn_23
+8191 -6.638000 7.634000 14.272000 0 1
+dq[18] U3/sdram_syn_23.bpad
+
+
+
+Hold check
+8236 1
+Endpoint: U3/sdram_syn_23
+8238 8.682000 1 1
+Timing path: dq[18]->U3/sdram_syn_23
+dq[18]
+U3/sdram_syn_23
+8240 8.682000 -1.110000 7.572000 0 1
+dq[18] U3/sdram_syn_23.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+8285 2 2 2
+Setup check
+8295 1
+Endpoint: U3/sdram_syn_24
+8295 -6.638000 1 1
+Timing path: dq[17]->U3/sdram_syn_24
+dq[17]
+U3/sdram_syn_24
+8297 -6.638000 7.634000 14.272000 0 1
+dq[17] U3/sdram_syn_24.bpad
+
+
+
+Hold check
+8342 1
+Endpoint: U3/sdram_syn_24
+8344 8.682000 1 1
+Timing path: dq[17]->U3/sdram_syn_24
+dq[17]
+U3/sdram_syn_24
+8346 8.682000 -1.110000 7.572000 0 1
+dq[17] U3/sdram_syn_24.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+8391 2 2 2
+Setup check
+8401 1
+Endpoint: U3/sdram_syn_25
+8401 -6.638000 1 1
+Timing path: dq[16]->U3/sdram_syn_25
+dq[16]
+U3/sdram_syn_25
+8403 -6.638000 7.634000 14.272000 0 1
+dq[16] U3/sdram_syn_25.bpad
+
+
+
+Hold check
+8448 1
+Endpoint: U3/sdram_syn_25
+8450 8.682000 1 1
+Timing path: dq[16]->U3/sdram_syn_25
+dq[16]
+U3/sdram_syn_25
+8452 8.682000 -1.110000 7.572000 0 1
+dq[16] U3/sdram_syn_25.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+8497 2 2 2
+Setup check
+8507 1
+Endpoint: U3/sdram_syn_55
+8507 -6.638000 1 1
+Timing path: dq[15]->U3/sdram_syn_55
+dq[15]
+U3/sdram_syn_55
+8509 -6.638000 7.634000 14.272000 0 1
+dq[15] U3/sdram_syn_55.bpad
+
+
+
+Hold check
+8554 1
+Endpoint: U3/sdram_syn_55
+8556 8.682000 1 1
+Timing path: dq[15]->U3/sdram_syn_55
+dq[15]
+U3/sdram_syn_55
+8558 8.682000 -1.110000 7.572000 0 1
+dq[15] U3/sdram_syn_55.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+8603 2 2 2
+Setup check
+8613 1
+Endpoint: U3/sdram_syn_54
+8613 -6.638000 1 1
+Timing path: dq[14]->U3/sdram_syn_54
+dq[14]
+U3/sdram_syn_54
+8615 -6.638000 7.634000 14.272000 0 1
+dq[14] U3/sdram_syn_54.bpad
+
+
+
+Hold check
+8660 1
+Endpoint: U3/sdram_syn_54
+8662 8.682000 1 1
+Timing path: dq[14]->U3/sdram_syn_54
+dq[14]
+U3/sdram_syn_54
+8664 8.682000 -1.110000 7.572000 0 1
+dq[14] U3/sdram_syn_54.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+8709 2 2 2
+Setup check
+8719 1
+Endpoint: U3/sdram_syn_53
+8719 -6.638000 1 1
+Timing path: dq[13]->U3/sdram_syn_53
+dq[13]
+U3/sdram_syn_53
+8721 -6.638000 7.634000 14.272000 0 1
+dq[13] U3/sdram_syn_53.bpad
+
+
+
+Hold check
+8766 1
+Endpoint: U3/sdram_syn_53
+8768 8.682000 1 1
+Timing path: dq[13]->U3/sdram_syn_53
+dq[13]
+U3/sdram_syn_53
+8770 8.682000 -1.110000 7.572000 0 1
+dq[13] U3/sdram_syn_53.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+8815 2 2 2
+Setup check
+8825 1
+Endpoint: U3/sdram_syn_52
+8825 -6.638000 1 1
+Timing path: dq[12]->U3/sdram_syn_52
+dq[12]
+U3/sdram_syn_52
+8827 -6.638000 7.634000 14.272000 0 1
+dq[12] U3/sdram_syn_52.bpad
+
+
+
+Hold check
+8872 1
+Endpoint: U3/sdram_syn_52
+8874 8.682000 1 1
+Timing path: dq[12]->U3/sdram_syn_52
+dq[12]
+U3/sdram_syn_52
+8876 8.682000 -1.110000 7.572000 0 1
+dq[12] U3/sdram_syn_52.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+8921 2 2 2
+Setup check
+8931 1
+Endpoint: U3/sdram_syn_51
+8931 -6.638000 1 1
+Timing path: dq[11]->U3/sdram_syn_51
+dq[11]
+U3/sdram_syn_51
+8933 -6.638000 7.634000 14.272000 0 1
+dq[11] U3/sdram_syn_51.bpad
+
+
+
+Hold check
+8978 1
+Endpoint: U3/sdram_syn_51
+8980 8.682000 1 1
+Timing path: dq[11]->U3/sdram_syn_51
+dq[11]
+U3/sdram_syn_51
+8982 8.682000 -1.110000 7.572000 0 1
+dq[11] U3/sdram_syn_51.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+9027 2 2 2
+Setup check
+9037 1
+Endpoint: U3/sdram_syn_50
+9037 -6.638000 1 1
+Timing path: dq[10]->U3/sdram_syn_50
+dq[10]
+U3/sdram_syn_50
+9039 -6.638000 7.634000 14.272000 0 1
+dq[10] U3/sdram_syn_50.bpad
+
+
+
+Hold check
+9084 1
+Endpoint: U3/sdram_syn_50
+9086 8.682000 1 1
+Timing path: dq[10]->U3/sdram_syn_50
+dq[10]
+U3/sdram_syn_50
+9088 8.682000 -1.110000 7.572000 0 1
+dq[10] U3/sdram_syn_50.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+9133 2 2 2
+Setup check
+9143 1
+Endpoint: U3/sdram_syn_48
+9143 -6.638000 1 1
+Timing path: dq[9]->U3/sdram_syn_48
+dq[9]
+U3/sdram_syn_48
+9145 -6.638000 7.634000 14.272000 0 1
+dq[9] U3/sdram_syn_48.bpad
+
+
+
+Hold check
+9190 1
+Endpoint: U3/sdram_syn_48
+9192 8.682000 1 1
+Timing path: dq[9]->U3/sdram_syn_48
+dq[9]
+U3/sdram_syn_48
+9194 8.682000 -1.110000 7.572000 0 1
+dq[9] U3/sdram_syn_48.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+9239 2 2 2
+Setup check
+9249 1
+Endpoint: U3/sdram_syn_47
+9249 -6.638000 1 1
+Timing path: dq[8]->U3/sdram_syn_47
+dq[8]
+U3/sdram_syn_47
+9251 -6.638000 7.634000 14.272000 0 1
+dq[8] U3/sdram_syn_47.bpad
+
+
+
+Hold check
+9296 1
+Endpoint: U3/sdram_syn_47
+9298 8.682000 1 1
+Timing path: dq[8]->U3/sdram_syn_47
+dq[8]
+U3/sdram_syn_47
+9300 8.682000 -1.110000 7.572000 0 1
+dq[8] U3/sdram_syn_47.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+9345 2 2 2
+Setup check
+9355 1
+Endpoint: U3/sdram_syn_3
+9355 -6.638000 1 1
+Timing path: dq[7]->U3/sdram_syn_3
+dq[7]
+U3/sdram_syn_3
+9357 -6.638000 7.634000 14.272000 0 1
+dq[7] U3/sdram_syn_3.bpad
+
+
+
+Hold check
+9402 1
+Endpoint: U3/sdram_syn_3
+9404 8.682000 1 1
+Timing path: dq[7]->U3/sdram_syn_3
+dq[7]
+U3/sdram_syn_3
+9406 8.682000 -1.110000 7.572000 0 1
+dq[7] U3/sdram_syn_3.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+9451 2 2 2
+Setup check
+9461 1
+Endpoint: U3/sdram_syn_2
+9461 -6.638000 1 1
+Timing path: dq[6]->U3/sdram_syn_2
+dq[6]
+U3/sdram_syn_2
+9463 -6.638000 7.634000 14.272000 0 1
+dq[6] U3/sdram_syn_2.bpad
+
+
+
+Hold check
+9508 1
+Endpoint: U3/sdram_syn_2
+9510 8.682000 1 1
+Timing path: dq[6]->U3/sdram_syn_2
+dq[6]
+U3/sdram_syn_2
+9512 8.682000 -1.110000 7.572000 0 1
+dq[6] U3/sdram_syn_2.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+9557 2 2 2
+Setup check
+9567 1
+Endpoint: U3/sdram_syn_49
+9567 -6.638000 1 1
+Timing path: dq[5]->U3/sdram_syn_49
+dq[5]
+U3/sdram_syn_49
+9569 -6.638000 7.634000 14.272000 0 1
+dq[5] U3/sdram_syn_49.bpad
+
+
+
+Hold check
+9614 1
+Endpoint: U3/sdram_syn_49
+9616 8.682000 1 1
+Timing path: dq[5]->U3/sdram_syn_49
+dq[5]
+U3/sdram_syn_49
+9618 8.682000 -1.110000 7.572000 0 1
+dq[5] U3/sdram_syn_49.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+9663 2 2 2
+Setup check
+9673 1
+Endpoint: U3/sdram_syn_43
+9673 -6.638000 1 1
+Timing path: dq[4]->U3/sdram_syn_43
+dq[4]
+U3/sdram_syn_43
+9675 -6.638000 7.634000 14.272000 0 1
+dq[4] U3/sdram_syn_43.bpad
+
+
+
+Hold check
+9720 1
+Endpoint: U3/sdram_syn_43
+9722 8.682000 1 1
+Timing path: dq[4]->U3/sdram_syn_43
+dq[4]
+U3/sdram_syn_43
+9724 8.682000 -1.110000 7.572000 0 1
+dq[4] U3/sdram_syn_43.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+9769 2 2 2
+Setup check
+9779 1
+Endpoint: U3/sdram_syn_35
+9779 -6.638000 1 1
+Timing path: dq[3]->U3/sdram_syn_35
+dq[3]
+U3/sdram_syn_35
+9781 -6.638000 7.634000 14.272000 0 1
+dq[3] U3/sdram_syn_35.bpad
+
+
+
+Hold check
+9826 1
+Endpoint: U3/sdram_syn_35
+9828 8.682000 1 1
+Timing path: dq[3]->U3/sdram_syn_35
+dq[3]
+U3/sdram_syn_35
+9830 8.682000 -1.110000 7.572000 0 1
+dq[3] U3/sdram_syn_35.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+9875 2 2 2
+Setup check
+9885 1
+Endpoint: U3/sdram_syn_28
+9885 -6.638000 1 1
+Timing path: dq[2]->U3/sdram_syn_28
+dq[2]
+U3/sdram_syn_28
+9887 -6.638000 7.634000 14.272000 0 1
+dq[2] U3/sdram_syn_28.bpad
+
+
+
+Hold check
+9932 1
+Endpoint: U3/sdram_syn_28
+9934 8.682000 1 1
+Timing path: dq[2]->U3/sdram_syn_28
+dq[2]
+U3/sdram_syn_28
+9936 8.682000 -1.110000 7.572000 0 1
+dq[2] U3/sdram_syn_28.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+9981 2 2 2
+Setup check
+9991 1
+Endpoint: U3/sdram_syn_7
+9991 -6.638000 1 1
+Timing path: dq[1]->U3/sdram_syn_7
+dq[1]
+U3/sdram_syn_7
+9993 -6.638000 7.634000 14.272000 0 1
+dq[1] U3/sdram_syn_7.bpad
+
+
+
+Hold check
+10038 1
+Endpoint: U3/sdram_syn_7
+10040 8.682000 1 1
+Timing path: dq[1]->U3/sdram_syn_7
+dq[1]
+U3/sdram_syn_7
+10042 8.682000 -1.110000 7.572000 0 1
+dq[1] U3/sdram_syn_7.bpad
+
+
+
+
+Set input delay: 5ns max, and 1ns min. 
+10087 2 2 2
+Setup check
+10097 1
+Endpoint: U3/sdram_syn_1
+10097 -6.638000 1 1
+Timing path: dq[0]->U3/sdram_syn_1
+dq[0]
+U3/sdram_syn_1
+10099 -6.638000 7.634000 14.272000 0 1
+dq[0] U3/sdram_syn_1.bpad
+
+
+
+Hold check
+10144 1
+Endpoint: U3/sdram_syn_1
+10146 8.682000 1 1
+Timing path: dq[0]->U3/sdram_syn_1
+dq[0]
+U3/sdram_syn_1
+10148 8.682000 -1.110000 7.572000 0 1
+dq[0] U3/sdram_syn_1.bpad
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+10193 2 2 2
+Setup check
+10203 1
+Endpoint: U3/sdram.addr[10]
+10203 2.669000 1 1
+Timing path: U3/sdram_syn_41.osclk->U3/sdram.addr[10]
+U3/sdram_syn_41.osclk
+U3/sdram.addr[10]
+10205 2.669000 9.887000 7.218000 0 1
+addr[10] U3/sdram.addr[10]
+
+
+
+Hold check
+10249 1
+Endpoint: U3/sdram.addr[10]
+10251 3.961000 1 1
+Timing path: U3/sdram_syn_41.osclk->U3/sdram.addr[10]
+U3/sdram_syn_41.osclk
+U3/sdram.addr[10]
+10253 3.961000 2.464000 6.425000 0 1
+addr[10] U3/sdram.addr[10]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+10297 2 2 2
+Setup check
+10307 1
+Endpoint: U3/sdram.addr[9]
+10307 2.669000 1 1
+Timing path: U3/sdram_syn_11.osclk->U3/sdram.addr[9]
+U3/sdram_syn_11.osclk
+U3/sdram.addr[9]
+10309 2.669000 9.887000 7.218000 0 1
+addr[9] U3/sdram.addr[9]
+
+
+
+Hold check
+10353 1
+Endpoint: U3/sdram.addr[9]
+10355 3.961000 1 1
+Timing path: U3/sdram_syn_11.osclk->U3/sdram.addr[9]
+U3/sdram_syn_11.osclk
+U3/sdram.addr[9]
+10357 3.961000 2.464000 6.425000 0 1
+addr[9] U3/sdram.addr[9]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+10401 2 2 2
+Setup check
+10411 1
+Endpoint: U3/sdram.addr[8]
+10411 2.669000 1 1
+Timing path: U3/sdram_syn_12.osclk->U3/sdram.addr[8]
+U3/sdram_syn_12.osclk
+U3/sdram.addr[8]
+10413 2.669000 9.887000 7.218000 0 1
+addr[8] U3/sdram.addr[8]
+
+
+
+Hold check
+10457 1
+Endpoint: U3/sdram.addr[8]
+10459 3.961000 1 1
+Timing path: U3/sdram_syn_12.osclk->U3/sdram.addr[8]
+U3/sdram_syn_12.osclk
+U3/sdram.addr[8]
+10461 3.961000 2.464000 6.425000 0 1
+addr[8] U3/sdram.addr[8]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+10505 2 2 2
+Setup check
+10515 1
+Endpoint: U3/sdram.addr[7]
+10515 2.669000 1 1
+Timing path: U3/sdram_syn_13.osclk->U3/sdram.addr[7]
+U3/sdram_syn_13.osclk
+U3/sdram.addr[7]
+10517 2.669000 9.887000 7.218000 0 1
+addr[7] U3/sdram.addr[7]
+
+
+
+Hold check
+10561 1
+Endpoint: U3/sdram.addr[7]
+10563 3.961000 1 1
+Timing path: U3/sdram_syn_13.osclk->U3/sdram.addr[7]
+U3/sdram_syn_13.osclk
+U3/sdram.addr[7]
+10565 3.961000 2.464000 6.425000 0 1
+addr[7] U3/sdram.addr[7]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+10609 2 2 2
+Setup check
+10619 1
+Endpoint: U3/sdram.addr[6]
+10619 2.669000 1 1
+Timing path: U3/sdram_syn_14.osclk->U3/sdram.addr[6]
+U3/sdram_syn_14.osclk
+U3/sdram.addr[6]
+10621 2.669000 9.887000 7.218000 0 1
+addr[6] U3/sdram.addr[6]
+
+
+
+Hold check
+10665 1
+Endpoint: U3/sdram.addr[6]
+10667 3.961000 1 1
+Timing path: U3/sdram_syn_14.osclk->U3/sdram.addr[6]
+U3/sdram_syn_14.osclk
+U3/sdram.addr[6]
+10669 3.961000 2.464000 6.425000 0 1
+addr[6] U3/sdram.addr[6]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+10713 2 2 2
+Setup check
+10723 1
+Endpoint: U3/sdram.addr[5]
+10723 2.669000 1 1
+Timing path: U3/sdram_syn_15.osclk->U3/sdram.addr[5]
+U3/sdram_syn_15.osclk
+U3/sdram.addr[5]
+10725 2.669000 9.887000 7.218000 0 1
+addr[5] U3/sdram.addr[5]
+
+
+
+Hold check
+10769 1
+Endpoint: U3/sdram.addr[5]
+10771 3.961000 1 1
+Timing path: U3/sdram_syn_15.osclk->U3/sdram.addr[5]
+U3/sdram_syn_15.osclk
+U3/sdram.addr[5]
+10773 3.961000 2.464000 6.425000 0 1
+addr[5] U3/sdram.addr[5]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+10817 2 2 2
+Setup check
+10827 1
+Endpoint: U3/sdram.addr[4]
+10827 2.669000 1 1
+Timing path: U3/sdram_syn_16.osclk->U3/sdram.addr[4]
+U3/sdram_syn_16.osclk
+U3/sdram.addr[4]
+10829 2.669000 9.887000 7.218000 0 1
+addr[4] U3/sdram.addr[4]
+
+
+
+Hold check
+10873 1
+Endpoint: U3/sdram.addr[4]
+10875 3.961000 1 1
+Timing path: U3/sdram_syn_16.osclk->U3/sdram.addr[4]
+U3/sdram_syn_16.osclk
+U3/sdram.addr[4]
+10877 3.961000 2.464000 6.425000 0 1
+addr[4] U3/sdram.addr[4]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+10921 2 2 2
+Setup check
+10931 1
+Endpoint: U3/sdram.addr[3]
+10931 2.669000 1 1
+Timing path: U3/sdram_syn_37.osclk->U3/sdram.addr[3]
+U3/sdram_syn_37.osclk
+U3/sdram.addr[3]
+10933 2.669000 9.887000 7.218000 0 1
+addr[3] U3/sdram.addr[3]
+
+
+
+Hold check
+10977 1
+Endpoint: U3/sdram.addr[3]
+10979 3.961000 1 1
+Timing path: U3/sdram_syn_37.osclk->U3/sdram.addr[3]
+U3/sdram_syn_37.osclk
+U3/sdram.addr[3]
+10981 3.961000 2.464000 6.425000 0 1
+addr[3] U3/sdram.addr[3]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+11025 2 2 2
+Setup check
+11035 1
+Endpoint: U3/sdram.addr[2]
+11035 2.669000 1 1
+Timing path: U3/sdram_syn_38.osclk->U3/sdram.addr[2]
+U3/sdram_syn_38.osclk
+U3/sdram.addr[2]
+11037 2.669000 9.887000 7.218000 0 1
+addr[2] U3/sdram.addr[2]
+
+
+
+Hold check
+11081 1
+Endpoint: U3/sdram.addr[2]
+11083 3.961000 1 1
+Timing path: U3/sdram_syn_38.osclk->U3/sdram.addr[2]
+U3/sdram_syn_38.osclk
+U3/sdram.addr[2]
+11085 3.961000 2.464000 6.425000 0 1
+addr[2] U3/sdram.addr[2]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+11129 2 2 2
+Setup check
+11139 1
+Endpoint: U3/sdram.addr[1]
+11139 2.669000 1 1
+Timing path: U3/sdram_syn_39.osclk->U3/sdram.addr[1]
+U3/sdram_syn_39.osclk
+U3/sdram.addr[1]
+11141 2.669000 9.887000 7.218000 0 1
+addr[1] U3/sdram.addr[1]
+
+
+
+Hold check
+11185 1
+Endpoint: U3/sdram.addr[1]
+11187 3.961000 1 1
+Timing path: U3/sdram_syn_39.osclk->U3/sdram.addr[1]
+U3/sdram_syn_39.osclk
+U3/sdram.addr[1]
+11189 3.961000 2.464000 6.425000 0 1
+addr[1] U3/sdram.addr[1]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+11233 2 2 2
+Setup check
+11243 1
+Endpoint: U3/sdram.addr[0]
+11243 2.669000 1 1
+Timing path: U3/sdram_syn_40.osclk->U3/sdram.addr[0]
+U3/sdram_syn_40.osclk
+U3/sdram.addr[0]
+11245 2.669000 9.887000 7.218000 0 1
+addr[0] U3/sdram.addr[0]
+
+
+
+Hold check
+11289 1
+Endpoint: U3/sdram.addr[0]
+11291 3.961000 1 1
+Timing path: U3/sdram_syn_40.osclk->U3/sdram.addr[0]
+U3/sdram_syn_40.osclk
+U3/sdram.addr[0]
+11293 3.961000 2.464000 6.425000 0 1
+addr[0] U3/sdram.addr[0]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+11337 2 2 2
+Setup check
+11347 1
+Endpoint: U3/sdram.ba[1]
+11347 2.669000 1 1
+Timing path: U3/sdram_syn_44.osclk->U3/sdram.ba[1]
+U3/sdram_syn_44.osclk
+U3/sdram.ba[1]
+11349 2.669000 9.887000 7.218000 0 1
+ba[1] U3/sdram.ba[1]
+
+
+
+Hold check
+11393 1
+Endpoint: U3/sdram.ba[1]
+11395 3.961000 1 1
+Timing path: U3/sdram_syn_44.osclk->U3/sdram.ba[1]
+U3/sdram_syn_44.osclk
+U3/sdram.ba[1]
+11397 3.961000 2.464000 6.425000 0 1
+ba[1] U3/sdram.ba[1]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+11441 2 2 2
+Setup check
+11451 1
+Endpoint: U3/sdram.ba[0]
+11451 2.669000 1 1
+Timing path: U3/sdram_syn_42.osclk->U3/sdram.ba[0]
+U3/sdram_syn_42.osclk
+U3/sdram.ba[0]
+11453 2.669000 9.887000 7.218000 0 1
+ba[0] U3/sdram.ba[0]
+
+
+
+Hold check
+11497 1
+Endpoint: U3/sdram.ba[0]
+11499 3.961000 1 1
+Timing path: U3/sdram_syn_42.osclk->U3/sdram.ba[0]
+U3/sdram_syn_42.osclk
+U3/sdram.ba[0]
+11501 3.961000 2.464000 6.425000 0 1
+ba[0] U3/sdram.ba[0]
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+11545 2 2 2
+Setup check
+11555 1
+Endpoint: U3/sdram.cas_n
+11555 2.669000 1 1
+Timing path: U3/sdram_syn_8.osclk->U3/sdram.cas_n
+U3/sdram_syn_8.osclk
+U3/sdram.cas_n
+11557 2.669000 9.887000 7.218000 0 1
+cas_n U3/sdram.cas_n
+
+
+
+Hold check
+11601 1
+Endpoint: U3/sdram.cas_n
+11603 3.961000 1 1
+Timing path: U3/sdram_syn_8.osclk->U3/sdram.cas_n
+U3/sdram_syn_8.osclk
+U3/sdram.cas_n
+11605 3.961000 2.464000 6.425000 0 1
+cas_n U3/sdram.cas_n
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+11649 2 2 2
+Setup check
+11659 1
+Endpoint: U3/sdram.ras_n
+11659 2.669000 1 1
+Timing path: U3/sdram_syn_9.osclk->U3/sdram.ras_n
+U3/sdram_syn_9.osclk
+U3/sdram.ras_n
+11661 2.669000 9.887000 7.218000 0 1
+ras_n U3/sdram.ras_n
+
+
+
+Hold check
+11705 1
+Endpoint: U3/sdram.ras_n
+11707 3.961000 1 1
+Timing path: U3/sdram_syn_9.osclk->U3/sdram.ras_n
+U3/sdram_syn_9.osclk
+U3/sdram.ras_n
+11709 3.961000 2.464000 6.425000 0 1
+ras_n U3/sdram.ras_n
+
+
+
+
+Set output delay: 1.5ns max, and 1ns min. 
+11753 2 2 2
+Setup check
+11763 1
+Endpoint: U3/sdram.we_n
+11763 2.669000 1 1
+Timing path: U3/sdram_syn_6.osclk->U3/sdram.we_n
+U3/sdram_syn_6.osclk
+U3/sdram.we_n
+11765 2.669000 9.887000 7.218000 0 1
+we_n U3/sdram.we_n
+
+
+
+Hold check
+11809 1
+Endpoint: U3/sdram.we_n
+11811 3.961000 1 1
+Timing path: U3/sdram_syn_6.osclk->U3/sdram.we_n
+U3/sdram_syn_6.osclk
+U3/sdram.we_n
+11813 3.961000 2.464000 6.425000 0 1
+we_n U3/sdram.we_n
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+11857 4 2 2
+Setup check
+11867 1
+Endpoint: U3/sdram.dq[31]
+11867 -3.382000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[31]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[31]
+11869 -3.382000 6.387000 9.769000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_26.ts
+dq[31] U3/sdram.dq[31]
+
+Timing path: U3/sdram_syn_26.osclk->U3/sdram.dq[31]
+U3/sdram_syn_26.osclk
+U3/sdram.dq[31]
+11915 -0.831000 6.387000 7.218000 0 1
+dq[31] U3/sdram.dq[31]
+
+
+
+Hold check
+11959 1
+Endpoint: U3/sdram.dq[31]
+11961 3.961000 2 2
+Timing path: U3/sdram_syn_26.osclk->U3/sdram.dq[31]
+U3/sdram_syn_26.osclk
+U3/sdram.dq[31]
+11963 3.961000 2.464000 6.425000 0 1
+dq[31] U3/sdram.dq[31]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[31]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[31]
+12007 6.239000 2.464000 8.703000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_26.ts
+dq[31] U3/sdram.dq[31]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+12053 4 2 2
+Setup check
+12063 1
+Endpoint: U3/sdram.dq[30]
+12063 -3.382000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[30]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[30]
+12065 -3.382000 6.387000 9.769000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_27.ts
+dq[30] U3/sdram.dq[30]
+
+Timing path: U3/sdram_syn_27.osclk->U3/sdram.dq[30]
+U3/sdram_syn_27.osclk
+U3/sdram.dq[30]
+12111 -0.831000 6.387000 7.218000 0 1
+dq[30] U3/sdram.dq[30]
+
+
+
+Hold check
+12155 1
+Endpoint: U3/sdram.dq[30]
+12157 3.961000 2 2
+Timing path: U3/sdram_syn_27.osclk->U3/sdram.dq[30]
+U3/sdram_syn_27.osclk
+U3/sdram.dq[30]
+12159 3.961000 2.464000 6.425000 0 1
+dq[30] U3/sdram.dq[30]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[30]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[30]
+12203 6.239000 2.464000 8.703000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_27.ts
+dq[30] U3/sdram.dq[30]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+12249 4 2 2
+Setup check
+12259 1
+Endpoint: U3/sdram.dq[29]
+12259 -3.336000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[29]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[29]
+12261 -3.336000 6.387000 9.723000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_29.ts
+dq[29] U3/sdram.dq[29]
+
+Timing path: U3/sdram_syn_29.osclk->U3/sdram.dq[29]
+U3/sdram_syn_29.osclk
+U3/sdram.dq[29]
+12307 -0.831000 6.387000 7.218000 0 1
+dq[29] U3/sdram.dq[29]
+
+
+
+Hold check
+12351 1
+Endpoint: U3/sdram.dq[29]
+12353 3.961000 2 2
+Timing path: U3/sdram_syn_29.osclk->U3/sdram.dq[29]
+U3/sdram_syn_29.osclk
+U3/sdram.dq[29]
+12355 3.961000 2.464000 6.425000 0 1
+dq[29] U3/sdram.dq[29]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[29]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[29]
+12399 6.206000 2.464000 8.670000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_29.ts
+dq[29] U3/sdram.dq[29]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+12445 4 2 2
+Setup check
+12455 1
+Endpoint: U3/sdram.dq[28]
+12455 -3.336000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[28]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[28]
+12457 -3.336000 6.387000 9.723000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_30.ts
+dq[28] U3/sdram.dq[28]
+
+Timing path: U3/sdram_syn_30.osclk->U3/sdram.dq[28]
+U3/sdram_syn_30.osclk
+U3/sdram.dq[28]
+12503 -0.831000 6.387000 7.218000 0 1
+dq[28] U3/sdram.dq[28]
+
+
+
+Hold check
+12547 1
+Endpoint: U3/sdram.dq[28]
+12549 3.961000 2 2
+Timing path: U3/sdram_syn_30.osclk->U3/sdram.dq[28]
+U3/sdram_syn_30.osclk
+U3/sdram.dq[28]
+12551 3.961000 2.464000 6.425000 0 1
+dq[28] U3/sdram.dq[28]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[28]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[28]
+12595 6.206000 2.464000 8.670000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_30.ts
+dq[28] U3/sdram.dq[28]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+12641 4 2 2
+Setup check
+12651 1
+Endpoint: U3/sdram.dq[27]
+12651 -3.037000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[27]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[27]
+12653 -3.037000 6.387000 9.424000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_31.ts
+dq[27] U3/sdram.dq[27]
+
+Timing path: U3/sdram_syn_31.osclk->U3/sdram.dq[27]
+U3/sdram_syn_31.osclk
+U3/sdram.dq[27]
+12699 -0.831000 6.387000 7.218000 0 1
+dq[27] U3/sdram.dq[27]
+
+
+
+Hold check
+12743 1
+Endpoint: U3/sdram.dq[27]
+12745 3.961000 2 2
+Timing path: U3/sdram_syn_31.osclk->U3/sdram.dq[27]
+U3/sdram_syn_31.osclk
+U3/sdram.dq[27]
+12747 3.961000 2.464000 6.425000 0 1
+dq[27] U3/sdram.dq[27]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[27]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[27]
+12791 5.928000 2.464000 8.392000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_31.ts
+dq[27] U3/sdram.dq[27]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+12837 4 2 2
+Setup check
+12847 1
+Endpoint: U3/sdram.dq[26]
+12847 -3.037000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[26]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[26]
+12849 -3.037000 6.387000 9.424000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_32.ts
+dq[26] U3/sdram.dq[26]
+
+Timing path: U3/sdram_syn_32.osclk->U3/sdram.dq[26]
+U3/sdram_syn_32.osclk
+U3/sdram.dq[26]
+12895 -0.831000 6.387000 7.218000 0 1
+dq[26] U3/sdram.dq[26]
+
+
+
+Hold check
+12939 1
+Endpoint: U3/sdram.dq[26]
+12941 3.961000 2 2
+Timing path: U3/sdram_syn_32.osclk->U3/sdram.dq[26]
+U3/sdram_syn_32.osclk
+U3/sdram.dq[26]
+12943 3.961000 2.464000 6.425000 0 1
+dq[26] U3/sdram.dq[26]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[26]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[26]
+12987 5.928000 2.464000 8.392000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_32.ts
+dq[26] U3/sdram.dq[26]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+13033 4 2 2
+Setup check
+13043 1
+Endpoint: U3/sdram.dq[25]
+13043 -2.944000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[25]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[25]
+13045 -2.944000 6.387000 9.331000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_33.ts
+dq[25] U3/sdram.dq[25]
+
+Timing path: U3/sdram_syn_33.osclk->U3/sdram.dq[25]
+U3/sdram_syn_33.osclk
+U3/sdram.dq[25]
+13091 -0.831000 6.387000 7.218000 0 1
+dq[25] U3/sdram.dq[25]
+
+
+
+Hold check
+13135 1
+Endpoint: U3/sdram.dq[25]
+13137 3.961000 2 2
+Timing path: U3/sdram_syn_33.osclk->U3/sdram.dq[25]
+U3/sdram_syn_33.osclk
+U3/sdram.dq[25]
+13139 3.961000 2.464000 6.425000 0 1
+dq[25] U3/sdram.dq[25]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[25]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[25]
+13183 5.852000 2.464000 8.316000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_33.ts
+dq[25] U3/sdram.dq[25]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+13229 4 2 2
+Setup check
+13239 1
+Endpoint: U3/sdram.dq[24]
+13239 -2.944000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[24]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[24]
+13241 -2.944000 6.387000 9.331000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_34.ts
+dq[24] U3/sdram.dq[24]
+
+Timing path: U3/sdram_syn_34.osclk->U3/sdram.dq[24]
+U3/sdram_syn_34.osclk
+U3/sdram.dq[24]
+13287 -0.831000 6.387000 7.218000 0 1
+dq[24] U3/sdram.dq[24]
+
+
+
+Hold check
+13331 1
+Endpoint: U3/sdram.dq[24]
+13333 3.961000 2 2
+Timing path: U3/sdram_syn_34.osclk->U3/sdram.dq[24]
+U3/sdram_syn_34.osclk
+U3/sdram.dq[24]
+13335 3.961000 2.464000 6.425000 0 1
+dq[24] U3/sdram.dq[24]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[24]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[24]
+13379 5.852000 2.464000 8.316000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_34.ts
+dq[24] U3/sdram.dq[24]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+13425 4 2 2
+Setup check
+13435 1
+Endpoint: U3/sdram.dq[23]
+13435 -1.582000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[23]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[23]
+13437 -1.582000 6.387000 7.969000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_18.ts
+dq[23] U3/sdram.dq[23]
+
+Timing path: U3/sdram_syn_18.osclk->U3/sdram.dq[23]
+U3/sdram_syn_18.osclk
+U3/sdram.dq[23]
+13483 -0.831000 6.387000 7.218000 0 1
+dq[23] U3/sdram.dq[23]
+
+
+
+Hold check
+13527 1
+Endpoint: U3/sdram.dq[23]
+13529 3.961000 2 2
+Timing path: U3/sdram_syn_18.osclk->U3/sdram.dq[23]
+U3/sdram_syn_18.osclk
+U3/sdram.dq[23]
+13531 3.961000 2.464000 6.425000 0 1
+dq[23] U3/sdram.dq[23]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[23]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[23]
+13575 4.623000 2.464000 7.087000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_18.ts
+dq[23] U3/sdram.dq[23]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+13621 4 2 2
+Setup check
+13631 1
+Endpoint: U3/sdram.dq[22]
+13631 -1.582000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[22]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[22]
+13633 -1.582000 6.387000 7.969000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_19.ts
+dq[22] U3/sdram.dq[22]
+
+Timing path: U3/sdram_syn_19.osclk->U3/sdram.dq[22]
+U3/sdram_syn_19.osclk
+U3/sdram.dq[22]
+13679 -0.831000 6.387000 7.218000 0 1
+dq[22] U3/sdram.dq[22]
+
+
+
+Hold check
+13723 1
+Endpoint: U3/sdram.dq[22]
+13725 3.961000 2 2
+Timing path: U3/sdram_syn_19.osclk->U3/sdram.dq[22]
+U3/sdram_syn_19.osclk
+U3/sdram.dq[22]
+13727 3.961000 2.464000 6.425000 0 1
+dq[22] U3/sdram.dq[22]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[22]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[22]
+13771 4.623000 2.464000 7.087000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_19.ts
+dq[22] U3/sdram.dq[22]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+13817 4 2 2
+Setup check
+13827 1
+Endpoint: U3/sdram.dq[21]
+13827 -1.797000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[21]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[21]
+13829 -1.797000 6.387000 8.184000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_20.ts
+dq[21] U3/sdram.dq[21]
+
+Timing path: U3/sdram_syn_20.osclk->U3/sdram.dq[21]
+U3/sdram_syn_20.osclk
+U3/sdram.dq[21]
+13875 -0.831000 6.387000 7.218000 0 1
+dq[21] U3/sdram.dq[21]
+
+
+
+Hold check
+13919 1
+Endpoint: U3/sdram.dq[21]
+13921 3.961000 2 2
+Timing path: U3/sdram_syn_20.osclk->U3/sdram.dq[21]
+U3/sdram_syn_20.osclk
+U3/sdram.dq[21]
+13923 3.961000 2.464000 6.425000 0 1
+dq[21] U3/sdram.dq[21]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[21]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[21]
+13967 4.829000 2.464000 7.293000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_20.ts
+dq[21] U3/sdram.dq[21]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+14013 4 2 2
+Setup check
+14023 1
+Endpoint: U3/sdram.dq[20]
+14023 -1.797000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[20]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[20]
+14025 -1.797000 6.387000 8.184000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_21.ts
+dq[20] U3/sdram.dq[20]
+
+Timing path: U3/sdram_syn_21.osclk->U3/sdram.dq[20]
+U3/sdram_syn_21.osclk
+U3/sdram.dq[20]
+14071 -0.831000 6.387000 7.218000 0 1
+dq[20] U3/sdram.dq[20]
+
+
+
+Hold check
+14115 1
+Endpoint: U3/sdram.dq[20]
+14117 3.961000 2 2
+Timing path: U3/sdram_syn_21.osclk->U3/sdram.dq[20]
+U3/sdram_syn_21.osclk
+U3/sdram.dq[20]
+14119 3.961000 2.464000 6.425000 0 1
+dq[20] U3/sdram.dq[20]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[20]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[20]
+14163 4.829000 2.464000 7.293000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_21.ts
+dq[20] U3/sdram.dq[20]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+14209 4 2 2
+Setup check
+14219 1
+Endpoint: U3/sdram.dq[19]
+14219 -1.993000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[19]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[19]
+14221 -1.993000 6.387000 8.380000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_22.ts
+dq[19] U3/sdram.dq[19]
+
+Timing path: U3/sdram_syn_22.osclk->U3/sdram.dq[19]
+U3/sdram_syn_22.osclk
+U3/sdram.dq[19]
+14267 -0.831000 6.387000 7.218000 0 1
+dq[19] U3/sdram.dq[19]
+
+
+
+Hold check
+14311 1
+Endpoint: U3/sdram.dq[19]
+14313 3.961000 2 2
+Timing path: U3/sdram_syn_22.osclk->U3/sdram.dq[19]
+U3/sdram_syn_22.osclk
+U3/sdram.dq[19]
+14315 3.961000 2.464000 6.425000 0 1
+dq[19] U3/sdram.dq[19]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[19]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[19]
+14359 5.006000 2.464000 7.470000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_22.ts
+dq[19] U3/sdram.dq[19]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+14405 4 2 2
+Setup check
+14415 1
+Endpoint: U3/sdram.dq[18]
+14415 -1.993000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[18]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[18]
+14417 -1.993000 6.387000 8.380000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_23.ts
+dq[18] U3/sdram.dq[18]
+
+Timing path: U3/sdram_syn_23.osclk->U3/sdram.dq[18]
+U3/sdram_syn_23.osclk
+U3/sdram.dq[18]
+14463 -0.831000 6.387000 7.218000 0 1
+dq[18] U3/sdram.dq[18]
+
+
+
+Hold check
+14507 1
+Endpoint: U3/sdram.dq[18]
+14509 3.961000 2 2
+Timing path: U3/sdram_syn_23.osclk->U3/sdram.dq[18]
+U3/sdram_syn_23.osclk
+U3/sdram.dq[18]
+14511 3.961000 2.464000 6.425000 0 1
+dq[18] U3/sdram.dq[18]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[18]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[18]
+14555 5.006000 2.464000 7.470000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_23.ts
+dq[18] U3/sdram.dq[18]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+14601 4 2 2
+Setup check
+14611 1
+Endpoint: U3/sdram.dq[17]
+14611 -2.038000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[17]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[17]
+14613 -2.038000 6.387000 8.425000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_24.ts
+dq[17] U3/sdram.dq[17]
+
+Timing path: U3/sdram_syn_24.osclk->U3/sdram.dq[17]
+U3/sdram_syn_24.osclk
+U3/sdram.dq[17]
+14659 -0.831000 6.387000 7.218000 0 1
+dq[17] U3/sdram.dq[17]
+
+
+
+Hold check
+14703 1
+Endpoint: U3/sdram.dq[17]
+14705 3.961000 2 2
+Timing path: U3/sdram_syn_24.osclk->U3/sdram.dq[17]
+U3/sdram_syn_24.osclk
+U3/sdram.dq[17]
+14707 3.961000 2.464000 6.425000 0 1
+dq[17] U3/sdram.dq[17]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[17]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[17]
+14751 5.033000 2.464000 7.497000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_24.ts
+dq[17] U3/sdram.dq[17]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+14797 4 2 2
+Setup check
+14807 1
+Endpoint: U3/sdram.dq[16]
+14807 -2.038000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[16]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[16]
+14809 -2.038000 6.387000 8.425000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_25.ts
+dq[16] U3/sdram.dq[16]
+
+Timing path: U3/sdram_syn_25.osclk->U3/sdram.dq[16]
+U3/sdram_syn_25.osclk
+U3/sdram.dq[16]
+14855 -0.831000 6.387000 7.218000 0 1
+dq[16] U3/sdram.dq[16]
+
+
+
+Hold check
+14899 1
+Endpoint: U3/sdram.dq[16]
+14901 3.961000 2 2
+Timing path: U3/sdram_syn_25.osclk->U3/sdram.dq[16]
+U3/sdram_syn_25.osclk
+U3/sdram.dq[16]
+14903 3.961000 2.464000 6.425000 0 1
+dq[16] U3/sdram.dq[16]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[16]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[16]
+14947 5.033000 2.464000 7.497000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_25.ts
+dq[16] U3/sdram.dq[16]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+14993 4 2 2
+Setup check
+15003 1
+Endpoint: U3/sdram.dq[15]
+15003 -3.382000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[15]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[15]
+15005 -3.382000 6.387000 9.769000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_55.ts
+dq[15] U3/sdram.dq[15]
+
+Timing path: U3/sdram_syn_55.osclk->U3/sdram.dq[15]
+U3/sdram_syn_55.osclk
+U3/sdram.dq[15]
+15051 -0.831000 6.387000 7.218000 0 1
+dq[15] U3/sdram.dq[15]
+
+
+
+Hold check
+15095 1
+Endpoint: U3/sdram.dq[15]
+15097 3.961000 2 2
+Timing path: U3/sdram_syn_55.osclk->U3/sdram.dq[15]
+U3/sdram_syn_55.osclk
+U3/sdram.dq[15]
+15099 3.961000 2.464000 6.425000 0 1
+dq[15] U3/sdram.dq[15]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[15]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[15]
+15143 6.239000 2.464000 8.703000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_55.ts
+dq[15] U3/sdram.dq[15]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+15189 4 2 2
+Setup check
+15199 1
+Endpoint: U3/sdram.dq[14]
+15199 -3.382000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[14]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[14]
+15201 -3.382000 6.387000 9.769000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_54.ts
+dq[14] U3/sdram.dq[14]
+
+Timing path: U3/sdram_syn_54.osclk->U3/sdram.dq[14]
+U3/sdram_syn_54.osclk
+U3/sdram.dq[14]
+15247 -0.831000 6.387000 7.218000 0 1
+dq[14] U3/sdram.dq[14]
+
+
+
+Hold check
+15291 1
+Endpoint: U3/sdram.dq[14]
+15293 3.961000 2 2
+Timing path: U3/sdram_syn_54.osclk->U3/sdram.dq[14]
+U3/sdram_syn_54.osclk
+U3/sdram.dq[14]
+15295 3.961000 2.464000 6.425000 0 1
+dq[14] U3/sdram.dq[14]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[14]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[14]
+15339 6.239000 2.464000 8.703000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_54.ts
+dq[14] U3/sdram.dq[14]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+15385 4 2 2
+Setup check
+15395 1
+Endpoint: U3/sdram.dq[13]
+15395 -3.186000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[13]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[13]
+15397 -3.186000 6.387000 9.573000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_53.ts
+dq[13] U3/sdram.dq[13]
+
+Timing path: U3/sdram_syn_53.osclk->U3/sdram.dq[13]
+U3/sdram_syn_53.osclk
+U3/sdram.dq[13]
+15443 -0.831000 6.387000 7.218000 0 1
+dq[13] U3/sdram.dq[13]
+
+
+
+Hold check
+15487 1
+Endpoint: U3/sdram.dq[13]
+15489 3.961000 2 2
+Timing path: U3/sdram_syn_53.osclk->U3/sdram.dq[13]
+U3/sdram_syn_53.osclk
+U3/sdram.dq[13]
+15491 3.961000 2.464000 6.425000 0 1
+dq[13] U3/sdram.dq[13]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[13]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[13]
+15535 6.062000 2.464000 8.526000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_53.ts
+dq[13] U3/sdram.dq[13]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+15581 4 2 2
+Setup check
+15591 1
+Endpoint: U3/sdram.dq[12]
+15591 -3.186000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[12]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[12]
+15593 -3.186000 6.387000 9.573000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_52.ts
+dq[12] U3/sdram.dq[12]
+
+Timing path: U3/sdram_syn_52.osclk->U3/sdram.dq[12]
+U3/sdram_syn_52.osclk
+U3/sdram.dq[12]
+15639 -0.831000 6.387000 7.218000 0 1
+dq[12] U3/sdram.dq[12]
+
+
+
+Hold check
+15683 1
+Endpoint: U3/sdram.dq[12]
+15685 3.961000 2 2
+Timing path: U3/sdram_syn_52.osclk->U3/sdram.dq[12]
+U3/sdram_syn_52.osclk
+U3/sdram.dq[12]
+15687 3.961000 2.464000 6.425000 0 1
+dq[12] U3/sdram.dq[12]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[12]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[12]
+15731 6.062000 2.464000 8.526000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_52.ts
+dq[12] U3/sdram.dq[12]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+15777 4 2 2
+Setup check
+15787 1
+Endpoint: U3/sdram.dq[11]
+15787 -3.182000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[11]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[11]
+15789 -3.182000 6.387000 9.569000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_51.ts
+dq[11] U3/sdram.dq[11]
+
+Timing path: U3/sdram_syn_51.osclk->U3/sdram.dq[11]
+U3/sdram_syn_51.osclk
+U3/sdram.dq[11]
+15835 -0.831000 6.387000 7.218000 0 1
+dq[11] U3/sdram.dq[11]
+
+
+
+Hold check
+15879 1
+Endpoint: U3/sdram.dq[11]
+15881 3.961000 2 2
+Timing path: U3/sdram_syn_51.osclk->U3/sdram.dq[11]
+U3/sdram_syn_51.osclk
+U3/sdram.dq[11]
+15883 3.961000 2.464000 6.425000 0 1
+dq[11] U3/sdram.dq[11]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[11]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[11]
+15927 6.052000 2.464000 8.516000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_51.ts
+dq[11] U3/sdram.dq[11]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+15973 4 2 2
+Setup check
+15983 1
+Endpoint: U3/sdram.dq[10]
+15983 -3.182000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[10]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[10]
+15985 -3.182000 6.387000 9.569000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_50.ts
+dq[10] U3/sdram.dq[10]
+
+Timing path: U3/sdram_syn_50.osclk->U3/sdram.dq[10]
+U3/sdram_syn_50.osclk
+U3/sdram.dq[10]
+16031 -0.831000 6.387000 7.218000 0 1
+dq[10] U3/sdram.dq[10]
+
+
+
+Hold check
+16075 1
+Endpoint: U3/sdram.dq[10]
+16077 3.961000 2 2
+Timing path: U3/sdram_syn_50.osclk->U3/sdram.dq[10]
+U3/sdram_syn_50.osclk
+U3/sdram.dq[10]
+16079 3.961000 2.464000 6.425000 0 1
+dq[10] U3/sdram.dq[10]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[10]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[10]
+16123 6.052000 2.464000 8.516000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_50.ts
+dq[10] U3/sdram.dq[10]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+16169 4 2 2
+Setup check
+16179 1
+Endpoint: U3/sdram.dq[9]
+16179 -2.990000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[9]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[9]
+16181 -2.990000 6.387000 9.377000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_48.ts
+dq[9] U3/sdram.dq[9]
+
+Timing path: U3/sdram_syn_48.osclk->U3/sdram.dq[9]
+U3/sdram_syn_48.osclk
+U3/sdram.dq[9]
+16227 -0.831000 6.387000 7.218000 0 1
+dq[9] U3/sdram.dq[9]
+
+
+
+Hold check
+16271 1
+Endpoint: U3/sdram.dq[9]
+16273 3.961000 2 2
+Timing path: U3/sdram_syn_48.osclk->U3/sdram.dq[9]
+U3/sdram_syn_48.osclk
+U3/sdram.dq[9]
+16275 3.961000 2.464000 6.425000 0 1
+dq[9] U3/sdram.dq[9]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[9]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[9]
+16319 5.885000 2.464000 8.349000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_48.ts
+dq[9] U3/sdram.dq[9]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+16365 4 2 2
+Setup check
+16375 1
+Endpoint: U3/sdram.dq[8]
+16375 -2.990000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[8]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[8]
+16377 -2.990000 6.387000 9.377000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_47.ts
+dq[8] U3/sdram.dq[8]
+
+Timing path: U3/sdram_syn_47.osclk->U3/sdram.dq[8]
+U3/sdram_syn_47.osclk
+U3/sdram.dq[8]
+16423 -0.831000 6.387000 7.218000 0 1
+dq[8] U3/sdram.dq[8]
+
+
+
+Hold check
+16467 1
+Endpoint: U3/sdram.dq[8]
+16469 3.961000 2 2
+Timing path: U3/sdram_syn_47.osclk->U3/sdram.dq[8]
+U3/sdram_syn_47.osclk
+U3/sdram.dq[8]
+16471 3.961000 2.464000 6.425000 0 1
+dq[8] U3/sdram.dq[8]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[8]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[8]
+16515 5.885000 2.464000 8.349000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_47.ts
+dq[8] U3/sdram.dq[8]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+16561 4 2 2
+Setup check
+16571 1
+Endpoint: U3/sdram.dq[7]
+16571 -1.842000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[7]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[7]
+16573 -1.842000 6.387000 8.229000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_3.ts
+dq[7] U3/sdram.dq[7]
+
+Timing path: U3/sdram_syn_3.osclk->U3/sdram.dq[7]
+U3/sdram_syn_3.osclk
+U3/sdram.dq[7]
+16619 -0.831000 6.387000 7.218000 0 1
+dq[7] U3/sdram.dq[7]
+
+
+
+Hold check
+16663 1
+Endpoint: U3/sdram.dq[7]
+16665 3.961000 2 2
+Timing path: U3/sdram_syn_3.osclk->U3/sdram.dq[7]
+U3/sdram_syn_3.osclk
+U3/sdram.dq[7]
+16667 3.961000 2.464000 6.425000 0 1
+dq[7] U3/sdram.dq[7]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[7]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[7]
+16711 4.856000 2.464000 7.320000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_3.ts
+dq[7] U3/sdram.dq[7]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+16757 4 2 2
+Setup check
+16767 1
+Endpoint: U3/sdram.dq[6]
+16767 -1.842000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[6]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[6]
+16769 -1.842000 6.387000 8.229000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_2.ts
+dq[6] U3/sdram.dq[6]
+
+Timing path: U3/sdram_syn_2.osclk->U3/sdram.dq[6]
+U3/sdram_syn_2.osclk
+U3/sdram.dq[6]
+16815 -0.831000 6.387000 7.218000 0 1
+dq[6] U3/sdram.dq[6]
+
+
+
+Hold check
+16859 1
+Endpoint: U3/sdram.dq[6]
+16861 3.961000 2 2
+Timing path: U3/sdram_syn_2.osclk->U3/sdram.dq[6]
+U3/sdram_syn_2.osclk
+U3/sdram.dq[6]
+16863 3.961000 2.464000 6.425000 0 1
+dq[6] U3/sdram.dq[6]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[6]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[6]
+16907 4.856000 2.464000 7.320000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_2.ts
+dq[6] U3/sdram.dq[6]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+16953 4 2 2
+Setup check
+16963 1
+Endpoint: U3/sdram.dq[5]
+16963 -2.050000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[5]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[5]
+16965 -2.050000 6.387000 8.437000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_49.ts
+dq[5] U3/sdram.dq[5]
+
+Timing path: U3/sdram_syn_49.osclk->U3/sdram.dq[5]
+U3/sdram_syn_49.osclk
+U3/sdram.dq[5]
+17011 -0.831000 6.387000 7.218000 0 1
+dq[5] U3/sdram.dq[5]
+
+
+
+Hold check
+17055 1
+Endpoint: U3/sdram.dq[5]
+17057 3.961000 2 2
+Timing path: U3/sdram_syn_49.osclk->U3/sdram.dq[5]
+U3/sdram_syn_49.osclk
+U3/sdram.dq[5]
+17059 3.961000 2.464000 6.425000 0 1
+dq[5] U3/sdram.dq[5]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[5]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[5]
+17103 5.047000 2.464000 7.511000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_49.ts
+dq[5] U3/sdram.dq[5]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+17149 4 2 2
+Setup check
+17159 1
+Endpoint: U3/sdram.dq[4]
+17159 -2.050000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[4]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[4]
+17161 -2.050000 6.387000 8.437000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_43.ts
+dq[4] U3/sdram.dq[4]
+
+Timing path: U3/sdram_syn_43.osclk->U3/sdram.dq[4]
+U3/sdram_syn_43.osclk
+U3/sdram.dq[4]
+17207 -0.831000 6.387000 7.218000 0 1
+dq[4] U3/sdram.dq[4]
+
+
+
+Hold check
+17251 1
+Endpoint: U3/sdram.dq[4]
+17253 3.961000 2 2
+Timing path: U3/sdram_syn_43.osclk->U3/sdram.dq[4]
+U3/sdram_syn_43.osclk
+U3/sdram.dq[4]
+17255 3.961000 2.464000 6.425000 0 1
+dq[4] U3/sdram.dq[4]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[4]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[4]
+17299 5.047000 2.464000 7.511000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_43.ts
+dq[4] U3/sdram.dq[4]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+17345 4 2 2
+Setup check
+17355 1
+Endpoint: U3/sdram.dq[3]
+17355 -2.038000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[3]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[3]
+17357 -2.038000 6.387000 8.425000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_35.ts
+dq[3] U3/sdram.dq[3]
+
+Timing path: U3/sdram_syn_35.osclk->U3/sdram.dq[3]
+U3/sdram_syn_35.osclk
+U3/sdram.dq[3]
+17403 -0.831000 6.387000 7.218000 0 1
+dq[3] U3/sdram.dq[3]
+
+
+
+Hold check
+17447 1
+Endpoint: U3/sdram.dq[3]
+17449 3.961000 2 2
+Timing path: U3/sdram_syn_35.osclk->U3/sdram.dq[3]
+U3/sdram_syn_35.osclk
+U3/sdram.dq[3]
+17451 3.961000 2.464000 6.425000 0 1
+dq[3] U3/sdram.dq[3]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[3]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[3]
+17495 5.033000 2.464000 7.497000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_35.ts
+dq[3] U3/sdram.dq[3]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+17541 4 2 2
+Setup check
+17551 1
+Endpoint: U3/sdram.dq[2]
+17551 -2.038000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[2]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[2]
+17553 -2.038000 6.387000 8.425000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_28.ts
+dq[2] U3/sdram.dq[2]
+
+Timing path: U3/sdram_syn_28.osclk->U3/sdram.dq[2]
+U3/sdram_syn_28.osclk
+U3/sdram.dq[2]
+17599 -0.831000 6.387000 7.218000 0 1
+dq[2] U3/sdram.dq[2]
+
+
+
+Hold check
+17643 1
+Endpoint: U3/sdram.dq[2]
+17645 3.961000 2 2
+Timing path: U3/sdram_syn_28.osclk->U3/sdram.dq[2]
+U3/sdram_syn_28.osclk
+U3/sdram.dq[2]
+17647 3.961000 2.464000 6.425000 0 1
+dq[2] U3/sdram.dq[2]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[2]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[2]
+17691 5.033000 2.464000 7.497000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_28.ts
+dq[2] U3/sdram.dq[2]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+17737 4 2 2
+Setup check
+17747 1
+Endpoint: U3/sdram.dq[1]
+17747 -2.247000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[1]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[1]
+17749 -2.247000 6.387000 8.634000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_7.ts
+dq[1] U3/sdram.dq[1]
+
+Timing path: U3/sdram_syn_7.osclk->U3/sdram.dq[1]
+U3/sdram_syn_7.osclk
+U3/sdram.dq[1]
+17795 -0.831000 6.387000 7.218000 0 1
+dq[1] U3/sdram.dq[1]
+
+
+
+Hold check
+17839 1
+Endpoint: U3/sdram.dq[1]
+17841 3.961000 2 2
+Timing path: U3/sdram_syn_7.osclk->U3/sdram.dq[1]
+U3/sdram_syn_7.osclk
+U3/sdram.dq[1]
+17843 3.961000 2.464000 6.425000 0 1
+dq[1] U3/sdram.dq[1]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[1]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[1]
+17887 5.223000 2.464000 7.687000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_7.ts
+dq[1] U3/sdram.dq[1]
+
+
+
+
+Set output delay: 5ns max, and 1ns min. 
+17933 4 2 2
+Setup check
+17943 1
+Endpoint: U3/sdram.dq[0]
+17943 -2.247000 2 2
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[0]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[0]
+17945 -2.247000 6.387000 8.634000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_1.ts
+dq[0] U3/sdram.dq[0]
+
+Timing path: U3/sdram_syn_1.osclk->U3/sdram.dq[0]
+U3/sdram_syn_1.osclk
+U3/sdram.dq[0]
+17991 -0.831000 6.387000 7.218000 0 1
+dq[0] U3/sdram.dq[0]
+
+
+
+Hold check
+18035 1
+Endpoint: U3/sdram.dq[0]
+18037 3.961000 2 2
+Timing path: U3/sdram_syn_1.osclk->U3/sdram.dq[0]
+U3/sdram_syn_1.osclk
+U3/sdram.dq[0]
+18039 3.961000 2.464000 6.425000 0 1
+dq[0] U3/sdram.dq[0]
+
+Timing path: U3/u2_ram/u2_wrrd/reg30_syn_41.clk->U3/sdram.dq[0]
+U3/u2_ram/u2_wrrd/reg30_syn_41.clk
+U3/sdram.dq[0]
+18083 5.223000 2.464000 7.687000 1 2
+U3/u2_ram/u2_wrrd/sdr_t U3/sdram_syn_1.ts
+dq[0] U3/sdram.dq[0]
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  video_clk (25.000MHz)                         39.098ns      25.577MHz        0.326ns      3386        0.000ns
+	  sd_card_clk (100.000MHz)                       9.747ns     102.596MHz        0.326ns      1578        0.000ns
+	  ext_mem_clk (125.000MHz)                      14.638ns      68.315MHz        0.480ns       608     -212.416ns
+	  clk (50.000MHz)                               16.142ns      61.950MHz        0.326ns       179        0.000ns
+	  emergency_rx_clk (125.000MHz)                  7.891ns     126.727MHz        0.254ns       108        0.000ns
+	  audio_mclk (12.295MHz)                        85.700ns      11.669MHz        0.138ns        89      -20.101ns
+	  hdmi_5x_clk (125.000MHz)                       7.948ns     125.818MHz        0.326ns        34        0.000ns
+	  ext_mem_clk_sft (125.000MHz)                  11.382ns      87.858MHz        0.000ns         1      -82.052ns
+	Minimum input arrival time before clock: 1.453ns
+	Maximum output required time after clock: 5.913ns
+	Maximum combinational path delay: no constraint path
+
+	Exceptions:
+		Check Type:	MAX
+		----------------------------------------------------------------------------------------------------
+		       Path Num     Constraint                                                                      
+		              0     set_false_path -from [ get_clocks {sd_card_clk} ] -to [ get_clocks {audio_mclk} ]
+		              3     set_false_path -from [ get_clocks {audio_mclk} ] -to [ get_clocks {video_clk} ] 
+		              2     set_false_path -from [ get_clocks {video_clk} ] -to [ get_clocks {ext_mem_clk} ]
+		             16     set_false_path -from [ get_clocks {ext_mem_clk} ] -to [ get_clocks {sd_card_clk} ]
+		             44     set_false_path -from [ get_clocks {emergency_rx_clk} ] -to [ get_clocks {video_clk} ]
+		              1     set_false_path -from [ get_clocks {video_clk} ] -to [ get_clocks {emergency_rx_clk} ]
+		              3     set_false_path -from [ get_clocks {video_clk} ] -to [ get_clocks {audio_mclk} ] 
+		              2     set_false_path -from [ get_clocks {sd_card_clk} ] -through [ get_nets {settings_config[1] settings_config[2]} ] -to [ get_clocks {ext_mem_clk} ]
+
+		Check Type:	MIN
+		----------------------------------------------------------------------------------------------------
+		       Path Num     Constraint                                                                      
+		              0     set_false_path -from [ get_clocks {sd_card_clk} ] -to [ get_clocks {audio_mclk} ]
+		              3     set_false_path -from [ get_clocks {audio_mclk} ] -to [ get_clocks {video_clk} ] 
+		              2     set_false_path -from [ get_clocks {video_clk} ] -to [ get_clocks {ext_mem_clk} ]
+		             16     set_false_path -from [ get_clocks {ext_mem_clk} ] -to [ get_clocks {sd_card_clk} ]
+		             44     set_false_path -from [ get_clocks {emergency_rx_clk} ] -to [ get_clocks {video_clk} ]
+		              1     set_false_path -from [ get_clocks {video_clk} ] -to [ get_clocks {emergency_rx_clk} ]
+		              3     set_false_path -from [ get_clocks {video_clk} ] -to [ get_clocks {audio_mclk} ] 
+		              2     set_false_path -from [ get_clocks {sd_card_clk} ] -through [ get_nets {settings_config[1] settings_config[2]} ] -to [ get_clocks {ext_mem_clk} ]
+

@@ -1,0 +1,4 @@
+PASS BMP           7x          3 pixels         21 output identical, same-cycle synchronous-cache prefetch, control timing unchanged
+PASS BMP           8x          3 pixels         24 output identical, same-cycle synchronous-cache prefetch, control timing unchanged
+PASS BMP         320x        240 pixels      76800 output identical, same-cycle synchronous-cache prefetch, control timing unchanged
+tb_bmp67.v:66: $finish called at 2384915000 (1ps)
